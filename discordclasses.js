@@ -1,5 +1,3 @@
-a
-
 (this.webpackChunkdiscord_app = this.webpackChunkdiscord_app || []).push([["app"], {
     812830: function(e, t, n) {
         "use strict";
