@@ -3228,6 +3228,12 @@
             wrapper: "wrapper__82630"
         }
     },
+    485700: function(e, t, n) {
+        "use strict";
+        e.exports = {
+            bar: "bar_c374f6"
+        }
+    },
     175339: function(e, t, n) {
         "use strict";
         e.exports = {
@@ -17832,7 +17838,10 @@
             learnMore: "learnMore__02804",
             leftIcon: "leftIcon_f180e1",
             rightIcon: "rightIcon__53ec6",
-            row: "row_eb598a"
+            row: "row_eb598a",
+            rowDetails: "rowDetails__4f215",
+            rowInner: "rowInner__465aa",
+            rows: "rows__4923b"
         }
     },
     720016: function(e, t, n) {
@@ -19222,6 +19231,15 @@
             badge: "badge_b37eda",
             icon: "icon_a9525f",
             innerBadge: "innerBadge__2f562"
+        }
+    },
+    977772: function(e, t, n) {
+        "use strict";
+        e.exports = {
+            button: "button__986b9",
+            dismissButton: "dismissButton_dfc09e button__986b9",
+            pollsCtaButton: "pollsCtaButton__8ab5b button__986b9",
+            tooltip: "tooltip__2b28e"
         }
     },
     308607: function(e, t, n) {
@@ -20765,6 +20783,7 @@
             cardContainerNarrowWidth: "cardContainerNarrowWidth_f10ffd",
             centerAlignSection: "centerAlignSection_e8acae",
             centerAlignSubtitle: "centerAlignSubtitle_f111db",
+            confettiCanvas: "confettiCanvas_e46a8e",
             container: "container__5980c",
             fullWidth: "fullWidth__2b90a",
             heading: "heading__41621",
@@ -20796,6 +20815,7 @@
             cardSubtitle: "cardSubtitle__4a267",
             carouselCardImage: "carouselCardImage__4e898",
             clickable: "clickable__32f63",
+            confettiCanvas: "confettiCanvas__5f200",
             cover: "cover__60fa6",
             flipCard: "flipCard_c19f9d",
             flipCardBack: "flipCardBack__90c03",
@@ -24196,7 +24216,9 @@
         e.exports = {
             animatedContainer: "animatedContainer_f47edf",
             avatarAndTextContainer: "avatarAndTextContainer__394c8",
+            compactItemContainer: "compactItemContainer_fea2b8",
             dotSpacer: "dotSpacer_c6c9f0",
+            hideElement: "hideElement__0e94b",
             itemContainer: "itemContainer__47bc5",
             itemizedListText: "itemizedListText_b91012",
             mainContainer: "mainContainer_ec6e51",
@@ -24904,6 +24926,7 @@
             headerButton: "headerButton_fe8970",
             headerCTA: "headerCTA__9fce3",
             headerContainer: "headerContainer__122e4",
+            headerEasterEgg: "headerEasterEgg_d26151",
             inline: "inline__3a4e8",
             innerButton: "innerButton__2a740",
             inventoryContainer: "inventoryContainer_f4883b",
@@ -25899,12 +25922,6 @@
             progress: "progress_a7b0d6"
         }
     },
-    365064: function(e, t, n) {
-        "use strict";
-        e.exports = {
-            slash: "slash_c0ba36"
-        }
-    },
     164825: function(e, t, n) {
         "use strict";
         e.exports = {
@@ -26677,6 +26694,12 @@
             layer: "layer_ec16dd",
             layerContainer: "layerContainer_d5a653",
             layerHidden: "layerHidden__9c8ad"
+        }
+    },
+    103487: function(e, t, a) {
+        "use strict";
+        e.exports = {
+            lottieIcon: "lottieIcon__9d8ab"
         }
     },
     639826: function(e, t, a) {
@@ -29575,7 +29598,8 @@
         "use strict";
         e.exports = {
             ephemeralMessage: "ephemeralMessage__6a8ba",
-            icon: "icon__35752"
+            icon: "icon__35752",
+            userAppsBetaContent: "userAppsBetaContent_cf0dac"
         }
     },
     607602: function(e, t, a) {
