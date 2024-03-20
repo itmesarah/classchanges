@@ -2355,8 +2355,6 @@
         e.exports = {
             badge: "badge__93f9e",
             circularButton: "circularButton_e0aa9b",
-            downArrow: "downArrow__335ff",
-            upArrow: "upArrow_cd14ec",
             wrapper: "wrapper__93c36"
         }
     },
@@ -3677,18 +3675,22 @@
         "use strict";
         e.exports = {
             backButton: "backButton_aeaa52",
+            banner: "banner__36618",
             footer: "footer_c689c6",
-            productCard: "productCard_eabca8",
             productList: "productList_bce430",
             subDetailsModal: "subDetailsModal__7eb23",
             tabs: "tabs__88df8",
+            tabsText: "tabsText__3412a",
             wrapper: "wrapper__2f460"
         }
     },
     454436: function(e, t, n) {
         "use strict";
         e.exports = {
-            modalCloseButton: "modalCloseButton_b4dfd7"
+            modal: "modal_af101e",
+            modalContent: "modalContent_f377b6",
+            modalHeader: "modalHeader__616c1",
+            modalTitle: "modalTitle_ffda3a"
         }
     },
     105608: function(e, t, n) {
@@ -5820,7 +5822,6 @@
         e.exports = {
             header: "header_dc6f49",
             headerContainer: "headerContainer__74e18",
-            toggleExpandButton: "toggleExpandButton__22eac",
             toggleExpandIcon: "toggleExpandIcon_ab767d"
         }
     },
@@ -19378,7 +19379,10 @@
             container: "container__3ca24",
             detailsText: "detailsText__5f51b",
             detailsTextButton: "detailsTextButton_d4f894",
+            header: "header__0420f",
+            infoButton: "infoButton__66908",
             prompt: "prompt__75afd",
+            question: "question_ebf72e",
             secondaryAction: "secondaryAction__6fd41",
             tertiaryAction: "tertiaryAction__09766"
         }
@@ -20466,6 +20470,7 @@
             invoiceItemLabelIcon: "invoiceItemLabelIcon__184bf",
             invoiceItemLabelWithIcon: "invoiceItemLabelWithIcon__777e5",
             invoiceItemTooltip: "invoiceItemTooltip__7b304",
+            purchaseDetailsHeaderText: "purchaseDetailsHeaderText_f1f816",
             subscriptionAddedInvoiceItem: "subscriptionAddedInvoiceItem__5877e",
             subscriptionCostRow: "subscriptionCostRow__0e30d",
             subscriptionCostRowAmount: "subscriptionCostRowAmount__2386c",
@@ -30572,10 +30577,10 @@
     75979: function(e, t, a) {
         "use strict";
         e.exports = {
+            background: "background__4b7c4",
+            content: "content_f95ddf",
             icon: "icon__0fd04",
-            subtitle: "subtitle_dd3e5f",
-            textWrapper: "textWrapper__1c560",
-            title: "title__1f83d",
+            image: "image__44e2d",
             wrapper: "wrapper__3d173"
         }
     },
@@ -30608,26 +30613,12 @@
     370621: function(e, t, a) {
         "use strict";
         e.exports = {
-            button: "button_bb1081",
             cardHeaderImg: "cardHeaderImg_f6c932",
             cardPrice: "cardPrice__92dbb",
-            cta: "cta__19506",
             description: "description_f818e8",
             details: "details_f03d10",
             footer: "footer__13718",
-            productCard: "productCard_a1742a"
-        }
-    },
-    562235: function(e, t, a) {
-        "use strict";
-        e.exports = {
-            background: "background_c10072",
-            blur: "blur_a2ff57",
-            container: "container_f1e37c",
-            content: "content_cc40de",
-            details: "details_ceefbd",
-            header: "header_cd79e3",
-            image: "image_ecb6cf"
+            wrapper: "wrapper__478f3"
         }
     },
     484687: function(e, t, a) {
@@ -30650,10 +30641,16 @@
             purchaseBtn: "purchaseBtn_e85930"
         }
     },
-    627327: function(e, t, a) {
+    939021: function(e, t, a) {
         "use strict";
         e.exports = {
-            container: "container_e318fa"
+            container: "container_e8e8b1"
+        }
+    },
+    35589: function(e, t, a) {
+        "use strict";
+        e.exports = {
+            hoverCard: "hoverCard__5afad"
         }
     },
     76050: function(e, t, a) {
