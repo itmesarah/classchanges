@@ -7739,6 +7739,15 @@
             uploads: "uploads__5ea19"
         }
     },
+    453730: function(e, t, n) {
+        "use strict";
+        e.exports = {
+            button: "button__88b63",
+            buttonContainer: "buttonContainer__142d8",
+            container: "container_cd4fee",
+            header: "header__93d65"
+        }
+    },
     902558: function(e, t, n) {
         "use strict";
         e.exports = {
@@ -21764,14 +21773,22 @@
             ctaButtonContainer: "ctaButtonContainer_cc98bf",
             ctaButtonWrapper: "ctaButtonWrapper_d00132",
             ctaTooltipCopy: "ctaTooltipCopy__0f513",
+            gridCtaButtons: "gridCtaButtons__1d06d",
+            gridImg: "gridImg__75048",
+            gridProgressBar: "gridProgressBar__7d761",
+            gridText: "gridText__51c95",
             innerContainer: "innerContainer__1ed70",
+            learnMoreLink: "learnMoreLink__03264",
             outerContainer: "outerContainer_b1a8db",
-            outerContainerEmbed: "outerContainerEmbed__2b071",
-            outerContainerGiftInventory: "outerContainerGiftInventory_da366b",
+            outerContainerSm: "outerContainerSm__7a2b1",
+            outerContainerXs: "outerContainerXs_ae4233",
             questCopyCta: "questCopyCta_d76b1f",
             questReward: "questReward__47fba",
             questRewardEmbed: "questRewardEmbed__27812",
+            questRewardEmbedSm: "questRewardEmbedSm_e9be23",
+            questRewardEmbedXs: "questRewardEmbedXs__1a9e5",
             questRewardGiftInventory: "questRewardGiftInventory__48caa",
+            taskDetails: "taskDetails_b31ee2",
             taskInstructions: "taskInstructions_a218f2"
         }
     },
@@ -21784,9 +21801,8 @@
             outerContainer: "outerContainer_d63ffb",
             outerContainerEmbed: "outerContainerEmbed__41c25",
             outerContainerGiftInventory: "outerContainerGiftInventory__1d198",
-            questIcon: "questIcon__3a4c1",
+            partnerBranding: "partnerBranding__66df7",
             questInfo: "questInfo__6694d",
-            questLogotype: "questLogotype__50770",
             questSplash: "questSplash_b92f41",
             submenuIcon: "submenuIcon__762a6",
             submenuWrapper: "submenuWrapper_dcff9a"
@@ -21837,11 +21853,14 @@
     567782: function(e, t, n) {
         "use strict";
         e.exports = {
-            invalidContainer: "invalidContainer__68fba",
-            invalidLeftSideInnerContainer: "invalidLeftSideInnerContainer__3266c",
-            invalidLeftSideOuterContainer: "invalidLeftSideOuterContainer_cffb56",
-            invalidRightSideOuterContainer: "invalidRightSideOuterContainer__0557c",
-            missingQuestImage: "missingQuestImage_cdfd93"
+            button: "button__85c2b",
+            buttonContainer: "buttonContainer__3e279",
+            container: "container_b0b3bd",
+            contentContainer: "contentContainer_d0b45f",
+            imgContainer: "imgContainer_b65d7f",
+            missingQuestImage: "missingQuestImage_cdfd93",
+            tall: "tall__0c3ff",
+            wide: "wide__5c941"
         }
     },
     571777: function(e, t, n) {
