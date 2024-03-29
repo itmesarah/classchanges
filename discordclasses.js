@@ -1548,7 +1548,7 @@
       viewAllNitroGames: "viewAllNitroGames_a65ce4"
     }
   },
-  523147: function(e) {
+  982179: function(e) {
     "use strict";
     e.exports = {
       active: "active__92ae1",
@@ -3251,10 +3251,7 @@
       backIcon: "backIcon_d1658d",
       clickable: "clickable_c2a872",
       closeContent: "closeContent__42d26",
-      closeContentMobile: "closeContentMobile__3a00f",
-      closeContentNotMobile: "closeContentNotMobile_dcb2cf",
       closeIcon: "closeIcon__235bd",
-      closeIconNotMobile: "closeIconNotMobile__82a4e",
       closeWrapper: "closeWrapper__06665",
       content: "content__4353f",
       developerResources: "developerResources__8ef1d",
@@ -4994,15 +4991,20 @@
     e.exports = {
       animationContainer: "animationContainer_af2200",
       buttonsContainer: "buttonsContainer_a90621",
+      capitalize: "capitalize__50f8e",
+      clickable: "clickable_b41429",
       closeButton: "closeButton_e88b7d",
       closeIconButton: "closeIconButton_cc4258",
-      container: "container__699bf",
+      fadeIn: "fadeIn__0663f",
+      fadeOut: "fadeOut_de0df3",
       footer: "footer_d63e9e",
       header: "header__05198",
       introContainer: "introContainer__4ffdc",
       lastParagraph: "lastParagraph__7a09c",
       mainContent: "mainContent__23e7a",
+      modal: "modal_f49d0b",
       modalContent: "modalContent__2b13e",
+      modalContents: "modalContents_e19dbf",
       overviewSidebar: "overviewSidebar__995aa",
       overviewSidebarContent: "overviewSidebarContent_b8b257",
       overviewText: "overviewText__01ee0",
@@ -5015,6 +5017,9 @@
       scrollContainer: "scrollContainer__3789e",
       scroller: "scroller__24eef",
       sequencer: "sequencer__0bd4c",
+      signButton: "signButton__6f375",
+      signTextLeft: "signTextLeft__88879",
+      signTextRight: "signTextRight_babb62",
       signatureBlock: "signatureBlock__543fd",
       signatureText: "signatureText_cb71b7"
     }
@@ -21833,7 +21838,6 @@
       contentInteractable: "contentInteractable__7fcbe",
       cta: "cta_f68ce1",
       ctaClaimReward: "ctaClaimReward_c270ed",
-      ctaWrapper: "ctaWrapper__3c52c",
       description: "description__1e87a",
       details: "details__6dee9",
       heroAsset: "heroAsset__7f31f",
