@@ -5877,6 +5877,13 @@
             notes: "notes_aa436d"
         }
     },
+    535806: function(e) {
+        "use strict";
+        e.exports = {
+            menu: "menu__8306d",
+            selectButton: "selectButton__83238"
+        }
+    },
     138317: function(e) {
         "use strict";
         e.exports = {
@@ -20753,6 +20760,17 @@
             circleSVG: "circleSVG_c7f3f3"
         }
     },
+    853626: function(e) {
+        "use strict";
+        e.exports = {
+            attributionBannerContainer: "attributionBannerContainer_e8b680",
+            attributionBannerContent: "attributionBannerContent_f57b5c",
+            attributionIcon: "attributionIcon__221f4",
+            icon: "icon__35a2e",
+            iconContainer: "iconContainer__1d929",
+            textContainer: "textContainer__1bf53"
+        }
+    },
     589453: function(e) {
         "use strict";
         e.exports = {
@@ -22766,7 +22784,8 @@
         e.exports = {
             tooltip: "tooltip_ba9b5f",
             tooltipBackground: "tooltipBackground_edba47",
-            tooltipContainer: "tooltipContainer__92298"
+            tooltipContainer: "tooltipContainer__92298",
+            tooltipContent: "tooltipContent__02017"
         }
     },
     720871: function(e) {
@@ -23024,7 +23043,9 @@
         e.exports = {
             headerIcon: "headerIcon_a59051",
             notFirstSectionHeader: "notFirstSectionHeader__11b56",
+            sectionContainer: "sectionContainer__6702e",
             sectionHeader: "sectionHeader_d974fe",
+            sectionHeaderContent: "sectionHeaderContent_a85418",
             sectionTitle: "sectionTitle__1a48e",
             settingsClickArea: "settingsClickArea__2839d",
             settingsIcon: "settingsIcon_e74cf5",
@@ -24465,6 +24486,7 @@
     458186: function(e) {
         "use strict";
         e.exports = {
+            newIcon: "newIcon__6568d",
             recentGameContainer: "recentGameContainer__8231a",
             recentGameDetails: "recentGameDetails_fa472d",
             recentGameIcon: "recentGameIcon__65d60",
