@@ -4999,6 +4999,7 @@
             contentLabel: "contentLabel_aa05d5",
             contentWithMinHeight: "contentWithMinHeight__78ad4",
             enterToSearchText: "enterToSearchText_c64e49",
+            errorText: "errorText__34a8a",
             flex: "flex__7aeec",
             gameImagePlaceholder: "gameImagePlaceholder__732e7",
             icon: "icon_e8e1b2",
@@ -5861,6 +5862,13 @@
             selectButton: "selectButton__83238"
         }
     },
+    845169: function(e) {
+        "use strict";
+        e.exports = {
+            container: "container__9d45f",
+            label: "label__08616"
+        }
+    },
     138317: function(e) {
         "use strict";
         e.exports = {
@@ -5895,10 +5903,10 @@
             hero: "hero_dc420c",
             heroDetails: "heroDetails_f9bc0e",
             inputContainerShareToChannel: "inputContainerShareToChannel__8eca3",
+            interactionsContainer: "interactionsContainer__97fe3",
+            joinPromptContainer: "joinPromptContainer_e5abcb",
             popout: "popout_cfa8bc",
             popoutTitle: "popoutTitle__6f44d",
-            reactionContainer: "reactionContainer__06e98",
-            reactionContainerShareToChannel: "reactionContainerShareToChannel__318bd",
             shareToChannelInput: "shareToChannelInput_a160d6",
             shareToChannelInputHasAttachments: "shareToChannelInputHasAttachments__4d1e1"
         }
@@ -19799,6 +19807,14 @@
             subscribeButtonText: "subscribeButtonText__47656"
         }
     },
+    809851: function(e) {
+        "use strict";
+        e.exports = {
+            headerContainer: "headerContainer_d09a13",
+            nitroWheel: "nitroWheel__28082",
+            tooltip: "tooltip_b4086a"
+        }
+    },
     15996: function(e) {
         "use strict";
         e.exports = {
@@ -25770,12 +25786,9 @@
         "use strict";
         e.exports = {
             joinText: "joinText__85cb3",
-            popoutProfileText: "popoutProfileText__041e4",
-            premiumProfilePreviewContent: "premiumProfilePreviewContent_e95c61",
-            premiumProfilePreviewModal: "premiumProfilePreviewModal_d2189d",
+            modalRoot: "modalRoot_db53a5",
             premiumSubscribeButton: "premiumSubscribeButton__1f00e",
-            upsellSection: "upsellSection__9f9b6",
-            userPopoutContainer: "userPopoutContainer__19d3a"
+            upsellSection: "upsellSection__9f9b6"
         }
     },
     33408: function(e) {
@@ -26744,7 +26757,6 @@
     626504: function(e) {},
     797100: function(e) {}
 }]);
-
 (this.webpackChunkdiscord_app = this.webpackChunkdiscord_app || []).push([["49237"], {
     996176: function(e) {
         "use strict";
