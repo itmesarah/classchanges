@@ -6402,6 +6402,13 @@
             switch: "switch__0b70d"
         }
     },
+    519634: function(e) {
+        "use strict";
+        e.exports = {
+            container: "container__0612a",
+            formElement: "formElement__4968e"
+        }
+    },
     275369: function(e) {
         "use strict";
         e.exports = {
@@ -8535,6 +8542,16 @@
             guildScroller: "guildScroller__0e6b9"
         }
     },
+    60687: function(e) {
+        "use strict";
+        e.exports = {
+            animation: "animation_a6f573",
+            container: "container_ef5900",
+            content: "content__9d1c8",
+            gradientGlow: "gradientGlow_dea0cb",
+            message: "message__0ec5e"
+        }
+    },
     476245: function(e) {
         "use strict";
         e.exports = {
@@ -8587,8 +8604,10 @@
             premiumIcon: "premiumIcon_f78791 logoPrimary_f87bf9",
             qualitySettingsContainer: "qualitySettingsContainer__8f353",
             selectorButton: "selectorButton_ea0609",
+            selectorButtonPerkDemo: "selectorButtonPerkDemo__4a1f5",
             selectorButtonPremiumRequired: "selectorButtonPremiumRequired__9df5b",
             selectorButtonSelected: "selectorButtonSelected__707fb selectorButton_ea0609",
+            selectorButtonSelectedPerkDemo: "selectorButtonSelectedPerkDemo__7f18f selectorButton_ea0609",
             selectorNitroText: "selectorNitroText__1d3e0",
             selectorText: "selectorText__8286b",
             selectorTextSelected: "selectorTextSelected__147ec selectorText__8286b",
@@ -9145,6 +9164,13 @@
             invoiceTable: "invoiceTable_b792cd"
         }
     },
+    32934: function(e) {
+        "use strict";
+        e.exports = {
+            container: "container_ef12c9",
+            manageSubscription: "manageSubscription__97d64"
+        }
+    },
     573686: function(e) {
         "use strict";
         e.exports = {
@@ -9188,7 +9214,9 @@
     835299: function(e) {
         "use strict";
         e.exports = {
-            buttonHighlighted: "buttonHighlighted__821fe"
+            buttonHighlighted: "buttonHighlighted__821fe",
+            lockIcon: "lockIcon__66134",
+            pausedButton: "pausedButton_ca9327"
         }
     },
     66226: function(e) {
@@ -25365,8 +25393,6 @@
     274430: function(e) {
         "use strict";
         e.exports = {
-            betaTagContainer: "betaTagContainer__0e9eb",
-            betaTagIcon: "betaTagIcon_d65f20",
             card: "card__3aeb5",
             contentPanel: "contentPanel__68d13",
             contentPanelNagbar: "contentPanelNagbar_cd5bfd",
