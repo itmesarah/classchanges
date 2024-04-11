@@ -5457,7 +5457,8 @@
     628587: function(e) {
         "use strict";
         e.exports = {
-            badge: "badge__38d19"
+            badgeDark: "badgeDark__1b20d",
+            badgeLight: "badgeLight__5fbd1"
         }
     },
     116162: function(e) {
@@ -5608,6 +5609,7 @@
             darkText: "darkText__536f8",
             description: "description__4281c",
             disclaimer: "disclaimer_cc94bc",
+            disclaimerLight: "disclaimerLight__82b3e",
             headingWithItemTypePill: "headingWithItemTypePill__3fc83",
             lightText: "lightText__63e27",
             mockInput: "mockInput_d3257e",
@@ -5618,6 +5620,7 @@
             modalRoot: "modalRoot_a744d4",
             nonPremiumContainer: "nonPremiumContainer__4535e",
             nonPremiumPrice: "nonPremiumPrice__59e8a",
+            pfxPreviewContainer: "pfxPreviewContainer__6eda3",
             premiumIcon: "premiumIcon__355c8",
             premiumPriceTag: "premiumPriceTag_fb5ea7",
             premiumPriceTagIcon: "premiumPriceTagIcon__21d57",
@@ -5627,9 +5630,13 @@
             primaryButtons: "primaryButtons__0cd44",
             profileCustomizationBody: "profileCustomizationBody__4bf43",
             profileEffectPreviewsContainerInner: "profileEffectPreviewsContainerInner__79485 previewsContainerInner__71adf",
+            profilePreviewHeader: "profilePreviewHeader__15f94",
+            sampleProfileAsset: "sampleProfileAsset__4d996",
+            staticPfxPreview: "staticPfxPreview__9aa70",
             subscribeNow: "subscribeNow__04fcf",
             titleContainer: "titleContainer__9fc26",
             titleImage: "titleImage_d36f3f",
+            titleImageContainer: "titleImageContainer__66fa1",
             tooltip: "tooltip__86aed",
             unlockDiscountButton: "unlockDiscountButton__58aa8"
         }
@@ -6664,6 +6671,9 @@
             filterPillSmall: "filterPillSmall_ba6dc1",
             filterTooltip: "filterTooltip__5ddcd",
             filterTooltipContent: "filterTooltipContent_d1b808",
+            languagesIcon: "languagesIcon_cf570e",
+            languagesSelect: "languagesSelect_e8341a",
+            languagesTitle: "languagesTitle__97836",
             playstyleHeader: "playstyleHeader__45372",
             playstyleOption: "playstyleOption_c404e8",
             playstyleSelector: "playstyleSelector_b85eff",
@@ -6683,7 +6693,13 @@
             toolbar: "toolbar__4e903",
             topPicks: "topPicks__3115d",
             topPicksContent: "topPicksContent__7c8f8",
-            topPicksHeader: "topPicksHeader_d3b9c1"
+            topPicksHeader: "topPicksHeader_d3b9c1",
+            traitCategory: "traitCategory__66878",
+            traitHeader: "traitHeader__19cce",
+            traitSelector: "traitSelector__134a9",
+            traitSelectorContent: "traitSelectorContent__32877",
+            traitSelectorSaveContainer: "traitSelectorSaveContainer__1d1eb",
+            traits: "traits_bdaa3b"
         }
     },
     563560: function(e) {
@@ -6704,6 +6720,7 @@
             clickableCard: "clickableCard__1c1e9",
             header: "header__2b527",
             playstyle: "playstyle__9d997",
+            primetime: "primetime_fd3eea",
             primetimeContainer: "primetimeContainer__2c3ce",
             primetimeIcon: "primetimeIcon_c4d213",
             trait: "trait_dfdb34",
@@ -24658,6 +24675,13 @@
             body: "body__07791",
             header: "header__8447d",
             root: "root__8fb4a"
+        }
+    },
+    727705: function(e) {
+        "use strict";
+        e.exports = {
+            tabBar: "tabBar_bec6d3",
+            tabBarItem: "tabBarItem__736b2"
         }
     },
     262572: function(e) {
