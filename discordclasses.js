@@ -4959,6 +4959,7 @@
             buttonsContainer: "buttonsContainer_a90621",
             clickable: "clickable_b41429",
             closeButton: "closeButton_e88b7d",
+            currentStep: "currentStep_f2459e",
             fadeIn: "fadeIn__0663f",
             fadeOut: "fadeOut_de0df3",
             finishButton: "finishButton__8590c",
@@ -4977,6 +4978,7 @@
             progressContainer: "progressContainer__378bd",
             progressStep: "progressStep_dec95e",
             progressStepFill: "progressStepFill__47c59",
+            progressSubStep: "progressSubStep__177b8",
             scrollBg: "scrollBg_b81d25",
             scrollBgBottom: "scrollBgBottom__10a36",
             scrollBgTop: "scrollBgTop_e0da83",
@@ -5010,6 +5012,7 @@
             playstyleSelect: "playstyleSelect_b7d88b",
             playstyleTitle: "playstyleTitle__00d17",
             plusIcon: "plusIcon__22efe",
+            removableGame: "removableGame_ea342b",
             selectedGame: "selectedGame__0084c",
             selectedGameCheck: "selectedGameCheck__389d8",
             selectedInterest: "selectedInterest_aa523d",
@@ -5902,8 +5905,8 @@
             emojiSuggestionButton: "emojiSuggestionButton__6cb58",
             hero: "hero_dc420c",
             heroDetails: "heroDetails_f9bc0e",
-            inputContainerShareToChannel: "inputContainerShareToChannel__8eca3",
             interactionsContainer: "interactionsContainer__97fe3",
+            interactionsContainerHeader: "interactionsContainerHeader_a937d2",
             joinPromptContainer: "joinPromptContainer_e5abcb",
             popout: "popout_cfa8bc",
             popoutTitle: "popoutTitle__6f44d",
@@ -6649,13 +6652,23 @@
         "use strict";
         e.exports = {
             actions: "actions__94a77",
+            checkmark: "checkmark_c3e9cf",
             container: "container_ec1fbc",
             content: "content__7833e",
             filterPill: "filterPill__53e51",
             filterPillContents: "filterPillContents_d6802e",
             filterPillIcon: "filterPillIcon_ac4d6f",
             filterPillSmall: "filterPillSmall_ba6dc1",
+            filterTooltip: "filterTooltip__5ddcd",
+            filterTooltipContent: "filterTooltipContent_d1b808",
+            playstyleHeader: "playstyleHeader__45372",
+            playstyleOption: "playstyleOption_c404e8",
+            playstyleSelector: "playstyleSelector_b85eff",
+            playstyleSelectorContent: "playstyleSelectorContent__52010",
+            playstyleSelectorSaveContainer: "playstyleSelectorSaveContainer__605ea",
+            playstyles: "playstyles__1509f",
             preferences: "preferences_d68e04",
+            selectedPlaystyle: "selectedPlaystyle__5860f",
             toolbar: "toolbar__4e903",
             topPicks: "topPicks__3115d",
             topPicksContent: "topPicksContent__7c8f8",
@@ -10230,6 +10243,7 @@
             confirmationContent: "confirmationContent__92b7b",
             container: "container__30a2e",
             content: "content__9b52d",
+            disclaimerFooter: "disclaimerFooter__8ae51",
             divider: "divider_e4bcab",
             dot: "dot__05dbb",
             dotMembers: "dotMembers_e2cbf6 dot__05dbb",
@@ -19762,6 +19776,16 @@
             tooltip: "tooltip_b4086a"
         }
     },
+    998799: function(e) {
+        "use strict";
+        e.exports = {
+            header: "header__10a82",
+            nitroWheel: "nitroWheel__7ee03",
+            options: "options_bde988",
+            optionsContainer: "optionsContainer__44347",
+            subheader: "subheader__7fae4"
+        }
+    },
     15996: function(e) {
         "use strict";
         e.exports = {
@@ -21862,6 +21886,7 @@
     176126: function(e) {
         "use strict";
         e.exports = {
+            hideLearnMore: "hideLearnMore__10d6e",
             questRewardTile: "questRewardTile__0a963",
             questRewardTileAsset: "questRewardTileAsset_fa0963",
             questRewardTileDetailsLearnMore: "questRewardTileDetailsLearnMore_e9ddee"
@@ -24416,6 +24441,31 @@
             userProfileOuterUnthemed: "userProfileOuterUnthemed_e14365"
         }
     },
+    690612: function(e) {
+        "use strict";
+        e.exports = {
+            container: "container_df7ce7",
+            discrimBase: "discrimBase__67971",
+            headerBotTag: "headerBotTag_e2d7c1",
+            headerBotTagWithNickname: "headerBotTagWithNickname__5620a",
+            nickname: "nickname__745d1",
+            tags: "tags__18aee",
+            userTag: "userTag_eb9b2a",
+            userTagDiscriminatorNoNickname: "userTagDiscriminatorNoNickname__52990 discrimBase__67971",
+            userTagNoNickname: "userTagNoNickname__24253 userTag_eb9b2a",
+            userTagUsernameBase: "userTagUsernameBase_bb3e38",
+            userTagUsernameNoNickname: "userTagUsernameNoNickname__6c8c2 userTagUsernameBase_bb3e38",
+            userTagWithNickname: "userTagWithNickname_fb8bc3 userTag_eb9b2a"
+        }
+    },
+    736379: function(e) {
+        "use strict";
+        e.exports = {
+            badges: "badges__89cab tag__16954",
+            pronouns: "pronouns__39452 tag__16954",
+            tag: "tag__16954"
+        }
+    },
     46781: function(e) {
         "use strict";
         e.exports = {
@@ -24589,7 +24639,11 @@
         "use strict";
         e.exports = {
             avatar: "avatar__4188a",
-            inner: "inner__14185"
+            badgeList: "badgeList__27ede",
+            buttons: "buttons__3345e",
+            inner: "inner__14185",
+            username: "username__8af4e",
+            usernameBadgeList: "usernameBadgeList__8847d"
         }
     },
     312916: function(e) {
@@ -24736,7 +24790,8 @@
     797849: function(e) {
         "use strict";
         e.exports = {
-            paddingBottom: "paddingBottom__9c272"
+            paddingBottom: "paddingBottom__9c272",
+            username: "username_ce3892"
         }
     },
     804384: function(e) {
@@ -24775,30 +24830,6 @@
         "use strict";
         e.exports = {
             container: "container_c7606c"
-        }
-    },
-    395274: function(e) {
-        "use strict";
-        e.exports = {
-            badges: "badges_d1124c",
-            biteSizePronouns: "biteSizePronouns_d38134",
-            container: "container_b222f4",
-            copiableField: "copiableField_ae045a",
-            copiableNameTag: "copiableNameTag_d5f2b8",
-            copyIcon: "copyIcon__3cf4a",
-            discrimBase: "discrimBase__7b3a2",
-            flexRow: "flexRow__6c25f",
-            headerBotTag: "headerBotTag__7d3b1",
-            headerBotTagWithNickname: "headerBotTagWithNickname__5b7be",
-            nickname: "nickname__0fbe2",
-            pronouns: "pronouns_f04b9b",
-            userTag: "userTag_c70fac",
-            userTagDiscriminatorNoNickname: "userTagDiscriminatorNoNickname_bc7136 discrimBase__7b3a2",
-            userTagNoNickname: "userTagNoNickname__9e0d2 userTag_c70fac",
-            userTagUsernameBase: "userTagUsernameBase__04a00",
-            userTagUsernameNoNickname: "userTagUsernameNoNickname__2f834 userTagUsernameBase__04a00",
-            userTagWithNickname: "userTagWithNickname_db5086 userTag_c70fac",
-            userText: "userText__83110"
         }
     },
     27729: function(e) {
