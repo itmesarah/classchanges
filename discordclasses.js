@@ -858,10 +858,12 @@
             activityEmoji: "activityEmoji__2ca8c",
             activityText: "activityText__31c22",
             botTag: "botTag_a52f38",
+            clanTag: "clanTag_f4aadc",
             icon: "icon__07c5b",
             lostPermission: "lostPermission_ed6807",
             member: "member_aa4760",
             memberInner: "memberInner__4dac6",
+            name: "name_c3d448",
             offline: "offline__55fab",
             ownerIcon: "ownerIcon_bd8e7d icon__07c5b",
             placeholder: "placeholder__134e3 member_aa4760",
@@ -4980,12 +4982,20 @@
             selectedGameCheck: "selectedGameCheck_d9d855"
         }
     },
+    566434: function(e) {
+        "use strict";
+        e.exports = {
+            guildIconImage: "guildIconImage_d3cb49"
+        }
+    },
     319695: function(e) {
         "use strict";
         e.exports = {
             badge: "badge_d12073",
             chipletContainerInner: "chipletContainerInner_bfcb1e",
-            text: "text_c2b2cb"
+            noTooltip: "noTooltip_e2f660",
+            text: "text_c2b2cb",
+            tooltip: "tooltip_a9f8fc"
         }
     },
     801303: function(e) {
@@ -5110,6 +5120,9 @@
             icon: "icon_e8e1b2",
             iconSmall: "iconSmall_cd3113",
             inputContainer: "inputContainer__1e798",
+            interestsCategory: "interestsCategory__14517",
+            interestsCategoryTitle: "interestsCategoryTitle__18aeb",
+            interestsTag: "interestsTag__64479",
             introTitle: "introTitle__6a50e",
             languageSelect: "languageSelect__46f09",
             playstyleOption: "playstyleOption__67567",
@@ -5128,10 +5141,6 @@
             timeSelectorRow: "timeSelectorRow_d86011",
             title: "title__20916",
             twoColumn: "twoColumn_b751a1",
-            utilityCategory: "utilityCategory_ce38d3",
-            utilityCategoryIcon: "utilityCategoryIcon__542af",
-            utilityCategoryTitle: "utilityCategoryTitle__3f5ab",
-            utilityTag: "utilityTag__2a938",
             utilityTagIcon: "utilityTagIcon__2b2c9"
         }
     },
@@ -30988,6 +30997,7 @@
             avatarLarge: "avatarLarge_bd37d1",
             avatarSmall: "avatarSmall__85dc8",
             avatarSpeaking: "avatarSpeaking_f239de",
+            clanTag: "clanTag_c8f97c",
             clickable: "clickable_a2c5ad",
             content: "content__3b07e",
             disabled: "disabled__50fd0",
