@@ -14967,6 +14967,13 @@
             tierTooltipTitle: "tierTooltipTitle__0eadb"
         }
     },
+    515706: function(e) {
+        "use strict";
+        e.exports = {
+            newBadge: "newBadge__3db81",
+            newBadgeRow: "newBadgeRow__11609"
+        }
+    },
     880031: function(e) {
         "use strict";
         e.exports = {
@@ -19969,8 +19976,19 @@
         "use strict";
         e.exports = {
             headerContainer: "headerContainer_d09a13",
+            newBadge: "newBadge__905d8",
             nitroWheel: "nitroWheel__28082",
             tooltip: "tooltip_b4086a"
+        }
+    },
+    789134: function(e) {
+        "use strict";
+        e.exports = {
+            container: "container__0d27b",
+            header: "header_e47083",
+            image: "image__510fe",
+            nitroWheel: "nitroWheel__43dd0",
+            primaryButton: "primaryButton__27b08"
         }
     },
     998799: function(e) {
@@ -19979,6 +19997,7 @@
             container: "container_bbc20d",
             divider: "divider__5d410",
             header: "header__10a82",
+            newBadge: "newBadge__242e8",
             nitroWheel: "nitroWheel__7ee03",
             option: "option__13442",
             optionPlaying: "optionPlaying__05ded",
@@ -24651,11 +24670,17 @@
         e.exports = {
             banner: "banner__6d414",
             bannerPremium: "bannerPremium__69560",
+            biteSizeBanner: "biteSizeBanner__81518",
+            biteSizeBannerPremium: "biteSizeBannerPremium_d388ad bannerPremium__69560 roundedBanner__16aa6",
             cancelModalBanner: "cancelModalBanner__14a36 bannerPremium__69560",
             clickable: "clickable_bfa26e",
             closeIcon: "closeIcon__634d6",
             editIcon: "editIcon_f97ad5",
+            fullSizeBanner: "fullSizeBanner_edab6b roundedBanner__16aa6",
+            fullSizeBannerPremium: "fullSizeBannerPremium__49e14 bannerPremium__69560 roundedBanner__16aa6",
             gifTag: "gifTag__045e5",
+            modalBanner: "modalBanner_e4ade4 roundedBanner__16aa6",
+            modalBannerPremium: "modalBannerPremium_d287e3 bannerPremium__69560 roundedBanner__16aa6",
             panelBanner: "panelBanner__7d7e2 bannerPremium__69560",
             pencilContainer: "pencilContainer_ae6d25",
             pencilContainerDark: "pencilContainerDark__2d070 pencilContainer_ae6d25",
@@ -24666,8 +24691,8 @@
             premiumIcon: "premiumIcon_eb8429",
             premiumIconTooltipContent: "premiumIconTooltipContent_d1248f",
             premiumIconWrapper: "premiumIconWrapper__7793e",
-            profileBanner: "profileBanner_f0f36c roundedBanner__16aa6",
-            profileBannerPremium: "profileBannerPremium__6fb42 bannerPremium__69560 roundedBanner__16aa6",
+            profileBanner: "profileBanner_f0f36c",
+            profileBannerPremium: "profileBannerPremium__6fb42",
             reducedMotion: "reducedMotion__543e5",
             roundedBanner: "roundedBanner__16aa6",
             settingsBanner: "settingsBanner__01382 bannerPremium__69560 roundedBanner__16aa6",
@@ -24729,6 +24754,12 @@
     785494: function(e) {
         "use strict";
         e.exports = {
+            biteSizeInner: "biteSizeInner__7b036",
+            biteSizeInnerThemed: "biteSizeInnerThemed__5cdaf",
+            biteSizeOuter: "biteSizeOuter_e0bb1d userPopoutOuter_d67f56 userProfileOuter__35e59",
+            biteSizeOverlayBackground: "biteSizeOverlayBackground__11aa7 overlayBackground__345c9",
+            fullSizeInnerThemed: "fullSizeInnerThemed_ae6977",
+            fullSizeOuter: "fullSizeOuter__64397 userProfileModalOuter__90b4a userProfileOuter__35e59",
             overlayBackground: "overlayBackground__345c9",
             showOutOfBoundaryComponents: "showOutOfBoundaryComponents__3e39f",
             userCardInner: "userCardInner_e36852 userProfileInner__8ff35",
@@ -24741,11 +24772,9 @@
             userPopoutOuter: "userPopoutOuter_d67f56 userProfileOuter__35e59",
             userPopoutOverlayBackground: "userPopoutOverlayBackground__3e7e6 overlayBackground__345c9",
             userProfileInner: "userProfileInner__8ff35",
-            userProfileInnerThemed: "userProfileInnerThemed__126d9",
             userProfileInnerThemedNonPremium: "userProfileInnerThemedNonPremium_b64fb4",
             userProfileInnerThemedPremiumWithoutBanner: "userProfileInnerThemedPremiumWithoutBanner_ee8277",
             userProfileInnerThemedWithBanner: "userProfileInnerThemedWithBanner_e9e7c5",
-            userProfileInnerUnthemed: "userProfileInnerUnthemed__4670d",
             userProfileModalInner: "userProfileModalInner__84e47 userProfileInner__8ff35",
             userProfileModalOuter: "userProfileModalOuter__90b4a userProfileOuter__35e59",
             userProfileModalOverlayBackground: "userProfileModalOverlayBackground_a5b043 overlayBackground__345c9",
@@ -25069,6 +25098,7 @@
             avatarHint: "avatarHint__15059",
             avatarHintInner: "avatarHintInner_c8ddb1",
             avatarHoverTarget: "avatarHoverTarget__9b4a9",
+            avatarPositionBiteSize: "avatarPositionBiteSize_edf897",
             avatarPositionNormal: "avatarPositionNormal_ba6daa",
             avatarPositionPanel: "avatarPositionPanel__2d765",
             avatarPositionPomelo: "avatarPositionPomelo__6cc14",
