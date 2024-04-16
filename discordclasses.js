@@ -4346,10 +4346,6 @@
         "use strict";
         e.exports = {
             emojiStickersDivider: "emojiStickersDivider__2cc45",
-            premiumHeader: "premiumHeader_f73c14",
-            premiumIcon: "premiumIcon__903c3",
-            premiumSectionDivider: "premiumSectionDivider__2ed1a",
-            premiumText: "premiumText__60aef",
             stickersHeaderWithEmojiResults: "stickersHeaderWithEmojiResults__95f15"
         }
     },
@@ -27036,49 +27032,6 @@
             skipColor: "skipColor_f4dbaa"
         }
     },
-    420050: function(e) {
-        "use strict";
-        e.exports = {
-            leftPanel: "leftPanel__58a7f",
-            sectionSubtitle: "sectionSubtitle__40ae5",
-            sectionTitle: "sectionTitle_d9bfa3"
-        }
-    },
-    244130: function(e) {
-        "use strict";
-        e.exports = {
-            gamepadButtonContainer: "gamepadButtonContainer__093f0",
-            gamepadButtonText: "gamepadButtonText_e6ce86"
-        }
-    },
-    94190: function(e) {
-        "use strict";
-        e.exports = {
-            leftPanel: "leftPanel__9d588",
-            linkButton: "linkButton__4ae59",
-            pinExpiresText: "pinExpiresText_a22812",
-            pinNumber: "pinNumber_e4da4d",
-            sectionSubheader: "sectionSubheader_abefc6",
-            sectionSubtitle: "sectionSubtitle__475a6",
-            sectionTitle: "sectionTitle__39e87"
-        }
-    },
-    415718: function(e) {
-        "use strict";
-        e.exports = {
-            container: "container_a7142b",
-            errorMessage: "errorMessage__431b7",
-            errorMessageContainer: "errorMessageContainer_c1172e",
-            errorMessageIcon: "errorMessageIcon__8c61a",
-            gamepadButton: "gamepadButton__80d43",
-            image: "image_fdee2d",
-            linkButton: "linkButton__87089",
-            logo: "logo__5ce4c",
-            pageWrapper: "pageWrapper_d7a7e5",
-            rightPanel: "rightPanel_cc37ca",
-            xboxButtonContainer: "xboxButtonContainer_be485e"
-        }
-    },
     587213: function(e) {
         "use strict";
         e.exports = {
@@ -28566,7 +28519,6 @@
             emojiRaw: "emojiRaw__8b5d4 emojiImage__5f111",
             icon: "icon_f08b13",
             iconForeground: "iconForeground__65705",
-            premiumEmoji: "premiumEmoji_d4ce86",
             roleDot: "roleDot_bdebbf"
         }
     },
