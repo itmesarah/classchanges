@@ -3641,8 +3641,8 @@
         "use strict";
         e.exports = {
             backButton: "backButton__91fb9",
-            banner: "banner__36618",
             footer: "footer_cf774b",
+            legalText: "legalText__3817f",
             productList: "productList_b12dd0",
             productSection: "productSection_d2504b",
             subDetailsModal: "subDetailsModal_c2c023",
@@ -4985,6 +4985,13 @@
             guildIconImage: "guildIconImage_d3cb49"
         }
     },
+    615410: function(e) {
+        "use strict";
+        e.exports = {
+            countContainer: "countContainer__99c76",
+            dot: "dot__3f9fc"
+        }
+    },
     225540: function(e) {
         "use strict";
         e.exports = {
@@ -5001,6 +5008,7 @@
         e.exports = {
             badge: "badge_d12073",
             chipletContainerInner: "chipletContainerInner_bfcb1e",
+            clickable: "clickable__8131d",
             noTooltip: "noTooltip_e2f660",
             text: "text_c2b2cb",
             tooltip: "tooltip_a9f8fc",
@@ -5156,6 +5164,29 @@
             utilityTagIcon: "utilityTagIcon__2b2c9",
             wildcardInput: "wildcardInput_c66fdf",
             wildcardRow: "wildcardRow__85791"
+        }
+    },
+    778491: function(e) {
+        "use strict";
+        e.exports = {
+            select: "select_d2dd42",
+            selectPopout: "selectPopout__4e7ca",
+            subtitle: "subtitle__09da5"
+        }
+    },
+    88725: function(e) {
+        "use strict";
+        e.exports = {
+            container: "container__12eae",
+            details: "details__39ae8",
+            guildName: "guildName_c346da",
+            header: "header__838d9",
+            icon: "icon_c1e831",
+            profileContainer: "profileContainer_db7b75",
+            selectOption: "selectOption__36227",
+            selectPopout: "selectPopout_ff8980",
+            tag: "tag_d4643f",
+            tagContainer: "tagContainer__4e826"
         }
     },
     802212: function(e) {
@@ -6850,13 +6881,13 @@
             cardFooterGameImg: "cardFooterGameImg_a0eeb2",
             cardFooterGames: "cardFooterGames_aebfa9",
             cardFooterInfo: "cardFooterInfo__5a461",
-            cardFooterLanguage: "cardFooterLanguage_e24d40",
-            cardFooterLanguageIcon: "cardFooterLanguageIcon__33333",
-            cardFooterLocation: "cardFooterLocation_f8cc19",
-            cardFooterLocationIcon: "cardFooterLocationIcon__2e33a",
+            cardFooterMembers: "cardFooterMembers__5eb8a",
+            cardFooterMembersIcon: "cardFooterMembersIcon__1c10d",
             cardNameAndTagWrapper: "cardNameAndTagWrapper_d87ceb",
             clanBadge: "clanBadge__4c045",
             clanIcon: "clanIcon_d70524",
+            clanInfoItem: "clanInfoItem__65fdd",
+            clanInfoRow: "clanInfoRow__15925",
             clanTagChiplet: "clanTagChiplet__7f357",
             clanTagChipletWrapper: "clanTagChipletWrapper__734a9",
             clickableCard: "clickableCard__1c1e9",
@@ -6869,7 +6900,9 @@
             primetimeContainer: "primetimeContainer__2c3ce",
             primetimeIcon: "primetimeIcon_c4d213",
             trait: "trait_dfdb34",
-            traitsContainer: "traitsContainer__23f4b"
+            traitsContainer: "traitsContainer__23f4b",
+            wildcards: "wildcards__62f49",
+            wildcardsOverride: "wildcardsOverride__26026"
         }
     },
     825640: function(e) {
@@ -7166,7 +7199,7 @@
             guildName: "guildName_c95322",
             header: "header__2e9c4",
             headerImage: "headerImage__27e00",
-            modalCloseButton: "modalCloseButton_f1c3a0",
+            modal: "modal__21798",
             subtitle: "subtitle_b23e9f",
             title: "title__1c3ec"
         }
@@ -15313,6 +15346,15 @@
             wrapperOver: "wrapperOver__9996c"
         }
     },
+    764864: function(e) {
+        "use strict";
+        e.exports = {
+            container: "container_a88e31",
+            header: "header__3a32b",
+            rowIcon: "rowIcon__45dc2",
+            rowIconV2: "rowIconV2_fe06d9 rowIcon__45dc2"
+        }
+    },
     499890: function(e) {
         "use strict";
         e.exports = {
@@ -21576,15 +21618,9 @@
             allReferralsSentBorder: "allReferralsSentBorder__67d29",
             avatarProgressBarUnitConnectorBase: "avatarProgressBarUnitConnectorBase_a2acd4",
             avatarProgressBarUnitConnectorContainer: "avatarProgressBarUnitConnectorContainer__9f6b8",
-            collapseToggle: "collapseToggle__4309d",
-            collapseToggleInSettings: "collapseToggleInSettings__13187",
-            collapsedGiftButton: "collapsedGiftButton__42821",
-            collapsedProgressBarButtons: "collapsedProgressBarButtons__991b4",
-            collapsedProgressBarContainer: "collapsedProgressBarContainer__0bf29",
-            collapsedProgressBarContainerSettingsPage: "collapsedProgressBarContainerSettingsPage_ca1fe5",
-            collapsedProgressBarIconContainer: "collapsedProgressBarIconContainer__9c506",
-            collapsedShareReferralButton: "collapsedShareReferralButton__99ce0",
             expandedProgressBarButtonContainer: "expandedProgressBarButtonContainer__0095b",
+            expandedProgressBarButtonContainerLayout: "expandedProgressBarButtonContainerLayout_e10665",
+            expandedProgressBarButtonContainerMinLayout: "expandedProgressBarButtonContainerMinLayout_b9b54b",
             expandedProgressBarContainer: "expandedProgressBarContainer_c2b92e",
             expandedProgressBarContainerSettingsPage: "expandedProgressBarContainerSettingsPage_ef61f6",
             expandedProgressBarContainerVariant1: "expandedProgressBarContainerVariant1_ea5ac3",
@@ -21593,6 +21629,8 @@
             expandedProgressBarContentVariant1: "expandedProgressBarContentVariant1__37efa",
             expandedProgressBarContentVariant2: "expandedProgressBarContentVariant2_e76181",
             expandedProgressBarGiftingCTA: "expandedProgressBarGiftingCTA_a56dee",
+            expandedProgressBarGiftingCTALayout: "expandedProgressBarGiftingCTALayout__376c3",
+            expandedProgressBarGiftingCTAMinLayout: "expandedProgressBarGiftingCTAMinLayout_dbec98",
             expandedProgressBarHeader: "expandedProgressBarHeader__27829",
             expandedProgressBarSelectFriendsCTA: "expandedProgressBarSelectFriendsCTA_e83ee0",
             expandedProgressBarSelectFriendsCTAInner: "expandedProgressBarSelectFriendsCTAInner__2de5c",
@@ -24944,7 +24982,8 @@
         e.exports = {
             discordIcon: "discordIcon__1e1be",
             divider: "divider__979dc",
-            memberSinceContainer: "memberSinceContainer__16630"
+            memberSince: "memberSince__2eba7",
+            memberSinceWrapper: "memberSinceWrapper__03059"
         }
     },
     222477: function(e) {
@@ -24992,17 +25031,12 @@
         "use strict";
         e.exports = {
             container: "container_df7ce7",
-            discrimBase: "discrimBase__67971",
-            headerBotTag: "headerBotTag_e2d7c1",
-            headerBotTagWithNickname: "headerBotTagWithNickname__5620a",
             nickname: "nickname__745d1",
+            nicknameIcon: "nicknameIcon__13099",
             tags: "tags__18aee",
             userTag: "userTag_eb9b2a",
-            userTagDiscriminatorNoNickname: "userTagDiscriminatorNoNickname__52990 discrimBase__67971",
-            userTagNoNickname: "userTagNoNickname__24253 userTag_eb9b2a",
-            userTagUsernameBase: "userTagUsernameBase_bb3e38",
-            userTagUsernameNoNickname: "userTagUsernameNoNickname__6c8c2 userTagUsernameBase_bb3e38",
-            userTagWithNickname: "userTagWithNickname_fb8bc3 userTag_eb9b2a",
+            userTagDiscriminator: "userTagDiscriminator_dd0ae5",
+            userTagUsername: "userTagUsername__88953",
             usernameRow: "usernameRow__73bf0"
         }
     },
@@ -25085,6 +25119,7 @@
     478741: function(e) {
         "use strict";
         e.exports = {
+            clans: "clans__3c2a1",
             infoScroller: "infoScroller__0920a",
             note: "note__7a4f4",
             recentGames: "recentGames__2995b",
@@ -25216,10 +25251,31 @@
             statusBubblePosition: "statusBubblePosition_e98f49"
         }
     },
+    516264: function(e) {
+        "use strict";
+        e.exports = {
+            connections: "connections__84e31",
+            note: "note_a92d50",
+            recentGames: "recentGames_c8fe3b",
+            scroller: "scroller__2f4b4",
+            section: "section_d2e3ea"
+        }
+    },
+    198515: function(e) {
+        "use strict";
+        e.exports = {
+            addButton: "addButton_bfade1 pill_b76003",
+            addButtonIcon: "addButtonIcon__3b4b8",
+            pill: "pill_b76003",
+            role: "role__5eb73 pill_b76003",
+            root: "root__12006"
+        }
+    },
     708432: function(e) {
         "use strict";
         e.exports = {
             container: "container__8361e",
+            infoTab: "infoTab__29f80",
             tabBar: "tabBar__6db53",
             tabBarItem: "tabBarItem__7bc74"
         }
@@ -25392,22 +25448,18 @@
             addButton: "addButton_d7b605",
             addButtonIcon: "addButtonIcon__04434",
             container: "container__1f16a",
-            overflowButton: "overflowButton_d39c60 pillBackground__5eb2d",
-            pillBackground: "pillBackground__5eb2d",
-            role: "role__17a96 pillBackground__5eb2d",
+            hiddenTooltip: "hiddenTooltip__10c79",
+            overflowButton: "overflowButton_d39c60 pill__35c94",
+            pill: "pill__35c94",
+            role: "role__17a96 pill__35c94",
             rolesHeader: "rolesHeader_e507a4",
-            rolesHeaderText: "rolesHeaderText__51e60",
             root: "root_ae2ef3"
         }
     },
     735619: function(e) {
         "use strict";
         e.exports = {
-            container: "container_f63223",
-            dotSpacer: "dotSpacer__33c55",
-            mutualFriendsText: "mutualFriendsText__47b48",
-            spinner: "spinner__5559d",
-            spinnerContainer: "spinnerContainer__9d60e container_f63223"
+            container: "container_f63223"
         }
     },
     27729: function(e) {
