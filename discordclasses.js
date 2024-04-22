@@ -6080,10 +6080,14 @@
     138317: function(e) {
         "use strict";
         e.exports = {
+            additionalParticipantBadge: "additionalParticipantBadge__23702",
+            additionalParticipantBadgeText: "additionalParticipantBadgeText__1e49a",
             badgeContainer: "badgeContainer__5607c",
             badgeRow: "badgeRow__474f5",
             container: "container__8d997",
             contentDescription: "contentDescription_e07aa0",
+            facePile: "facePile__28ee7",
+            facePileItem: "facePileItem__560b8",
             fontScaling: "fontScaling__42daa",
             infoSection: "infoSection__07f39",
             selected: "selected__31bdc",
@@ -15350,8 +15354,16 @@
     764864: function(e) {
         "use strict";
         e.exports = {
+            activityCardActivityIcon: "activityCardActivityIcon_ffae8f",
+            activityCardContainer: "activityCardContainer__6615c",
+            activityCardDetailsContainer: "activityCardDetailsContainer__32ad7",
+            activityCardImage: "activityCardImage__960a6",
+            activityCardImageContainer: "activityCardImageContainer_c34fee",
+            channelIcon: "channelIcon__3faf0",
             container: "container_a88e31",
             header: "header__3a32b",
+            location: "location__73d84",
+            mask: "mask_beff87",
             rowIcon: "rowIcon__45dc2",
             rowIconV2: "rowIconV2_fe06d9 rowIcon__45dc2"
         }
@@ -28439,7 +28451,6 @@
         "use strict";
         e.exports = {
             footerLink: "footerLink__08439",
-            modalFooter: "modalFooter__45970",
             modalHeader: "modalHeader__4621b"
         }
     },
