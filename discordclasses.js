@@ -20360,12 +20360,6 @@
             tooltipTextContainer: "tooltipTextContainer__7ff1e"
         }
     },
-    335178: function(e) {
-        "use strict";
-        e.exports = {
-            gradientText: "gradientText_fb366a"
-        }
-    },
     443393: function(e) {
         "use strict";
         e.exports = {
@@ -20698,6 +20692,12 @@
             star: "star_f35e98",
             starLeft: "starLeft__53d66",
             starRight: "starRight_f5b52f"
+        }
+    },
+    217717: function(e) {
+        "use strict";
+        e.exports = {
+            text: "text__81c86"
         }
     },
     21406: function(e) {
@@ -21237,18 +21237,18 @@
             textWithAD: "textWithAD__2e62c"
         }
     },
-    527752: function(e) {
+    791432: function(e) {
         "use strict";
         e.exports = {
-            activeProgressCircle: "activeProgressCircle__46a90",
-            activeProgressCircleAnimation: "activeProgressCircleAnimation__36591",
-            gemBackgroundFill: "gemBackgroundFill_c2a679",
-            gemGlow: "gemGlow__784ce",
-            gemProgressCircle: "gemProgressCircle__0d832",
-            glow: "glow_c871dc",
-            nitroGemAnimation: "nitroGemAnimation__3660d",
-            nitroGemContainer: "nitroGemContainer__20d11",
-            pulse: "pulse_c5fe4d"
+            activeProgressCircle: "activeProgressCircle__8e494",
+            activeProgressCircleAnimation: "activeProgressCircleAnimation__30698",
+            gemBackgroundFill: "gemBackgroundFill__12cf5",
+            gemGlow: "gemGlow_e7051d",
+            gemProgressCircle: "gemProgressCircle__4a3db",
+            glow: "glow_b03664",
+            nitroGemAnimation: "nitroGemAnimation_fe0ce5",
+            nitroGemContainer: "nitroGemContainer__65e04",
+            pulse: "pulse__17942"
         }
     },
     684993: function(e) {
