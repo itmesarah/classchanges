@@ -5048,6 +5048,17 @@
             tooltipHeader: "tooltipHeader__556b8"
         }
     },
+    598029: function(e) {
+        "use strict";
+        e.exports = {
+            colorColumn: "colorColumn__14c9d",
+            colorPicker: "colorPicker__60283",
+            colorPickersContainer: "colorPickersContainer_d5c0cb",
+            colorSwatch: "colorSwatch__53ee4",
+            customColorsHeader: "customColorsHeader_a9ec82",
+            popoutContainer: "popoutContainer__629b8"
+        }
+    },
     509741: function(e) {
         "use strict";
         e.exports = {
@@ -5059,13 +5070,11 @@
             brandItemContainer: "brandItemContainer_f07c0f",
             brandItemContainerSelected: "brandItemContainerSelected__51923",
             clanCardWrapper: "clanCardWrapper__06f56",
-            colorPicker: "colorPicker_a9f8d8",
             colorPickerContainer: "colorPickerContainer__9b7d0",
             colorPickerGrid: "colorPickerGrid_ba6389",
             colorsContainer: "colorsContainer__2dee9",
             container: "container__0d48f",
             content: "content__4e550",
-            customColorPickerContainer: "customColorPickerContainer_e36253",
             noWrap: "noWrap__133e4"
         }
     },
@@ -5113,16 +5122,31 @@
             signatureText: "signatureText_cb71b7"
         }
     },
+    299526: function(e) {
+        "use strict";
+        e.exports = {
+            chatPreview: "chatPreview__2bd80",
+            content: "content_aac020",
+            ctaText: "ctaText_fa0e8d",
+            divider: "divider_cc4804",
+            fakeMessage: "fakeMessage__672b9",
+            modal: "modal__3d9b1",
+            previewSection: "previewSection_f5c87f",
+            previewText: "previewText__804c3",
+            settingSection: "settingSection_ec07b1",
+            subtitle: "subtitle__3cb16",
+            tagPreview: "tagPreview__78450",
+            tagText: "tagText__9f09a",
+            userName: "userName__20776"
+        }
+    },
     996399: function(e) {
         "use strict";
         e.exports = {
             badgeAssetContainer: "badgeAssetContainer__3d9d5",
             badgeAssetContainerSelected: "badgeAssetContainerSelected__371e2",
             badgesContainer: "badgesContainer__0f8f1",
-            colorPicker: "colorPicker__42c22",
             container: "container__208b2",
-            customColorPickerContainer: "customColorPickerContainer__016e5",
-            customColorPickerContainerHidden: "customColorPickerContainerHidden__054e5",
             pickerContainer: "pickerContainer__5dd4f",
             pickerGrid: "pickerGrid__1da1d",
             tagContainer: "tagContainer_eb01b9",
@@ -5937,6 +5961,17 @@
         "use strict";
         e.exports = {
             linkIcon: "linkIcon__8c0b3"
+        }
+    },
+    90240: function(e) {
+        "use strict";
+        e.exports = {
+            body: "body__9e909",
+            error: "error_f0e854",
+            header: "header__4ce56",
+            logos: "logos_d6e878",
+            root: "root__436bf",
+            wrapper: "wrapper__48ec7"
         }
     },
     427129: function(e) {
@@ -8927,17 +8962,17 @@
             documentModeGroup: "documentModeGroup__908ec",
             enhancedSelectorNitroText: "enhancedSelectorNitroText__4daeb",
             logoPrimary: "logoPrimary_f87bf9",
+            perksDemo: "perksDemo_f59d26",
             premiumIcon: "premiumIcon_f78791 logoPrimary_f87bf9",
+            premiumUpsell: "premiumUpsell__248b1",
             qualitySettingsContainer: "qualitySettingsContainer__8f353",
             selectorButton: "selectorButton_ea0609",
-            selectorButtonPerkDemo: "selectorButtonPerkDemo__4a1f5",
-            selectorButtonPremiumRequired: "selectorButtonPremiumRequired__9df5b",
-            selectorButtonSelected: "selectorButtonSelected__707fb selectorButton_ea0609",
-            selectorButtonSelectedPerkDemo: "selectorButtonSelectedPerkDemo__7f18f selectorButton_ea0609",
+            selectorButtonSelected: "selectorButtonSelected__707fb",
+            selectorButtonWrapper: "selectorButtonWrapper__1ddd2",
             selectorNitroText: "selectorNitroText__1d3e0",
             selectorText: "selectorText__8286b",
-            selectorTextSelected: "selectorTextSelected__147ec selectorText__8286b",
             settingsGroup: "settingsGroup_f1f968",
+            textContainer: "textContainer_f9e961",
             toolTipTextContainer: "toolTipTextContainer__02b41",
             tooltip: "tooltip_ceef6c",
             upsellText: "upsellText_cd2552"
@@ -20186,6 +20221,7 @@
         e.exports = {
             headerContainer: "headerContainer_d09a13",
             labelContainer: "labelContainer_b37d4d",
+            mutedLabel: "mutedLabel__2aaa1",
             newBadge: "newBadge__905d8",
             nitroWheel: "nitroWheel__28082",
             playButton: "playButton_a7f035",
@@ -20214,7 +20250,10 @@
             optionPlaying: "optionPlaying__05ded",
             options: "options_bde988",
             optionsContainer: "optionsContainer__44347",
-            subheader: "subheader__7fae4"
+            playableOption: "playableOption_f7887a",
+            subheader: "subheader__7fae4",
+            warningContainer: "warningContainer__0912f",
+            warningLabel: "warningLabel__9c697"
         }
     },
     169776: function(e) {
@@ -22449,6 +22488,28 @@
             partnerBrandingLogotype: "partnerBrandingLogotype_bdbda4"
         }
     },
+    797565: function(e) {
+        "use strict";
+        e.exports = {
+            componentPreview: "componentPreview__21783",
+            componentPreviewWrapper: "componentPreviewWrapper__6e4d4",
+            componentPreviewWrapperBordered: "componentPreviewWrapperBordered_c68846",
+            componentPreviews: "componentPreviews_e6adca",
+            errorBoundary: "errorBoundary__9383e",
+            errorBoundaryIcon: "errorBoundaryIcon__18c44",
+            errorMessage: "errorMessage_ddd4c1",
+            errorMessageWrapper: "errorMessageWrapper_b1e5ac",
+            fields: "fields_e540ed",
+            fieldsVertical: "fieldsVertical_c3133b",
+            heading: "heading__2adc1",
+            headingWithTooltip: "headingWithTooltip__3f120",
+            questBarPreview: "questBarPreview_e90e97",
+            questBarPreviewWrapper: "questBarPreviewWrapper__9be26",
+            subheading: "subheading__50893",
+            swatchContainer: "swatchContainer_bf7226",
+            swatchIcon: "swatchIcon_c203b3"
+        }
+    },
     872861: function(e) {
         "use strict";
         e.exports = {
@@ -22670,6 +22731,7 @@
         "use strict";
         e.exports = {
             divider: "divider__1ed5b",
+            questCards: "questCards__2c9ba",
             questsContainer: "questsContainer__0b371",
             questsHeading: "questsHeading__8d16b",
             questsHeadingLearnMore: "questsHeadingLearnMore_f97459",
@@ -23110,7 +23172,7 @@
             saveButton: "saveButton__6398b"
         }
     },
-    511385: function(e) {
+    349903: function(e) {
         "use strict";
         e.exports = {
             container: "container__9c5f3"
@@ -24942,6 +25004,13 @@
             coachmarkHeader: "coachmarkHeader__3cdda"
         }
     },
+    104018: function(e) {
+        "use strict";
+        e.exports = {
+            badge: "badge__908e2",
+            container: "container__665d0"
+        }
+    },
     350315: function(e) {
         "use strict";
         e.exports = {
@@ -24992,13 +25061,8 @@
     40803: function(e) {
         "use strict";
         e.exports = {
-            activityName: "activityName_bad7c5",
             cardContainer: "cardContainer__84569",
-            contentImage: "contentImage__73364",
-            infoContainer: "infoContainer__07f33",
-            playtimeContainer: "playtimeContainer_d4a1f8",
-            playtimeText: "playtimeText__3a682",
-            title: "title_b0a8cb"
+            playtimeContainer: "playtimeContainer_d4a1f8"
         }
     },
     681132: function(e) {
@@ -25108,8 +25172,8 @@
     736379: function(e) {
         "use strict";
         e.exports = {
-            badges: "badges__89cab tags__17646",
-            tags: "tags__17646"
+            badge: "badge__26d6e",
+            badgeList: "badgeList_b6652b"
         }
     },
     46781: function(e) {
