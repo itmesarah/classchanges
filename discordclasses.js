@@ -1129,6 +1129,7 @@
         "use strict";
         e.exports = {
             actionsActivityFeed: "actionsActivityFeed__39f06",
+            actionsBiteSizePopout: "actionsBiteSizePopout__9de20",
             actionsProfile: "actionsProfile_e93ceb",
             actionsProfileV2: "actionsProfileV2_eea61b",
             actionsSimplifiedProfile: "actionsSimplifiedProfile__448de",
@@ -4870,6 +4871,7 @@
             before_inlineCode: "before_inlineCode__48f7c",
             before_s: "before_s_c34934",
             before_spoiler: "before_spoiler__83405",
+            before_subtext: "before_subtext__52a3c",
             before_u: "before_u__83735",
             bold: "bold__6aad0",
             codeBlockLang: "codeBlockLang__61f8b",
@@ -4881,6 +4883,7 @@
             italics: "italics__8ed1c",
             spoiler: "spoiler_fdc26f",
             strikethrough: "strikethrough__05a3f",
+            subtext: "subtext__5b116",
             syntaxAfter: "syntaxAfter__23aff",
             syntaxBefore: "syntaxBefore_bd3975",
             syntaxOverride: "syntaxOverride__3db6d",
@@ -5085,8 +5088,6 @@
             colorPickerContainer: "colorPickerContainer__9b7d0",
             colorPickerGrid: "colorPickerGrid_ba6389",
             colorsContainer: "colorsContainer__2dee9",
-            container: "container__0d48f",
-            content: "content__4e550",
             noWrap: "noWrap__133e4"
         }
     },
@@ -5168,6 +5169,14 @@
             tagInputWrapper: "tagInputWrapper__7b1bc"
         }
     },
+    599666: function(e) {
+        "use strict";
+        e.exports = {
+            tags: "tags_ec9b5d",
+            tagsCount: "tagsCount_f1c2de",
+            traitsContainer: "traitsContainer__01c4b"
+        }
+    },
     418571: function(e) {
         "use strict";
         e.exports = {
@@ -5175,11 +5184,13 @@
             checkmark: "checkmark_c7b206",
             clickable: "clickable_a588cd",
             clickableGame: "clickableGame__38602",
+            content: "content_c05082",
             contentLabel: "contentLabel_aa05d5",
             contentWithMinHeight: "contentWithMinHeight__78ad4",
             divider: "divider_b5fb95",
             enterToSearchText: "enterToSearchText_c64e49",
             errorText: "errorText__34a8a",
+            fixedWidthSidebar: "fixedWidthSidebar__39d7a",
             flex: "flex__7aeec",
             icon: "icon_e8e1b2",
             iconSmall: "iconSmall_cd3113",
@@ -5190,16 +5201,17 @@
             interestsTag: "interestsTag__64479",
             introTitle: "introTitle__6a50e",
             languageSelect: "languageSelect__46f09",
+            mainPanelContainer: "mainPanelContainer__54930",
             optionalTag: "optionalTag__36ca8",
             playstyleOption: "playstyleOption__67567",
             playstyleSelect: "playstyleSelect_b7d88b",
             playstyleTitle: "playstyleTitle__00d17",
             plusIcon: "plusIcon__22efe",
             selected: "selected__2779c",
-            selectedInterest: "selectedInterest_aa523d",
             selectedPlaystyle: "selectedPlaystyle_e4490f",
             selectedSection: "selectedSection__5c175",
             slideContent: "slideContent__6ae94",
+            slideContentWithSidebar: "slideContentWithSidebar__251be slideContent__6ae94",
             stepNum: "stepNum_b5f2f3",
             subtitle: "subtitle__62596",
             timeSelection: "timeSelection_cf3393",
@@ -6988,6 +7000,7 @@
             cardFooterInfo: "cardFooterInfo__5a461",
             cardFooterMembers: "cardFooterMembers__5eb8a",
             cardFooterMembersIcon: "cardFooterMembersIcon__1c10d",
+            cardFooterOtherCount: "cardFooterOtherCount_a26e63",
             cardNameAndTagWrapper: "cardNameAndTagWrapper_d87ceb",
             clanBadge: "clanBadge__4c045",
             clanIcon: "clanIcon_d70524",
@@ -7259,7 +7272,6 @@
             upsellDetails: "upsellDetails_dbe31a",
             upsellIcon: "upsellIcon__05e46",
             upsellSelect: "upsellSelect_e29580",
-            upsellSelectWrapper: "upsellSelectWrapper__63bb4",
             upsellTitle: "upsellTitle__75ee7"
         }
     },
@@ -15113,6 +15125,7 @@
         "use strict";
         e.exports = {
             acronym: "acronym__02df1",
+            basicChannelRowLink: "basicChannelRowLink__3b042",
             channelGuildIcon: "channelGuildIcon__17b87",
             children: "children__563f2",
             favoritesSuggestion: "favoritesSuggestion__5ecd4",
@@ -15256,7 +15269,6 @@
     988918: function(e) {
         "use strict";
         e.exports = {
-            channelLabel: "channelLabel__86693",
             closeButton: "closeButton__5a65e",
             gifSection: "gifSection__63d19",
             money: "money_daa704",
@@ -15513,18 +15525,20 @@
             activityCardContainer: "activityCardContainer__6615c",
             activityCardDetailsContainer: "activityCardDetailsContainer__32ad7",
             activityCardImage: "activityCardImage__960a6",
-            activityCardImageAvatar1: "activityCardImageAvatar1_e99d8e",
-            activityCardImageAvatar2: "activityCardImageAvatar2__9e698",
-            activityCardImageAvatar3: "activityCardImageAvatar3__28db3",
-            activityCardImageContainer: "activityCardImageContainer_c34fee",
-            activityCardImageOneAvatar: "activityCardImageOneAvatar_c5282e",
             channelIcon: "channelIcon__3faf0",
             container: "container_a88e31",
-            eventImage: "eventImage_f9c259",
+            emptyActivityCardContainer: "emptyActivityCardContainer_a8d8cf",
+            emptyActivityCardPrompt: "emptyActivityCardPrompt_b217cc",
+            emptyStateTextContainer: "emptyStateTextContainer__84382",
+            facePileItem: "facePileItem__37c56",
+            facepile: "facepile__3688e",
+            footer: "footer_b64a8c",
             header: "header__3a32b",
+            infoIcon: "infoIcon__6e0d9",
             joinButton: "joinButton_f6f9af",
             location: "location__73d84",
             mask: "mask_beff87",
+            othersCount: "othersCount__89551",
             rowIcon: "rowIcon__45dc2",
             rowIconV2: "rowIconV2_fe06d9 rowIcon__45dc2"
         }
@@ -15907,15 +15921,6 @@
             formHeaderContainer: "formHeaderContainer__4b8b7",
             formImage: "formImage_c9a4f6",
             formSubHeader: "formSubHeader_c747ee"
-        }
-    },
-    79391: function(e) {
-        "use strict";
-        e.exports = {
-            avatar: "avatar__30fd0",
-            icon: "icon_ec85ca",
-            itemInner: "itemInner__2abad",
-            optionItem: "optionItem__7394f"
         }
     },
     387024: function(e) {
@@ -16932,10 +16937,16 @@
             formItem: "formItem__49b11"
         }
     },
+    70189: function(e) {
+        "use strict";
+        e.exports = {
+            divider: "divider_a7d054",
+            spacingLarge: "spacingLarge__5712a"
+        }
+    },
     787076: function(e) {
         "use strict";
         e.exports = {
-            contextText: "contextText__7ec91",
             markdownContainer: "markdownContainer__07d2b"
         }
     },
@@ -22637,6 +22648,59 @@
             utils: "utils__4dc05"
         }
     },
+    192919: function(e) {
+        "use strict";
+        e.exports = {
+            content: "content_acf450"
+        }
+    },
+    336471: function(e) {
+        "use strict";
+        e.exports = {
+            background: "background__70795",
+            backgroundAnimation: "backgroundAnimation_c42d48",
+            contentCollapsed: "contentCollapsed__82666",
+            contentCollapsedAccepted: "contentCollapsedAccepted__3a865",
+            contentCollapsedExpanded: "contentCollapsedExpanded__6173a",
+            contentCollapsedWrapper: "contentCollapsedWrapper_b3396f",
+            partnerBranding: "partnerBranding__46b3f",
+            preEnrollmentWrapper: "preEnrollmentWrapper_de7def",
+            questAvailable: "questAvailable_d9e1f5",
+            questProgressBar: "questProgressBar__3d3fa",
+            questProgressHint: "questProgressHint__75b1c",
+            questProgressRewardTile: "questProgressRewardTile_ce3d11",
+            questProgressWrapper: "questProgressWrapper__88aa7",
+            wreathIcon: "wreathIcon__15dfd"
+        }
+    },
+    844256: function(e) {
+        "use strict";
+        e.exports = {
+            contentExpanded: "contentExpanded__9eb0c",
+            contentInteractable: "contentInteractable__2acd1",
+            cta: "cta_f1dfa0",
+            ctaClaimReward: "ctaClaimReward__68e9b",
+            description: "description_b0850b",
+            details: "details_ac38e4",
+            heroAsset: "heroAsset__8e1c6",
+            heroAssetWrapper: "heroAssetWrapper__954c7",
+            partnerBranding: "partnerBranding__96958",
+            promotedBadge: "promotedBadge__73648",
+            promotedBadgeIcon: "promotedBadgeIcon__07043",
+            promotedBadgeWrapper: "promotedBadgeWrapper__130d9",
+            questAcceptedContent: "questAcceptedContent_dc6593",
+            questAcceptedContentCopySubheading: "questAcceptedContentCopySubheading__7fba0",
+            questAcceptedContentHeading: "questAcceptedContentHeading_a32b86",
+            questProgressRewardTile: "questProgressRewardTile_c72c7a",
+            questPromoContent: "questPromoContent_f910bc",
+            questUnacceptedContent: "questUnacceptedContent_c91b61",
+            rewardTile: "rewardTile__66594",
+            submenuIcon: "submenuIcon__4f60b",
+            submenuWrapper: "submenuWrapper__19139",
+            title: "title_de2774",
+            utils: "utils_ab6626"
+        }
+    },
     86379: function(e) {
         "use strict";
         e.exports = {
@@ -25197,9 +25261,7 @@
         e.exports = {
             biteSize: "biteSize__4396a",
             fullSize: "fullSize_b0d012",
-            multiLineStatusEmoji: "multiLineStatusEmoji__4fd93",
             positionStyle: "positionStyle_bf57a1",
-            singleLineStatusEmoji: "singleLineStatusEmoji__39816",
             statusBubble: "statusBubble__1a4c3",
             statusBubbleMaxLinePadding: "statusBubbleMaxLinePadding__8edbc",
             statusBubbleMultiLineMaxLineBottomMargin: "statusBubbleMultiLineMaxLineBottomMargin_f9c97c",
@@ -25207,12 +25269,14 @@
             statusBubbleMultiLineShape: "statusBubbleMultiLineShape_e94b9b",
             statusBubbleOuter: "statusBubbleOuter__7e51b",
             statusBubbleOuterMaxLine: "statusBubbleOuterMaxLine__97110",
-            statusBubbleSingleLineTextOnly: "statusBubbleSingleLineTextOnly__2584c",
-            statusBubbleSingleLineTextOnlyBottomMargin: "statusBubbleSingleLineTextOnlyBottomMargin_f442ab",
-            statusBubbleSingleLineTextOnlyShape: "statusBubbleSingleLineTextOnlyShape__997bc",
-            statusBubbleSingleLineWithEmoji: "statusBubbleSingleLineWithEmoji_eba004",
-            statusBubbleSingleLineWithEmojiBottomMargin: "statusBubbleSingleLineWithEmojiBottomMargin_cf7aa5",
-            statusBubbleSingleLineWithEmojiShape: "statusBubbleSingleLineWithEmojiShape_ba5ce7",
+            statusBubbleSingleLineEmojiOnly: "statusBubbleSingleLineEmojiOnly_d07ae7",
+            statusBubbleSingleLineEmojiOnlyBottomMargin: "statusBubbleSingleLineEmojiOnlyBottomMargin__1251a",
+            statusBubbleSingleLineEmojiOnlyShape: "statusBubbleSingleLineEmojiOnlyShape_ffeca9",
+            statusBubbleSingleLineWithText: "statusBubbleSingleLineWithText_df155b",
+            statusBubbleSingleLineWithTextBottomMargin: "statusBubbleSingleLineWithTextBottomMargin__3e972",
+            statusBubbleSingleLineWithTextShape: "statusBubbleSingleLineWithTextShape__4c016",
+            statusEmojiInline: "statusEmojiInline__099a8",
+            statusEmojiOnly: "statusEmojiOnly__3469b",
             statusText: "statusText__32d26"
         }
     },
@@ -25302,6 +25366,14 @@
             compactButtonInner: "compactButtonInner_cc8cc8"
         }
     },
+    236219: function(e) {
+        "use strict";
+        e.exports = {
+            button: "button__6d63b",
+            buttonInner: "buttonInner_e7cd38",
+            color: "color__67b07"
+        }
+    },
     142354: function(e) {
         "use strict";
         e.exports = {
@@ -25323,8 +25395,7 @@
         "use strict";
         e.exports = {
             actionColor: "actionColor_db400e",
-            userProfileActivity: "userProfileActivity__0988f",
-            voiceActivity: "voiceActivity__2aa0b"
+            userProfileActivity: "userProfileActivity__0988f"
         }
     },
     677592: function(e) {
@@ -25514,14 +25585,14 @@
             section: "section_d2e3ea"
         }
     },
-    609005: function(e) {
+    914672: function(e) {
         "use strict";
         e.exports = {
-            addButton: "addButton_bfade1 pill_b76003",
-            addButtonIcon: "addButtonIcon__3b4b8",
-            pill: "pill_b76003",
-            role: "role__5eb73 pill_b76003",
-            root: "root__12006"
+            addButton: "addButton__3202c pill__6a2f4",
+            addButtonIcon: "addButtonIcon__7dfdc",
+            pill: "pill__6a2f4",
+            role: "role__31c33 pill__6a2f4",
+            root: "root_a2f407"
         }
     },
     788741: function(e) {
@@ -25705,10 +25776,8 @@
     705444: function(e) {
         "use strict";
         e.exports = {
-            addButton: "addButton_e81447",
-            addButtonIcon: "addButtonIcon_a40605",
+            addRoleButton: "addRoleButton__3dbb8",
             container: "container_badb01",
-            hiddenTooltip: "hiddenTooltip__4ec90",
             overflowButton: "overflowButton_dcc4c2 pill__54982",
             pill: "pill__54982",
             role: "role_a3571c pill__54982",
@@ -25845,17 +25914,6 @@
             userTagUsernameNoNickname: "userTagUsernameNoNickname__0513b userTagUsernameBase__2bd24",
             userTagWithNickname: "userTagWithNickname__0a777 userTag__45349",
             userText: "userText_c26b46"
-        }
-    },
-    466451: function(e) {
-        "use strict";
-        e.exports = {
-            iconContainer: "iconContainer__17acc",
-            mask: "mask__3b970",
-            speakerIcon: "speakerIcon_be90f6",
-            speakerIconContainer: "speakerIconContainer_a3dbfd",
-            voiceChannelInfo: "voiceChannelInfo_b83d5d",
-            voiceDisplayContainer: "voiceDisplayContainer__7d1df"
         }
     },
     239628: function(e) {
@@ -30343,6 +30401,7 @@
         "use strict";
         e.exports = {
             activityActivityFeed: "activityActivityFeed__402fc",
+            activityBiteSizePopout: "activityBiteSizePopout__67f8f",
             activityDetails: "activityDetails_b90109",
             activityName: "activityName_a7b7de",
             activityProfile: "activityProfile__5d0ec",
@@ -30358,6 +30417,8 @@
             assetsLargeImageActivityFeed: "assetsLargeImageActivityFeed__56b16 assetsLargeImage__57902",
             assetsLargeImageActivityFeedTwitch: "assetsLargeImageActivityFeedTwitch__21bd3 assetsLargeImage__57902",
             assetsLargeImageActivityFeedXbox: "assetsLargeImageActivityFeedXbox_a24562 assetsLargeImage__57902",
+            assetsLargeImageBiteSizePopout: "assetsLargeImageBiteSizePopout__2df4e assetsLargeImage__57902",
+            assetsLargeImageBiteSizePopoutXbox: "assetsLargeImageBiteSizePopoutXbox_ba5f20 assetsLargeImage__57902",
             assetsLargeImageProfile: "assetsLargeImageProfile__8a5b1 assetsLargeImage__57902",
             assetsLargeImageProfileTwitch: "assetsLargeImageProfileTwitch__786e1 assetsLargeImage__57902",
             assetsLargeImageProfileV2: "assetsLargeImageProfileV2__0f48c assetsLargeImage__57902",
@@ -30376,6 +30437,7 @@
             assetsLargeImageUserPopoutXbox: "assetsLargeImageUserPopoutXbox_d0f2f5 assetsLargeImage__57902",
             assetsLargeImageVoiceChannel: "assetsLargeImageVoiceChannel__25fc5 assetsLargeImage__57902",
             assetsLargeMaskActivityFeed: "assetsLargeMaskActivityFeed__66dd6",
+            assetsLargeMaskBiteSizePopout: "assetsLargeMaskBiteSizePopout__9e8e7",
             assetsLargeMaskProfile: "assetsLargeMaskProfile_f273d6",
             assetsLargeMaskProfileV2: "assetsLargeMaskProfileV2__4c908",
             assetsLargeMaskSimplifiedProfile: "assetsLargeMaskSimplifiedProfile_e2b3c6",
@@ -30389,6 +30451,8 @@
             assetsSmallImage: "assetsSmallImage__4c2f1",
             assetsSmallImageActivityFeed: "assetsSmallImageActivityFeed__8cb1d assetsSmallImage__4c2f1",
             assetsSmallImageActivityFeedWithoutLargeImage: "assetsSmallImageActivityFeedWithoutLargeImage__17e4c assetsLargeImage__57902",
+            assetsSmallImageBiteSizePopout: "assetsSmallImageBiteSizePopout_f8be8a assetsSmallImage__4c2f1",
+            assetsSmallImageBiteSizePopoutWithoutLargeImage: "assetsSmallImageBiteSizePopoutWithoutLargeImage__5cb63 assetsLargeImage__57902",
             assetsSmallImageProfile: "assetsSmallImageProfile_e6f46b assetsSmallImage__4c2f1",
             assetsSmallImageProfileV2: "assetsSmallImageProfileV2__48f59 assetsSmallImage__4c2f1",
             assetsSmallImageProfileV2WithoutLargeImage: "assetsSmallImageProfileV2WithoutLargeImage_e74736 assetsLargeImage__57902",
@@ -30409,6 +30473,7 @@
             bodyNormal: "bodyNormal__77cee body__3620e",
             clickableDetails: "clickableDetails__282ba ellipsis__46552 textRow_c835f1",
             content: "content__7246b",
+            contentGameImageBiteSizePopout: "contentGameImageBiteSizePopout__80c4d content__7246b",
             contentGameImageProfile: "contentGameImageProfile_f9e39f content__7246b",
             contentGameImageProfileV2: "contentGameImageProfileV2__3cfb3 content__7246b",
             contentGameImageSimplifiedProfile: "contentGameImageSimplifiedProfile__11d2a content__7246b",
@@ -30417,6 +30482,7 @@
             contentGameImageUserPopoutV2: "contentGameImageUserPopoutV2_ca1e37 content__7246b",
             contentGameImageVoiceChannel: "contentGameImageVoiceChannel__4db6a content__7246b",
             contentImagesActivityFeed: "contentImagesActivityFeed__7b53b content__7246b",
+            contentImagesBiteSizePopout: "contentImagesBiteSizePopout_f9ea3c content__7246b",
             contentImagesProfile: "contentImagesProfile_a073ca content__7246b",
             contentImagesProfileV2: "contentImagesProfileV2__5afe1 content__7246b",
             contentImagesSimplifiedProfile: "contentImagesSimplifiedProfile__3e414 content__7246b",
@@ -30425,6 +30491,7 @@
             contentImagesUserPopoutV2: "contentImagesUserPopoutV2_cbfb04 content__7246b",
             contentImagesVoiceChannel: "contentImagesVoiceChannel__06486 content__7246b",
             contentNoImagesActivityFeed: "contentNoImagesActivityFeed__3d960 content__7246b",
+            contentNoImagesBiteSizePopout: "contentNoImagesBiteSizePopout__5c150 content__7246b",
             contentNoImagesProfile: "contentNoImagesProfile_d09309 content__7246b content__7246b",
             contentNoImagesProfileV2: "contentNoImagesProfileV2__00326 content__7246b content__7246b",
             contentNoImagesSimplifiedProfile: "contentNoImagesSimplifiedProfile__8499c content__7246b content__7246b",
@@ -30453,6 +30520,7 @@
             streamUsername: "streamUsername__644c7",
             textRow: "textRow_c835f1",
             timeBarActivityFeed: "timeBarActivityFeed__2e61f",
+            timeBarBiteSizePopout: "timeBarBiteSizePopout__970d3",
             timeBarProfile: "timeBarProfile_eaa94c",
             timeBarProfileV2: "timeBarProfileV2_d92d85",
             timeBarSimplifiedProfile: "timeBarSimplifiedProfile__29715",
@@ -31587,6 +31655,7 @@
             clickable: "clickable_a2c5ad",
             content: "content__3b07e",
             disabled: "disabled__50fd0",
+            fade: "fade__3c6be",
             flipped: "flipped__45ed5",
             guestSuffix: "guestSuffix_e55f97",
             hangStatusIcon: "hangStatusIcon__367ef",
