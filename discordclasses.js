@@ -29547,6 +29547,7 @@
     187885: function(e) {
         "use strict";
         e.exports = {
+            clanBadgeContainer: "clanBadgeContainer_c2e41c",
             gemIcon: "gemIcon__1ad95",
             premiumTooltipFooterBackground: "premiumTooltipFooterBackground_a2a9fd",
             tooltipBodyContainer: "tooltipBodyContainer_cf18cf",
