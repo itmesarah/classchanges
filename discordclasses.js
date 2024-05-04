@@ -5109,6 +5109,9 @@
             chipletContainer: "chipletContainer__2aa46",
             chipletParent: "chipletParent_db23c1",
             container: "container__43fce",
+            isOverlayContainer: "isOverlayContainer__59bba",
+            isOverlayTag: "isOverlayTag__33416",
+            noPadding: "noPadding__174a8",
             usernameContainer: "usernameContainer__60276"
         }
     },
@@ -5138,6 +5141,8 @@
             colorPickerContainer: "colorPickerContainer__9b7d0",
             colorPickerGrid: "colorPickerGrid_ba6389",
             colorsContainer: "colorsContainer__2dee9",
+            content: "content__4e550",
+            leftColumn: "leftColumn__82ee9",
             noWrap: "noWrap__133e4"
         }
     },
@@ -5259,6 +5264,7 @@
             introTitle: "introTitle__6a50e",
             languageSelect: "languageSelect__46f09",
             mainPanelContainer: "mainPanelContainer__54930",
+            maxWidthContainer: "maxWidthContainer__91587",
             optionalTag: "optionalTag__36ca8",
             playstyleOption: "playstyleOption__67567",
             playstyleSelect: "playstyleSelect_b7d88b",
@@ -5897,6 +5903,7 @@
             productName: "productName__52b8d",
             profileEffectShopPreview: "profileEffectShopPreview__9b28d",
             purchaseButton: "purchaseButton_c932c7",
+            shaker: "shaker__2bf29",
             shopCard: "shopCard__9e3fe",
             shopCardDefaultAnimation: "shopCardDefaultAnimation_bcabdf",
             shopCardTransformationAnimation: "shopCardTransformationAnimation__05043"
@@ -15527,6 +15534,7 @@
             cardIcon: "cardIcon_fe1b52",
             cardImage: "cardImage__3249d",
             cardImageIcon: "cardImageIcon__1bd75",
+            cardImageIconContainer: "cardImageIconContainer__801a1",
             cardTypeIcon: "cardTypeIcon__1dd99",
             container: "container_a88e31",
             emptyStateCardContainer: "emptyStateCardContainer_daadc2",
@@ -25299,7 +25307,7 @@
             biteSizeOuter: "biteSizeOuter_e0bb1d userPopoutOuter_d67f56 userProfileOuter__35e59",
             biteSizeOverlayBackground: "biteSizeOverlayBackground__11aa7 overlayBackground__345c9",
             fullSizeInnerThemed: "fullSizeInnerThemed_ae6977",
-            fullSizeOuter: "fullSizeOuter__64397 userProfileModalOuter__90b4a userProfileOuter__35e59",
+            fullSizeOuter: "fullSizeOuter__64397 userProfileOuter__35e59",
             fullSizeOverlayBackground: "fullSizeOverlayBackground_a28b53 overlayBackground__345c9",
             overlayBackground: "overlayBackground__345c9",
             showOutOfBoundaryComponents: "showOutOfBoundaryComponents__3e39f",
@@ -25455,6 +25463,7 @@
         e.exports = {
             body: "body_bd4552",
             divider: "divider__7116f",
+            overlay: "overlay__679e5",
             root: "root_ba16f0",
             tabBar: "tabBar__35f81",
             tabBarContainer: "tabBarContainer_b283be",
@@ -25544,6 +25553,7 @@
         e.exports = {
             badgeList: "badgeList__70639",
             container: "container__020e3",
+            overlay: "overlay__15b40",
             username: "username__7cf20",
             usernameBadgeList: "usernameBadgeList__9a1fb"
         }
@@ -31051,6 +31061,7 @@
             isFailed: "isFailed__7bd49",
             isSending: "isSending__93355",
             isSystemMessage: "isSystemMessage__0f7c5",
+            isUnsupported: "isUnsupported__136fb",
             latin12CompactTimeStamp: "latin12CompactTimeStamp_b48539",
             latin24CompactTimeStamp: "latin24CompactTimeStamp_f2f700",
             markupRtl: "markupRtl__05c1c",
@@ -31662,6 +31673,7 @@
             iconTooltip: "iconTooltip_a10c3d",
             iconTooltipContainer: "iconTooltipContainer_b8fcad",
             icons: "icons__10dd7",
+            isOverlay: "isOverlay_ff42d2",
             list: "list__54b1e",
             listCollapse: "listCollapse_f47b82",
             listDefault: "listDefault__4e3fa",
