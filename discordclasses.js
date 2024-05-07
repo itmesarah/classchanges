@@ -4990,6 +4990,7 @@
             scrollContentContainer: "scrollContentContainer__0a56a",
             signButton: "signButton__517bc",
             signCarot: "signCarot__549a7",
+            signCarotCustomColors: "signCarotCustomColors__1032b",
             signContainerButton: "signContainerButton__9abd2",
             signHintAnimationContainer: "signHintAnimationContainer_d7a8a7",
             signHintContainer: "signHintContainer_e7af42",
@@ -5012,7 +5013,8 @@
             placeholderPulse: "placeholderPulse__8767a",
             remainingGame: "remainingGame__11ccc",
             selectedGame: "selectedGame_a69562",
-            selectedGameCheck: "selectedGameCheck_d9d855"
+            selectedGameCheck: "selectedGameCheck_d9d855",
+            selectedGameCheckLocked: "selectedGameCheckLocked_dc2cc2"
         }
     },
     374510: function(e) {
@@ -7429,6 +7431,7 @@
     720395: function(e) {
         "use strict";
         e.exports = {
+            backgroundContainer: "backgroundContainer__412ee",
             cards: "cards__2e3a6",
             cardsContainer: "cardsContainer__43887",
             clanCard: "clanCard__50538",
@@ -7442,6 +7445,11 @@
             clanCardOuterContainer: "clanCardOuterContainer__05636",
             clanCardOuterLeft: "clanCardOuterLeft_a7787d clanCardOuter__79a32 clanCard__50538",
             clanCardOuterRight: "clanCardOuterRight__19d1a clanCardOuter__79a32 clanCard__50538",
+            ring: "ring__07750",
+            ringInner: "ringInner__1b7bc ring__07750",
+            ringMiddle: "ringMiddle__02bf7 ring__07750",
+            ringOuter: "ringOuter__042b2 ring__07750",
+            ringsContainer: "ringsContainer_f0e1d7",
             upsellContainer: "upsellContainer_aae5af",
             upsellDetails: "upsellDetails_fe7ec8",
             upsellSubtitle: "upsellSubtitle__06626",
@@ -15611,6 +15619,7 @@
     295986: function(e) {
         "use strict";
         e.exports = {
+            fixedDiscoveryIcon: "fixedDiscoveryIcon__04053",
             hidden: "hidden__7c832",
             scroller: "scroller_de945b",
             scrolling: "scrolling__921b8",
@@ -15695,7 +15704,16 @@
     434884: function(e) {
         "use strict";
         e.exports = {
-            icon: "icon__05aab"
+            backgroundImage: "backgroundImage__65618",
+            close: "close__298e6",
+            container: "container__1ac7e",
+            footer: "footer_b74401",
+            genshinBackgroundImage: "genshinBackgroundImage_b8f439 backgroundImage__65618",
+            popoutAnchor: "popoutAnchor_dd74d9",
+            popoutCaret: "popoutCaret__22ffc",
+            popoutContainer: "popoutContainer_f91849",
+            popoutContent: "popoutContent__3554c",
+            valorantBackgroundImage: "valorantBackgroundImage__3ad7b backgroundImage__65618"
         }
     },
     263: function(e) {
@@ -25780,7 +25798,8 @@
         "use strict";
         e.exports = {
             descriptionClamp: "descriptionClamp__07797",
-            seeMoreText: "seeMoreText_ff3bd6"
+            viewFullBio: "viewFullBio__0403a",
+            viewFullBioText: "viewFullBioText_fe72b1"
         }
     },
     108997: function(e) {
