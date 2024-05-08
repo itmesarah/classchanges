@@ -5199,8 +5199,9 @@
             sidebarRightDecoration: "sidebarRightDecoration__5fc16",
             sidebarRightDecorationContainer: "sidebarRightDecorationContainer__2f92e",
             signButton: "signButton__6f375",
-            steps: "steps_d254c3",
+            step: "step__4b7ad",
             stepsContainer: "stepsContainer__8d5da",
+            stepsTransitionGroup: "stepsTransitionGroup__770f6",
             submit: "submit__9d0ad"
         }
     },
@@ -5247,7 +5248,8 @@
             pickerGrid: "pickerGrid__1da1d",
             tagContainer: "tagContainer_eb01b9",
             tagInput: "tagInput__82542",
-            tagInputWrapper: "tagInputWrapper__7b1bc"
+            tagInputWrapper: "tagInputWrapper__7b1bc",
+            tagValidationText: "tagValidationText_ee7d11"
         }
     },
     599666: function(e) {
@@ -5323,11 +5325,13 @@
     963422: function(e) {
         "use strict";
         e.exports = {
+            badge: "badge__6dc6e",
             container: "container__12eae",
             details: "details__39ae8",
             guildName: "guildName_c346da",
+            guildPrefixContainer: "guildPrefixContainer_ea26db",
+            guildPrefixIcon: "guildPrefixIcon__04f98",
             header: "header__838d9",
-            icon: "icon_c1e831",
             profileContainer: "profileContainer_db7b75",
             selectOption: "selectOption__36227",
             selectPopout: "selectPopout_ff8980",
@@ -7403,14 +7407,20 @@
         e.exports = {
             adminUpsell: "adminUpsell_a0161a",
             backgroundImage: "backgroundImage__778b2",
+            backgroundImageBlur: "backgroundImageBlur__8990e",
+            backgroundImageContent: "backgroundImageContent__3a238",
             container: "container_c12432",
-            genshinOnboardingBackgroundImage: "genshinOnboardingBackgroundImage__9b7e1",
-            genshinUpsellBackgroundImage: "genshinUpsellBackgroundImage__29999",
+            genshinOnboardingBackgroundImageDark: "genshinOnboardingBackgroundImageDark_dd41e7 backgroundImage__778b2",
+            genshinOnboardingBackgroundImageLight: "genshinOnboardingBackgroundImageLight_f794f5 backgroundImage__778b2",
+            genshinUpsellBackgroundImageDark: "genshinUpsellBackgroundImageDark_edee17 backgroundImage__778b2",
+            genshinUpsellBackgroundImageLight: "genshinUpsellBackgroundImageLight_c46b96 backgroundImage__778b2",
             upsellScroller: "upsellScroller__0225a",
             userOnboarding: "userOnboarding__753ed",
             userUpsell: "userUpsell__2b410",
-            valorantOnboardingBackgroundImage: "valorantOnboardingBackgroundImage__4bf87",
-            valorantUpsellBackgroundImage: "valorantUpsellBackgroundImage__2b813"
+            valorantOnboardingBackgroundImageDark: "valorantOnboardingBackgroundImageDark__69c90 backgroundImage__778b2",
+            valorantOnboardingBackgroundImageLight: "valorantOnboardingBackgroundImageLight__855b1 backgroundImage__778b2",
+            valorantUpsellBackgroundImageDark: "valorantUpsellBackgroundImageDark__8d00e backgroundImage__778b2",
+            valorantUpsellBackgroundImageLight: "valorantUpsellBackgroundImageLight__5ce9b backgroundImage__778b2"
         }
     },
     442970: function(e) {
@@ -7425,6 +7435,7 @@
         e.exports = {
             container: "container__5c0c5",
             footer: "footer__259a2",
+            footerButtons: "footerButtons__58d4a",
             scroller: "scroller_bf9c9a",
             sequencer: "sequencer__7fa68",
             stepsContainer: "stepsContainer_fd80f9"
