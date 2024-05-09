@@ -82,6 +82,7 @@
             roleName: "roleName__851c9",
             roleNameOverflow: "roleNameOverflow__27401",
             roleRemoveButton: "roleRemoveButton__20c70",
+            roleRemoveButtonCanRemove: "roleRemoveButtonCanRemove__3d3fa",
             roleRemoveIcon: "roleRemoveIcon_c3913a",
             roleRemoveIconFocused: "roleRemoveIconFocused__13220",
             roleVerifiedIcon: "roleVerifiedIcon__76b57",
@@ -3035,6 +3036,7 @@
             appIconSelection: "appIconSelection__88ace",
             appIconSelectionContainer: "appIconSelectionContainer__197e9",
             disabled: "disabled__52159",
+            newBadgeCircle: "newBadgeCircle__2b010",
             selected: "selected__45e7f"
         }
     },
@@ -4712,6 +4714,7 @@
             textAreaCustomGift: "textAreaCustomGift__373a0",
             textAreaDisabled: "textAreaDisabled__38376 textArea_a86690",
             textAreaForPostCreation: "textAreaForPostCreation_fe07b8",
+            textAreaForUserProfile: "textAreaForUserProfile__8ffe1",
             textAreaMobileThemed: "textAreaMobileThemed__4e1c3",
             textAreaSlate: "textAreaSlate__8578d",
             textAreaThreadCreation: "textAreaThreadCreation_f5ecc4",
@@ -20405,6 +20408,7 @@
             newBadge: "newBadge__905d8",
             nitroWheel: "nitroWheel__28082",
             playButton: "playButton_a7f035",
+            rootContainer: "rootContainer_b1d9f3",
             text: "text__3eeb0",
             tooltip: "tooltip_b4086a"
         }
@@ -25412,6 +25416,7 @@
             container: "container_df7ce7",
             dotSpacer: "dotSpacer__0412c",
             nickname: "nickname__745d1",
+            nicknameIcons: "nicknameIcons__1b2d1",
             pronouns: "pronouns__1266d userTag_eb9b2a",
             tags: "tags__18aee",
             userTag: "userTag_eb9b2a",
