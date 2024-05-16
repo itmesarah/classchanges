@@ -5813,6 +5813,7 @@
             closeWrapper: "closeWrapper_fa833c",
             easterEggAnimation: "easterEggAnimation_c14e21",
             easterEggAnimationReverse: "easterEggAnimationReverse_ffc502",
+            headerBar: "headerBar__7effc",
             hiddenWumpus: "hiddenWumpus__92688",
             hiddenWumpusEnabled: "hiddenWumpusEnabled_b2761b",
             itemTypeTitle: "itemTypeTitle__243d9",
@@ -5825,6 +5826,8 @@
             pageWrapperFullscreen: "pageWrapperFullscreen__0c78f",
             regularShopCard: "regularShopCard_f11e90",
             shop: "shop_b31ed2",
+            shopLogo: "shopLogo__7193c",
+            shopLogoContainer: "shopLogoContainer__5fd13",
             shopScroll: "shopScroll_caa423",
             shopScrollBackgroundPrimary: "shopScrollBackgroundPrimary__28f1d",
             tallerShopCard: "tallerShopCard__685e2",
@@ -6355,10 +6358,12 @@
             interactionsContainer: "interactionsContainer__97fe3",
             interactionsContainerHeader: "interactionsContainerHeader_a937d2",
             joinPromptContainer: "joinPromptContainer_e5abcb",
+            maybeClickable: "maybeClickable__0a29f",
             popout: "popout_cfa8bc",
             popoutBlockedWarningIcon: "popoutBlockedWarningIcon_a01b83",
             popoutContentBody: "popoutContentBody_f9fe14",
             popoutContentHeader: "popoutContentHeader_daecb8",
+            popoutHeaderIcons: "popoutHeaderIcons__3a068",
             popoutStackedAvatar: "popoutStackedAvatar__339c9",
             popoutStreamImg: "popoutStreamImg_a5f0ae",
             popoutTextPrimary: "popoutTextPrimary_d83570",
@@ -6386,6 +6391,12 @@
         "use strict";
         e.exports = {
             loadingSpinner: "loadingSpinner_a6884b"
+        }
+    },
+    952853: function(e) {
+        "use strict";
+        e.exports = {
+            container: "container__92138"
         }
     },
     77815: function(e) {
@@ -15675,14 +15686,14 @@
             clickableContainer: "clickableContainer__6a669",
             container: "container__0998c",
             content: "content_c9b545",
-            footer: "footer__86943",
             gameIcon: "gameIcon__4a06f",
             groupAvatar: "groupAvatar__4cf21",
-            header: "header_ccd333",
             image: "image__75373",
             imageIcon: "imageIcon_fdf820",
+            inline: "inline__51026",
             joinButton: "joinButton__081d8",
-            joinButtonWrapper: "joinButtonWrapper_f4db6e",
+            joinButtonWhatWrapper: "joinButtonWhatWrapper_fa34bc",
+            joinButtonWhoWrapper: "joinButtonWhoWrapper__15fe3",
             liveBadge: "liveBadge__4290f",
             multiLineTitle: "multiLineTitle__68afa",
             pill: "pill__2f6a4",
@@ -17394,6 +17405,8 @@
             discriminator: "discriminator_e03675",
             globalName: "globalName__61364",
             messagePreview: "messagePreview__486f6",
+            mutualGuilds: "mutualGuilds__4caba",
+            mutualGuildsContainer: "mutualGuildsContainer__46675",
             tagContainer: "tagContainer__76b01",
             timestampWithPreview: "timestampWithPreview__44a71",
             userContainerWithPreview: "userContainerWithPreview__0f0c2",
@@ -22869,6 +22882,18 @@
             title: "title_de2774",
             utils: "utils_ab6626",
             white: "white__5d308"
+        }
+    },
+    981079: function(e) {
+        "use strict";
+        e.exports = {
+            newBadge: "newBadge_d8a97a"
+        }
+    },
+    233269: function(e) {
+        "use strict";
+        e.exports = {
+            container: "container_ab2539"
         }
     },
     862317: function(e) {
