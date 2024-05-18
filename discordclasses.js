@@ -6331,6 +6331,7 @@
             fontScaling: "fontScaling__42daa",
             icon: "icon_c888a7",
             infoSection: "infoSection__07f39",
+            openOnHover: "openOnHover__53ecc",
             reply: "reply_d4ce98",
             selected: "selected__31bdc",
             thumbnail: "thumbnail__18ece",
@@ -7171,13 +7172,10 @@
             cardContentDescriptionSection: "cardContentDescriptionSection__30f21",
             cardContentTitleSection: "cardContentTitleSection_dd3bf1",
             cardFooter: "cardFooter_ed5f2e",
-            cardFooterGame: "cardFooterGame_de9392",
-            cardFooterGameImg: "cardFooterGameImg_a0eeb2",
             cardFooterGames: "cardFooterGames_aebfa9",
             cardFooterInfo: "cardFooterInfo__5a461",
             cardFooterMembers: "cardFooterMembers__5eb8a",
             cardFooterMembersIcon: "cardFooterMembersIcon__1c10d",
-            cardFooterOtherCount: "cardFooterOtherCount_a26e63",
             cardNameAndTagWrapper: "cardNameAndTagWrapper_d87ceb",
             clanBadge: "clanBadge__4c045",
             clanBannerPreview: "clanBannerPreview__4375a",
@@ -7195,6 +7193,19 @@
             trait: "trait_dfdb34",
             traitsContainer: "traitsContainer__23f4b",
             wildCardText: "wildCardText_ed09a2"
+        }
+    },
+    785008: function(e) {
+        "use strict";
+        e.exports = {
+            extraGameCount: "extraGameCount__4a2d9",
+            gameImage: "gameImage__8bfdc",
+            gameImageContainer: "gameImageContainer_ecf6f5",
+            tooltipGame: "tooltipGame__14597",
+            tooltipGameImage: "tooltipGameImage__7288c",
+            tooltipGameImageContainer: "tooltipGameImageContainer__97924 gameImageContainer_ecf6f5",
+            tooltipGameName: "tooltipGameName__274e4",
+            tooltipGames: "tooltipGames__2a826"
         }
     },
     209423: function(e) {
@@ -17056,6 +17067,7 @@
             label: "label_b43a49",
             launchIcon: "launchIcon__1a9a6",
             loading: "loading__41f89",
+            premium: "premium__0b60b",
             textEmoji: "textEmoji_d5e341"
         }
     },
@@ -22926,6 +22938,30 @@
             container: "container__9cc85",
             selected: "selected__392f1",
             tab: "tab_f0091c"
+        }
+    },
+    430783: function(e) {
+        "use strict";
+        e.exports = {
+            bottomRow: "bottomRow_bc23ac",
+            container: "container__5be37",
+            contents: "contents__93de2",
+            darkThemeGradient: "darkThemeGradient__34b11",
+            heroAsset: "heroAsset__7f62d",
+            heroAssetWrapper: "heroAssetWrapper__6ab71",
+            lightThemeGradient: "lightThemeGradient__299c3",
+            overlay: "overlay__193e7",
+            partnerBranding: "partnerBranding__0ba05",
+            positionContentOverBackground: "positionContentOverBackground__8fd75",
+            submenuIcon: "submenuIcon__7e66b",
+            submenuWrapper: "submenuWrapper__7b769",
+            white: "white__6bc0a"
+        }
+    },
+    641935: function(e) {
+        "use strict";
+        e.exports = {
+            container: "container__118f6"
         }
     },
     862317: function(e) {
@@ -29401,6 +29437,7 @@
             arrowHitbox: "arrowHitbox__58add",
             arrowHitboxPadding: "arrowHitboxPadding__8a68d",
             carousel: "carousel_c25a21",
+            carouselContainer: "carouselContainer__8d9fc",
             carouselItem: "carouselItem_dd9fbe",
             controls: "controls_a919f2",
             dot: "dot__6356c",
