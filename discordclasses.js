@@ -5104,6 +5104,7 @@
             mainContent: "mainContent__465e0",
             modal: "modal__06f49",
             modalContents: "modalContents_d4af1c",
+            noticeRegion: "noticeRegion_f037d9",
             settingsTab: "settingsTab_c602d2",
             sidebar: "sidebar__57865",
             sidebarWrapper: "sidebarWrapper_c37160",
@@ -15691,7 +15692,8 @@
             numberPill: "numberPill__7188a",
             othersCount: "othersCount__89551",
             rowIcon: "rowIcon__45dc2",
-            rowIconV2: "rowIconV2_fe06d9 rowIcon__45dc2"
+            rowIconV2: "rowIconV2_fe06d9 rowIcon__45dc2",
+            tooltipPointer: "tooltipPointer__87949"
         }
     },
     181096: function(e) {
@@ -15702,6 +15704,8 @@
             clickableContainer: "clickableContainer__6a669",
             container: "container__0998c",
             content: "content_c9b545",
+            ellipsis: "ellipsis_d32cd5",
+            fadeIn: "fadeIn__485ae",
             gameIcon: "gameIcon__4a06f",
             groupAvatar: "groupAvatar__4cf21",
             image: "image__75373",
@@ -15717,7 +15721,8 @@
             pillIcon: "pillIcon__62bae",
             singleLineTitle: "singleLineTitle_f21580",
             streamContainer: "streamContainer_a26d75",
-            streamPreview: "streamPreview__38008"
+            streamPreview: "streamPreview__38008",
+            subtitle: "subtitle__8eb80"
         }
     },
     952972: function(e) {
@@ -25625,6 +25630,7 @@
             nickname: "nickname__745d1",
             nicknameIcons: "nicknameIcons__1b2d1",
             pronouns: "pronouns__1266d userTag_eb9b2a",
+            pronounsTooltip: "pronounsTooltip__77e16",
             tags: "tags__18aee",
             userTag: "userTag_eb9b2a",
             userTagDiscriminator: "userTagDiscriminator_dd0ae5",
@@ -25836,6 +25842,7 @@
             badgeList: "badgeList__70639",
             container: "container__020e3",
             overlay: "overlay__15b40",
+            username: "username__7cf20",
             usernameBadgeList: "usernameBadgeList__9a1fb"
         }
     },
