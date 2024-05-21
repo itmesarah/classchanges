@@ -1859,13 +1859,6 @@
             username: "username__21470"
         }
     },
-    494702: function(e) {
-        "use strict";
-        e.exports = {
-            modalContent: "modalContent__38dbf",
-            warningText: "warningText__5c2f6"
-        }
-    },
     353332: function(e) {
         "use strict";
         e.exports = {
@@ -4593,6 +4586,13 @@
             xsmallAvatar: "xsmallAvatar__5fd01"
         }
     },
+    893522: function(e) {
+        "use strict";
+        e.exports = {
+            modalContent: "modalContent__1aa3c",
+            warningText: "warningText_ef71ea"
+        }
+    },
     752862: function(e) {
         "use strict";
         e.exports = {
@@ -5980,8 +5980,7 @@
             purchaseButton: "purchaseButton_c932c7",
             shaker: "shaker__2bf29",
             shopCard: "shopCard__9e3fe",
-            shopCardDefaultAnimation: "shopCardDefaultAnimation_bcabdf",
-            shopCardTransformationAnimation: "shopCardTransformationAnimation__05043"
+            shopCardAnimation: "shopCardAnimation_d6a947"
         }
     },
     87951: function(e) {
@@ -5994,6 +5993,11 @@
         "use strict";
         e.exports = {
             avatarPreviewContainer: "avatarPreviewContainer__73688",
+            bundleAvatarPreviewContainer: "bundleAvatarPreviewContainer_e07383",
+            bundlePfxPreviewContainer: "bundlePfxPreviewContainer_ec3791",
+            bundlePreviewContainer: "bundlePreviewContainer__4f4af",
+            bundlePreviewSlide: "bundlePreviewSlide_dc62a3",
+            bundleSlideTitle: "bundleSlideTitle_f39228",
             button: "button__0ce02",
             buttonsContainer: "buttonsContainer__79059",
             categoryBanner: "categoryBanner__1b5f1",
@@ -6083,8 +6087,7 @@
             profileEffectShopPreview: "profileEffectShopPreview__291e4",
             purchaseButton: "purchaseButton__6b7c9",
             shopCard: "shopCard__3d319",
-            shopCardDefaultAnimation: "shopCardDefaultAnimation__9f764",
-            shopCardTransformationAnimation: "shopCardTransformationAnimation__0e0be"
+            shopCardAnimation: "shopCardAnimation_e4a1b5"
         }
     },
     449221: function(e) {
@@ -7564,7 +7567,6 @@
         "use strict";
         e.exports = {
             card: "card_e4e263",
-            gradient: "gradient__3bfb3",
             masonryList: "masonryList__7a8d2",
             masonryListContainer: "masonryListContainer__755e5",
             masonryListGradient: "masonryListGradient__25591",
