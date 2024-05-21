@@ -2341,6 +2341,7 @@
             activityContainer: "activityContainer_f23569",
             activityContainerNoMargin: "activityContainerNoMargin_e942bd",
             activityPanelContainer: "activityPanelContainer__57291",
+            avatar: "avatar__2fbe1",
             circularButton: "circularButton__5daa7",
             flex: "flex__5ddc8",
             footer: "footer__7a7bf",
@@ -5904,14 +5905,37 @@
             giftButtonInner: "giftButtonInner_c9f8fd"
         }
     },
+    139557: function(e) {
+        "use strict";
+        e.exports = {
+            badge: "badge__60cf6",
+            badgeContainer: "badgeContainer__541f1",
+            carousel: "carousel_c638a6",
+            carouselContainer: "carouselContainer__9995f",
+            headerAsset: "headerAsset__2db3c",
+            headerContainer: "headerContainer__29549",
+            headerContent: "headerContent_b74e9c",
+            logo: "logo__1a825",
+            logoAndDescriptionContainer: "logoAndDescriptionContainer__5ad27",
+            overflowImage: "overflowImage_b382c8",
+            overflowSlideAnimator: "overflowSlideAnimator__4428d",
+            overflowSlideAnimatorContainer: "overflowSlideAnimatorContainer__57bdc",
+            paginationArrow: "paginationArrow_ed696e",
+            paginationControls: "paginationControls_f5f6d3",
+            paginationDot: "paginationDot__68aef",
+            paginationDotSelected: "paginationDotSelected__8705e",
+            slideAnimator: "slideAnimator__2e9ff"
+        }
+    },
     577687: function(e) {
         "use strict";
         e.exports = {
-            defaultPrice: "defaultPrice__04919",
+            dimmed: "dimmed__15a02",
             fullPrice: "fullPrice__8d254",
             premiumIcon: "premiumIcon_a6a247",
+            price: "price_b065f9",
             priceTagsContainer: "priceTagsContainer_b12e66",
-            strikedPrice: "strikedPrice__8a625"
+            striked: "striked__695cb"
         }
     },
     638075: function(e) {
@@ -6381,6 +6405,7 @@
             shareToChannelButton: "shareToChannelButton_ee0e50",
             shareToChannelInput: "shareToChannelInput_a160d6",
             shareToChannelInputHasAttachments: "shareToChannelInputHasAttachments__4d1e1",
+            streamCTA: "streamCTA__558dc",
             streamingPopoutHero: "streamingPopoutHero__03808",
             toastContainer: "toastContainer__40273",
             voiceChannelAdditionalParticipants: "voiceChannelAdditionalParticipants__03b6f",
@@ -7147,19 +7172,12 @@
     93118: function(e) {
         "use strict";
         e.exports = {
-            card: "card__56b24",
             container: "container_ec1fbc",
             content: "content__7833e",
             discoveryContainer: "discoveryContainer__34773",
             dragRegion: "dragRegion__53c6d",
-            gradient: "gradient__1ca13",
             toolbar: "toolbar__4e903",
-            topPicks: "topPicks__3115d",
-            topPicksContent: "topPicksContent__7c8f8",
-            topPicksHeader: "topPicksHeader_d3b9c1",
-            topPicksList: "topPicksList_d0f37b",
-            topPicksSpacer: "topPicksSpacer__6fc8d",
-            topPicksTitle: "topPicksTitle__399da"
+            topPicksContent: "topPicksContent__7c8f8"
         }
     },
     449729: function(e) {
@@ -7540,6 +7558,22 @@
             upsellDetails: "upsellDetails_fe7ec8",
             upsellSubtitle: "upsellSubtitle__06626",
             upsellTitle: "upsellTitle__25132"
+        }
+    },
+    886722: function(e) {
+        "use strict";
+        e.exports = {
+            card: "card_e4e263",
+            gradient: "gradient__3bfb3",
+            masonryList: "masonryList__7a8d2",
+            masonryListContainer: "masonryListContainer__755e5",
+            masonryListGradient: "masonryListGradient__25591",
+            previewList: "previewList__9dd4d",
+            previewListContainer: "previewListContainer_cf8f67",
+            previewListSection: "previewListSection_d7bd92",
+            sectionHeader: "sectionHeader_d05f3e",
+            sectionHeaderSpacer: "sectionHeaderSpacer__8428f",
+            sectionHeaderTitle: "sectionHeaderTitle__06f77"
         }
     },
     353964: function(e) {
@@ -15834,6 +15868,7 @@
         e.exports = {
             backgroundImage: "backgroundImage__6b7c7",
             close: "close__8441b",
+            coachmarkTextContainer: "coachmarkTextContainer__422cd",
             container: "container_ab66cd",
             footer: "footer_eacf42",
             genshinBackgroundImage: "genshinBackgroundImage__67141 backgroundImage__6b7c7",
@@ -15841,6 +15876,7 @@
             gradientHidden: "gradientHidden__0cdc2",
             popoutAnchor: "popoutAnchor__4e269",
             popoutCaret: "popoutCaret_ca2beb",
+            popoutCaretLeft: "popoutCaretLeft_bfe18a",
             popoutContainer: "popoutContainer_dd3678",
             popoutContent: "popoutContent_a7c733",
             valorantBackgroundImage: "valorantBackgroundImage_eb06a5 backgroundImage__6b7c7"
@@ -25529,7 +25565,9 @@
             clamp: "clamp__79a59",
             content: "content_faa8bf",
             fullSize: "fullSize_b0d012",
+            incorporeal: "incorporeal_cb0354",
             invisibleContainer: "invisibleContainer__1e05d",
+            placeholderWidth: "placeholderWidth__1e10a",
             statusBubble: "statusBubble__1a4c3",
             statusBubbleCopyStatusCursor: "statusBubbleCopyStatusCursor_d67753",
             statusBubbleEmojiOnlyPadding: "statusBubbleEmojiOnlyPadding_ff949e",
