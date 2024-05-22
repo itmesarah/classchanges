@@ -3040,7 +3040,8 @@
             cta: "cta_b3dafc",
             icon: "icon__7f33e",
             pointer: "pointer_c1544c",
-            poweredByNitroContainer: "poweredByNitroContainer__6865d"
+            poweredByNitroContainer: "poweredByNitroContainer__6865d",
+            text: "text_c23d21"
         }
     },
     761064: function(e) {
@@ -7234,6 +7235,7 @@
         "use strict";
         e.exports = {
             applicationContainer: "applicationContainer_eab373",
+            applyButtonContainer: "applyButtonContainer__8dd0c",
             body: "body_ed1b36",
             card: "card_cc96f8",
             clanContainer: "clanContainer__451f0",
@@ -20118,15 +20120,6 @@
             spinnerWrapperDefault: "spinnerWrapperDefault__7e0b0 spinnerWrapper__47b47",
             spinnerWrapperImageOnly: "spinnerWrapperImageOnly__8bbed spinnerWrapper__47b47",
             trashIcon: "trashIcon_a910be"
-        }
-    },
-    62448: function(e) {
-        "use strict";
-        e.exports = {
-            button: "button__14158",
-            dismissButton: "dismissButton_c7fbc5 button__14158",
-            pollsCtaButton: "pollsCtaButton_a4dc61 button__14158",
-            tooltip: "tooltip__17c29"
         }
     },
     388220: function(e) {
