@@ -5154,6 +5154,15 @@
             wrapper: "wrapper__900d7"
         }
     },
+    993123: function(e) {
+        "use strict";
+        e.exports = {
+            clickable: "clickable__2bd02",
+            selectable: "selectable__7e2ef",
+            selected: "selected__064ce",
+            trait: "trait__089c4"
+        }
+    },
     267461: function(e) {
         "use strict";
         e.exports = {
@@ -5232,10 +5241,12 @@
             descriptionBorderMask: "descriptionBorderMask__08213",
             descriptionMask: "descriptionMask_d8fc7b",
             descriptionText: "descriptionText_bcd405",
+            strikethrough: "strikethrough__29702",
             tags: "tags_ec044d",
             tagsContainer: "tagsContainer__3f5f9",
             tagsCount: "tagsCount__9f3ec",
             trait: "trait_d1186b",
+            traits: "traits__639e7",
             traitsBorderMask: "traitsBorderMask__07042",
             traitsMask: "traitsMask__094bf",
             wildCardText: "wildCardText_c764c9"
@@ -7222,12 +7233,11 @@
             clanTagChiplet: "clanTagChiplet__7f357",
             clanTagChipletWrapper: "clanTagChipletWrapper__734a9",
             clickableCard: "clickableCard__1c1e9",
-            expandedTraitsContainer: "expandedTraitsContainer__95480",
             header: "header__2b527",
-            highlightedTrait: "highlightedTrait__03953",
             overflowTooltip: "overflowTooltip__7c9d4",
             playstyle: "playstyle__9d997",
-            trait: "trait_dfdb34",
+            selectedTrait: "selectedTrait_ee0767",
+            thinTrait: "thinTrait__8a2ec",
             traitsContainer: "traitsContainer__23f4b",
             wildCardText: "wildCardText_ed09a2"
         }
@@ -18191,6 +18201,7 @@
     476002: function(e) {
         "use strict";
         e.exports = {
+            body: "body_cdd5b8",
             description: "description__3eff0",
             divider: "divider__7d1fe",
             expiringStatusIcon: "expiringStatusIcon__0be5b",
