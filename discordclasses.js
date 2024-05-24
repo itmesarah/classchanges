@@ -870,6 +870,7 @@
             ownerIcon: "ownerIcon_bd8e7d icon__07c5b",
             placeholder: "placeholder__134e3 member_aa4760",
             premiumIcon: "premiumIcon__58b74 icon__07c5b",
+            subtext: "subtext_d86a94",
             username: "username_ab1e31"
         }
     },
@@ -5772,6 +5773,9 @@
         e.exports = {
             avatarDecoration: "avatarDecoration_a30e58",
             bannerContainer: "bannerContainer__879e1",
+            bundlePreview: "bundlePreview__65f2b",
+            bundleProfileEffectCard: "bundleProfileEffectCard_cdabea",
+            buttons: "buttons__0383d",
             collectedInfoContainer: "collectedInfoContainer__6617a",
             collectedTextContainer: "collectedTextContainer_b6fcfd",
             confettiCanvas: "confettiCanvas_fbf264",
@@ -18219,7 +18223,8 @@
             statusItem: "statusItem_e3c3f5",
             statusPickerModalMenu: "statusPickerModalMenu_ba9252",
             subMenuIcon: "subMenuIcon__83a81",
-            themeContainer: "themeContainer_fb8696"
+            themeContainer: "themeContainer_fb8696",
+            username: "username_f83278"
         }
     },
     717187: function(e) {
