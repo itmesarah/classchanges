@@ -8940,10 +8940,12 @@
         e.exports = {
             container: "container__2c6a3",
             content: "content__6d5df",
-            cta: "cta__12939",
+            footerArrow: "footerArrow_f6ab61",
             footerContainer: "footerContainer_bc17b3",
+            footerText: "footerText_c6879e",
             headerContainer: "headerContainer_b04aeb",
             headerText: "headerText__8431e",
+            originIcon: "originIcon_fee508",
             quote: "quote__5375c"
         }
     },
@@ -16652,16 +16654,17 @@
             remediationElementsHeader: "remediationElementsHeader__79663"
         }
     },
-    266248: function(e) {
+    40834: function(e) {
         "use strict";
         e.exports = {
-            avatar: "avatar__22897",
-            container: "container__02c63",
-            description: "description_c166a1",
-            header: "header__4624b",
-            userContainer: "userContainer__1d5a2",
-            userInfo: "userInfo_cb93ff",
-            userName: "userName__708ef"
+            actionButtonsContainer: "actionButtonsContainer__72b0e",
+            avatar: "avatar__0c803",
+            container: "container__38d65",
+            description: "description__0f01e",
+            header: "header__3078a",
+            userContainer: "userContainer__17f5e",
+            userInfo: "userInfo__81d75",
+            userName: "userName_a131e1"
         }
     },
     160503: function(e) {
@@ -17679,6 +17682,7 @@
             confirmText: "confirmText_ab45a9",
             container: "container__62863",
             ctaButtonContainer: "ctaButtonContainer__70c4d",
+            embedContainer: "embedContainer__5278d",
             embedWrapper: "embedWrapper__47b23",
             gifFavoriteButton: "gifFavoriteButton_bca32d",
             giftCodeContainer: "giftCodeContainer_fedf35",
@@ -31564,6 +31568,7 @@
             itemContentContainer: "itemContentContainer__77d7f",
             lazyImg: "lazyImg_b510a9",
             lazyImgContainer: "lazyImgContainer_b0a5df",
+            mosaicContainer: "mosaicContainer__204db",
             nonVisualMediaItem: "nonVisualMediaItem__6faf4",
             nonVisualMediaItemContainer: "nonVisualMediaItemContainer__81ce5",
             oneByOneGrid: "oneByOneGrid__36e03",
