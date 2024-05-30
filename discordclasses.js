@@ -5995,7 +5995,8 @@
     87951: function(e) {
         "use strict";
         e.exports = {
-            heading: "heading__1b057"
+            container: "container__528d5",
+            discount: "discount__0188b"
         }
     },
     975075: function(e) {
@@ -8678,7 +8679,8 @@
             left: "left__7aeb3",
             message: "message_c5cb1f",
             messageContent: "messageContent__6ae89",
-            messageContentIcon: "messageContentIcon__611cb",
+            messageContentLeadingIcon: "messageContentLeadingIcon__40b53",
+            messageContentTrailingIcon: "messageContentTrailingIcon__0584f",
             messageCountBox: "messageCountBox__8885c",
             messageCountIcon: "messageCountIcon__8c6fd",
             messageCountText: "messageCountText__0393e",
@@ -25372,7 +25374,8 @@
             facepile: "facepile__20e95",
             left: "left_e75e69",
             messageContent: "messageContent__6d141",
-            messageContentIcon: "messageContentIcon__4312a",
+            messageContentLeadingIcon: "messageContentLeadingIcon__06b07",
+            messageContentTrailingIcon: "messageContentTrailingIcon__9e03c",
             noAvatarIcon: "noAvatarIcon__9480d",
             parentName: "parentName__2142e",
             startedByName: "startedByName_bf6d0b",
@@ -27626,7 +27629,8 @@
             header: "header_f82dfb",
             mentioned: "mentioned__0dd68",
             messageContent: "messageContent__8b5ed",
-            messageContentIcon: "messageContentIcon__81b24",
+            messageContentLeadingIcon: "messageContentLeadingIcon__46df3",
+            messageContentTrailingIcon: "messageContentTrailingIcon__2811c",
             messageContentWrapper: "messageContentWrapper__34c64",
             sticker: "sticker__6624d",
             toast: "toast__4a149",
@@ -31487,7 +31491,8 @@
             pollBadgeReplied: "pollBadgeReplied__58763",
             repliedMessage: "repliedMessage__636d2",
             repliedTextContent: "repliedTextContent_b12fe1",
-            repliedTextContentIcon: "repliedTextContentIcon_da8b30",
+            repliedTextContentLeadingIcon: "repliedTextContentLeadingIcon_e42c38",
+            repliedTextContentTrailingIcon: "repliedTextContentTrailingIcon__8ab89",
             repliedTextPlaceholder: "repliedTextPlaceholder__1b40c",
             repliedTextPreview: "repliedTextPreview__1a8a4",
             replyAvatar: "replyAvatar__4ba85",
@@ -31501,7 +31506,8 @@
             threadMessageAccessory: "threadMessageAccessory_ef0459",
             threadMessageAccessoryAvatar: "threadMessageAccessoryAvatar__27333",
             threadMessageAccessoryContent: "threadMessageAccessoryContent__42312",
-            threadMessageAccessoryContentIcon: "threadMessageAccessoryContentIcon_af7460",
+            threadMessageAccessoryContentLeadingIcon: "threadMessageAccessoryContentLeadingIcon__7b9a1",
+            threadMessageAccessoryContentTrailingIcon: "threadMessageAccessoryContentTrailingIcon_a99048",
             threadMessageAccessoryPlaceholder: "threadMessageAccessoryPlaceholder_d2efc1",
             threadMessageAccessoryPreview: "threadMessageAccessoryPreview__58ff3",
             ticketIcon: "ticketIcon_eb4531",
