@@ -15811,6 +15811,10 @@
             facepile: "facepile_de0bb9",
             fadeIn: "fadeIn__485ae",
             gameIcon: "gameIcon__4a06f",
+            hangoutChannel: "hangoutChannel__76974",
+            hangoutChannelStatusContent: "hangoutChannelStatusContent__4a123",
+            hangoutStatusOthers: "hangoutStatusOthers_bd698a",
+            hangoutStatusTitleContainer: "hangoutStatusTitleContainer__34045",
             image: "image__75373",
             imageIcon: "imageIcon_fdf820",
             inline: "inline__51026",
@@ -22691,6 +22695,39 @@
             tryItOutSection: "tryItOutSection_d658ca"
         }
     },
+    455108: function(e) {
+        "use strict";
+        e.exports = {
+            avatarDecoration: "avatarDecoration__2d634",
+            avatarUploader: "avatarUploader__8a15a",
+            avatarUploaderInner: "avatarUploaderInner__3d842",
+            avatarUploaderNormal: "avatarUploaderNormal__52424 avatarUploader__8a15a",
+            avatarUploaderPremium: "avatarUploaderPremium__5653b avatarUploader__8a15a",
+            avatarUploaderPremiumNoBanner: "avatarUploaderPremiumNoBanner_e0c945 avatarUploader__8a15a",
+            banner: "banner_d99ab8",
+            bannerNitroUpsell: "bannerNitroUpsell__5f046",
+            bannerNitroUpsellText: "bannerNitroUpsellText__5dc8e",
+            bannerNormal: "bannerNormal__6ca6c banner_d99ab8",
+            bannerUploader: "bannerUploader__6a7c6",
+            bannerUploaderInnerSquare: "bannerUploaderInnerSquare__6c14c banner_d99ab8",
+            bannerUploaderInnerSquareEmpty: "bannerUploaderInnerSquareEmpty_c9eaba banner_d99ab8",
+            body: "body__15d2d",
+            defaultCursor: "defaultCursor__8b8b7",
+            gifTag: "gifTag__913c6",
+            hoverIcon: "hoverIcon__787b4",
+            hoverIconWrapper: "hoverIconWrapper__42055",
+            noBorderRadius: "noBorderRadius__0b7c0",
+            profileCustomizationPreview: "profileCustomizationPreview_e87a74",
+            profileCustomizationPreviewWithTheme: "profileCustomizationPreviewWithTheme__4b6a5 profileCustomizationPreview_e87a74",
+            profileCustomizationPreviewWithoutTheme: "profileCustomizationPreviewWithoutTheme_bf9383 profileCustomizationPreview_e87a74",
+            profileEffectsModalCustomizationPreviewWithTheme: "profileEffectsModalCustomizationPreviewWithTheme__25c58 profileCustomizationPreview_e87a74",
+            profileEffectsModalCustomizationPreviewWithoutTheme: "profileEffectsModalCustomizationPreviewWithoutTheme_e5f50c profileCustomizationPreview_e87a74",
+            status: "status__30546",
+            statusDot: "statusDot_f9865f",
+            statusDotBackground: "statusDotBackground__277a4",
+            tryingOutAvatarDecoration: "tryingOutAvatarDecoration_d6b7ec"
+        }
+    },
     935689: function(e) {
         "use strict";
         e.exports = {
@@ -22899,7 +22936,6 @@
             questAcceptedContentHeading: "questAcceptedContentHeading__46da5",
             questProgressRewardTile: "questProgressRewardTile__46cc9",
             questPromoContent: "questPromoContent_f8a83c",
-            questUnacceptedContent: "questUnacceptedContent_dba3ea",
             rewardTile: "rewardTile_d4b430",
             submenuIcon: "submenuIcon__89d1a",
             submenuWrapper: "submenuWrapper__71f75",
@@ -22981,7 +23017,6 @@
             questAcceptedHeader: "questAcceptedHeader_f7d1f7",
             questProgressRewardTile: "questProgressRewardTile_c72c7a",
             questPromoContent: "questPromoContent_f910bc",
-            questUnacceptedContent: "questUnacceptedContent_c91b61",
             rewardTile: "rewardTile__66594",
             shareIcon: "shareIcon__6b675",
             shine: "shine__72ddb",
@@ -25781,12 +25816,14 @@
     660120: function(e) {
         "use strict";
         e.exports = {
+            biteSize: "biteSize__2431d",
             clickableUsername: "clickableUsername_f267b3",
             container: "container_df7ce7",
             dotSpacer: "dotSpacer__0412c",
-            fullSizeNickname: "fullSizeNickname_a36463",
+            fullSize: "fullSize_dbf8b0",
             nickname: "nickname__745d1",
             nicknameIcons: "nicknameIcons__1b2d1",
+            panel: "panel__5c104",
             pronouns: "pronouns__1266d userTag_eb9b2a",
             pronounsTooltip: "pronounsTooltip__77e16",
             tags: "tags__18aee",
@@ -25794,13 +25831,6 @@
             userTagDiscriminator: "userTagDiscriminator_dd0ae5",
             userTagUsername: "userTagUsername__88953",
             usernameRow: "usernameRow__73bf0"
-        }
-    },
-    580245: function(e) {
-        "use strict";
-        e.exports = {
-            badge: "badge__26d6e",
-            badgeList: "badgeList_b6652b"
         }
     },
     47200: function(e) {
@@ -26005,11 +26035,8 @@
     854898: function(e) {
         "use strict";
         e.exports = {
-            badgeList: "badgeList__70639",
             container: "container__020e3",
-            overlay: "overlay__15b40",
-            username: "username__7cf20",
-            usernameBadgeList: "usernameBadgeList__9a1fb"
+            overlay: "overlay__15b40"
         }
     },
     566483: function(e) {
@@ -26979,6 +27006,7 @@
             avatarError: "avatarError__5cda5",
             avatarUploaderInner: "avatarUploaderInner__34f08",
             background: "background__4e802",
+            badge: "badge_bf025b",
             badgeList: "badgeList__6b2c7",
             constrainedRow: "constrainedRow__72f7a",
             details: "details_c180ea",
