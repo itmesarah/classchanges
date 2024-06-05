@@ -5239,9 +5239,9 @@
             clickableGame: "clickableGame_b4a78f",
             container: "container_b4fcdf",
             defaultGame: "defaultGame__57e3b",
-            errorWrapper: "errorWrapper__969d1",
-            recentGamesDivider: "recentGamesDivider__09927",
-            selectedSection: "selectedSection__6b9ac"
+            input: "input__03b75",
+            inputContainer: "inputContainer__3a0bf",
+            pills: "pills__7d9f2"
         }
     },
     590190: function(e) {
@@ -28600,6 +28600,7 @@
         e.exports = {
             bindArrow: "bindArrow__98f6f",
             combo: "combo__57290",
+            dark: "dark__42c4f",
             dim: "dim__7b9b1",
             key: "key__6a8d9",
             keybindShortcutSearchPopout: "keybindShortcutSearchPopout__8e438",
