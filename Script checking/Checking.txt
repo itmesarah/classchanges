@@ -1,4 +1,4 @@
-// File name: e4d3e294875e2d101de8.js
+// File name: 09a6918325087c101892.js
 
 (this.webpackChunkdiscord_app = this.webpackChunkdiscord_app || []).push([
     ["85552"], {
@@ -51,9 +51,9 @@
                     guild: t,
                     transitionState: l,
                     onClose: n
-                } = e, [f, _] = s.useState(7), [M, h] = s.useState(null), [T, S] = s.useState([]), x = s.useCallback(async () => {
-                    h(null), h(await d.default.updateEstimate(t.id, f, T))
-                }, [f, t.id, T]);
+                } = e, [f, _] = s.useState(7), [M, h] = s.useState(null), [S, T] = s.useState([]), x = s.useCallback(async () => {
+                    h(null), h(await d.default.updateEstimate(t.id, f, S))
+                }, [f, t.id, S]);
                 s.useEffect(() => {
                     x()
                 }, [x]);
@@ -107,14 +107,14 @@
                             title: m.default.Messages.PRUNE_WITH_ROLES,
                             children: (0, a.jsx)(r.SearchableSelect, {
                                 multi: !0,
-                                value: T,
-                                onChange: e => S(e),
+                                value: S,
+                                onChange: e => T(e),
                                 options: A
                             })
                         }), (0, a.jsx)(r.FormText, {
                             type: r.FormText.Types.DESCRIPTION,
                             className: E.spacing,
-                            children: T.length > 0 ? m.default.Messages.FORM_HELP_LAST_SEEN_WITH_ROLES_1.format({
+                            children: S.length > 0 ? m.default.Messages.FORM_HELP_LAST_SEEN_WITH_ROLES_1.format({
                                 members: M,
                                 days: f
                             }) : m.default.Messages.FORM_HELP_LAST_SEEN_1.format({
@@ -125,7 +125,7 @@
                     }), (0, a.jsxs)(r.ModalFooter, {
                         children: [(0, a.jsx)(r.Button, {
                             onClick: () => {
-                                d.default.prune(t.id, f, T), n()
+                                d.default.prune(t.id, f, S), n()
                             },
                             children: m.default.Messages.PRUNE
                         }), (0, a.jsx)(r.Button, {
@@ -137,12 +137,6 @@
                     })]
                 })
             }
-        },
-        989885: function(e, t, l) {
-            "use strict";
-            l.r(t);
-            var a = l("173518");
-            l.es(a, t)
         },
         512508: function(e, t, l) {
             "use strict";
@@ -167,8 +161,8 @@
                 _ = l("481060"),
                 M = l("461745"),
                 h = l("933557"),
-                T = l("471445"),
-                S = l("518738"),
+                S = l("471445"),
+                T = l("518738"),
                 x = l("439170"),
                 A = l("592125"),
                 p = l("430824"),
@@ -230,7 +224,7 @@
                 } = e, {
                     id: n,
                     name: o
-                } = l.record, i = (0, S.useRoleIcon)({
+                } = l.record, i = (0, T.useRoleIcon)({
                     guildId: a,
                     roleId: n,
                     size: 16
@@ -259,7 +253,7 @@
                     channel: t,
                     row: l,
                     className: a
-                } = e, s = null != t.parent_id, n = (0, T.getChannelIconComponent)(t);
+                } = e, s = null != t.parent_id, n = (0, S.getChannelIconComponent)(t);
                 return (0, d.jsxs)("div", {
                     className: c()(I.rowLabel, I.channelLabel, {
                         [I.hasParent]: s
@@ -307,19 +301,19 @@
                     }), t.forEach(e => {
                         e in l && (a[e] = B(l[e]))
                     }), a
-                })(s, n, m), [s, n, m]), T = u.useMemo(() => Object.keys(h), [h]), [S, x] = u.useState(""), [g, L] = u.useState(!1), [N, H] = u.useState(!1), [D, F] = u.useState(!1), y = u.useRef(null), {
+                })(s, n, m), [s, n, m]), S = u.useMemo(() => Object.keys(h), [h]), [T, x] = u.useState(""), [g, L] = u.useState(!1), [N, H] = u.useState(!1), [D, F] = u.useState(!1), y = u.useRef(null), {
                     sections: w,
                     sectionCounts: k
                 } = u.useMemo(() => {
-                    let e = "" !== S ? a.filter(e => E()(S, e.display.toLocaleLowerCase())) : a,
-                        t = "" !== S ? l.filter(e => E()(S, e.display.toLocaleLowerCase())) : l,
+                    let e = "" !== T ? a.filter(e => E()(T, e.display.toLocaleLowerCase())) : a,
+                        t = "" !== T ? l.filter(e => E()(T, e.display.toLocaleLowerCase())) : l,
                         s = [],
                         n = [];
                     return s[0] = e, n[0] = e.length, s[1] = t, n[1] = t.length, {
                         sections: s,
                         sectionCounts: n
                     }
-                }, [S, a, l]), P = u.useCallback(e => {
+                }, [T, a, l]), P = u.useCallback(e => {
                     let t = Object.values(e),
                         l = t.filter(e => {
                             let {
@@ -378,13 +372,13 @@
                             })
                         }, s.id)
                     }, [t, G, w]),
-                    q = u.useMemo(() => T.map(e => {
+                    q = u.useMemo(() => S.map(e => {
                         var l, a;
                         return l = h[e], a = t, {
                             ...l.tag,
                             label: U(l.row, a, I.noIndent)
                         }
-                    }), [h, T, t]);
+                    }), [h, S, t]);
                 return (0, d.jsxs)("div", {
                     className: c()(I.searchContainer, C),
                     children: [(0, d.jsxs)("div", {
@@ -393,10 +387,10 @@
                             tags: q,
                             maxHeight: 98,
                             size: M.default.Sizes.MEDIUM,
-                            query: S,
+                            query: T,
                             ref: y,
                             onRemoveTag: e => {
-                                let t = T[e],
+                                let t = S[e],
                                     {
                                         [t]: l,
                                         ...a
@@ -407,7 +401,7 @@
                                 x(e.trim().toLocaleLowerCase())
                             },
                             placeholder: null != i ? i : R.default.Messages.GUILD_AUTOMOD_EXEMPTION_SEARCH_PLACEHOLDER,
-                            sections: [T.length],
+                            sections: [S.length],
                             inputProps: {
                                 "aria-labelledby": v,
                                 "aria-controls": j,
@@ -549,7 +543,7 @@
                     spring: _
                 }, M] = (0, i.useSpring)(() => ({
                     spring: 0
-                })), h = (0, u.useToken)(d.default.colors.BACKGROUND_PRIMARY).hex(), T = (0, u.useToken)(d.default.colors.CONTROL_BRAND_FOREGROUND).hex(), S = s.useCallback(() => {
+                })), h = (0, u.useToken)(d.default.colors.BACKGROUND_PRIMARY).hex(), S = (0, u.useToken)(d.default.colors.CONTROL_BRAND_FOREGROUND).hex(), T = s.useCallback(() => {
                     M({
                         spring: 1,
                         config: c
@@ -560,11 +554,11 @@
                     })
                 }, [M]);
                 s.useEffect(() => {
-                    if (null != t && null != f) !n(t, f) && S()
-                }, [S, t, f, n]);
+                    if (null != t && null != f) !n(t, f) && T()
+                }, [T, t, f, n]);
                 let x = null == _ ? void 0 : _.to({
                         range: [0, 1],
-                        output: ["".concat(h, "00"), "".concat(T, "27")]
+                        output: ["".concat(h, "00"), "".concat(S, "27")]
                     }),
                     A = null != r ? {
                         ...r,
@@ -631,8 +625,8 @@
                 _ = l("626135"),
                 M = l("910693"),
                 h = l("241559"),
-                T = l("256003"),
-                S = l("981631"),
+                S = l("256003"),
+                T = l("981631"),
                 x = l("689938"),
                 A = l("621747");
 
@@ -642,10 +636,10 @@
                 } = e, p = (0, h.useCanAccessBulkBanningFeature)(t), {
                     selectedUserIds: g,
                     clearSelection: L
-                } = (0, T.default)(t), N = g.size > 0, H = async (e, t, l, a) => {
+                } = (0, S.default)(t), N = g.size > 0, H = async (e, t, l, a) => {
                     try {
                         let s = await d.default.banMultipleUsers(e, t, l, a);
-                        (0, r.showToast)((0, r.createToast)(x.default.Messages.BAN_MULTIPLE_SUCCESS_TOAST, r.ToastType.SUCCESS)), _.default.track(S.AnalyticEvents.BULK_MODERATION_ACTION_COMPLETED, {
+                        (0, r.showToast)((0, r.createToast)(x.default.Messages.BAN_MULTIPLE_SUCCESS_TOAST, r.ToastType.SUCCESS)), _.default.track(T.AnalyticEvents.BULK_MODERATION_ACTION_COMPLETED, {
                             ...(0, C.collectGuildAnalyticsMetadata)(e),
                             action_type: M.ModerationActionType.BAN,
                             target_user_ids: [...g],
@@ -694,7 +688,7 @@
                     children: N && (0, a.jsx)(m.default, {
                         children: (0, a.jsx)(u.default, {
                             onSave: () => {
-                                _.default.track(S.AnalyticEvents.BULK_MODERATION_ACTION_STARTED, {
+                                _.default.track(T.AnalyticEvents.BULK_MODERATION_ACTION_STARTED, {
                                     ...(0, C.collectGuildAnalyticsMetadata)(t),
                                     action_type: M.ModerationActionType.BAN,
                                     target_user_ids: [...g],
@@ -851,8 +845,8 @@
                 _ = l("910693"),
                 M = l("893966"),
                 h = l("527379"),
-                T = l("827657"),
-                S = l("472596"),
+                S = l("827657"),
+                T = l("472596"),
                 x = l("201756"),
                 A = l("66747"),
                 p = l("852479"),
@@ -916,14 +910,14 @@
                             enter: R,
                             config: I
                         }),
-                        w = !_ && i === S.SearchState.LOADING;
+                        w = !_ && i === T.SearchState.LOADING;
                     return (0, a.jsxs)("table", {
                         className: o()(L.table, n),
                         children: [(0, a.jsx)(x.default, {
                             guildId: l.id,
                             currentPagedMembers: t
                         }), (0, a.jsx)("tbody", {
-                            children: i === S.SearchState.SUCCESS_FULL || i === S.SearchState.LOADING ? (0, a.jsxs)(a.Fragment, {
+                            children: i === T.SearchState.SUCCESS_FULL || i === T.SearchState.LOADING ? (0, a.jsxs)(a.Fragment, {
                                 children: [(0, a.jsx)(p.default, {
                                     guild: l,
                                     onSubmit: E
@@ -938,7 +932,7 @@
                                 }, t))]
                             }) : (0, a.jsx)("td", {
                                 colSpan: 7,
-                                children: (0, a.jsx)(T.default, {
+                                children: (0, a.jsx)(S.default, {
                                     searchState: i
                                 })
                             })
@@ -964,15 +958,15 @@
                 s.useEffect(() => {
                     (0, h.initializeMemberSafetyStore)(n.id)
                 }, [n.id]);
-                let T = s.useDeferredValue(null !== (t = f[c.currentPage]) && void 0 !== t ? t : []),
+                let S = s.useDeferredValue(null !== (t = f[c.currentPage]) && void 0 !== t ? t : []),
                     {
-                        analyticsLocations: S
+                        analyticsLocations: T
                     } = (0, m.default)(),
-                    x = null !== (l = null == S ? void 0 : S[0]) && void 0 !== l ? l : null;
+                    x = null !== (l = null == T ? void 0 : T[0]) && void 0 !== l ? l : null;
                 return s.useEffect(() => {
                     (0, _.trackMembersPageViewed)(n.id, x)
                 }, [n.id, x]), (0, a.jsx)(D, {
-                    members: T,
+                    members: S,
                     guild: n,
                     className: o,
                     searchState: i,
@@ -1073,7 +1067,7 @@
                     return a
                 },
                 MENU_DATE_FORMAT: function() {
-                    return T
+                    return S
                 },
                 default: function() {
                     return A
@@ -1093,8 +1087,8 @@
                 _ = l("981631"),
                 M = l("689938"),
                 h = l("114198");
-            let T = "MMM Do, YYYY",
-                S = u()("2015-05-15").local(),
+            let S = "MMM Do, YYYY",
+                T = u()("2015-05-15").local(),
                 x = (0, C.makeLazy)({
                     createPromise: () => Promise.resolve().then(l.bind(l, "575535")),
                     webpackId: "575535"
@@ -1110,7 +1104,7 @@
                     selectedOption: i,
                     isCustomDateRange: d,
                     menuName: C,
-                    onClose: T,
+                    onClose: S,
                     onSelectDateOption: A,
                     onToggleCustomDateRange: p,
                     onSelectStartDate: g,
@@ -1182,7 +1176,7 @@
                 }, [a, s, A]);
                 return (0, n.jsx)(c.Menu, {
                     navId: "member-safety-guild-member-".concat(C, "-menu"),
-                    onClose: T,
+                    onClose: S,
                     "aria-label": M.default.Messages.MEMBER_SAFETY_TABLE_FLAGS_POPOUT_TITLE,
                     onSelect: _.NOOP,
                     children: (0, n.jsx)(c.MenuGroup, {
@@ -1215,7 +1209,7 @@
                                         value: d && null != a ? u()(a) : void 0,
                                         onSelect: j,
                                         maxDate: u()().local(),
-                                        minDate: S
+                                        minDate: T
                                     })
                                 })
                             }), (0, n.jsx)(c.MenuItem, {
@@ -1231,7 +1225,7 @@
                                         value: d && null != s ? u()(s) : void 0,
                                         onSelect: D,
                                         maxDate: u()().local(),
-                                        minDate: d && null != a ? u()(a) : S
+                                        minDate: d && null != a ? u()(a) : T
                                     })
                                 })
                             })]
@@ -1294,7 +1288,7 @@
             "use strict";
             l.r(t), l.d(t, {
                 default: function() {
-                    return T
+                    return S
                 }
             });
             var a = l("735250"),
@@ -1314,31 +1308,31 @@
                 M = l("689938"),
                 h = l("296323");
 
-            function T(e) {
+            function S(e) {
                 let {
                     guildId: t,
                     onClose: l
-                } = e, n = (0, i.useStateFromStores)([E.default], () => E.default.getSearchStateByGuildId(t), [t], o()), T = (0, m.useTrackMemberFilterSafetyFlagsUsed)(t), S = s.useCallback(() => {
-                    !n.requireUnusualDmActivity && T(m.MemberSafetyFlagType.UNUSUAL_DM_ACTIVITY), (0, f.updateSearchState)(t, {
+                } = e, n = (0, i.useStateFromStores)([E.default], () => E.default.getSearchStateByGuildId(t), [t], o()), S = (0, m.useTrackMemberFilterSafetyFlagsUsed)(t), T = s.useCallback(() => {
+                    !n.requireUnusualDmActivity && S(m.MemberSafetyFlagType.UNUSUAL_DM_ACTIVITY), (0, f.updateSearchState)(t, {
                         ...n,
                         requireUnusualDmActivity: !n.requireUnusualDmActivity
                     })
-                }, [t, n, T]), x = s.useCallback(() => {
-                    !n.requireCommunicationDisabled && T(m.MemberSafetyFlagType.COMMUNICATION_DISABLED), (0, f.updateSearchState)(t, {
+                }, [t, n, S]), x = s.useCallback(() => {
+                    !n.requireCommunicationDisabled && S(m.MemberSafetyFlagType.COMMUNICATION_DISABLED), (0, f.updateSearchState)(t, {
                         ...n,
                         requireCommunicationDisabled: !n.requireCommunicationDisabled
                     })
-                }, [t, n, T]), A = s.useCallback(() => {
-                    !n.requireUnusualAccountActivity && T(m.MemberSafetyFlagType.UNUSUAL_ACCOUNT_ACTIVITY), (0, f.updateSearchState)(t, {
+                }, [t, n, S]), A = s.useCallback(() => {
+                    !n.requireUnusualAccountActivity && S(m.MemberSafetyFlagType.UNUSUAL_ACCOUNT_ACTIVITY), (0, f.updateSearchState)(t, {
                         ...n,
                         requireUnusualAccountActivity: !n.requireUnusualAccountActivity
                     })
-                }, [t, n, T]), p = s.useCallback(() => {
-                    !n.requireUsernameQuarantined && T(m.MemberSafetyFlagType.USERNAME_QUARANTINED), (0, f.updateSearchState)(t, {
+                }, [t, n, S]), p = s.useCallback(() => {
+                    !n.requireUsernameQuarantined && S(m.MemberSafetyFlagType.USERNAME_QUARANTINED), (0, f.updateSearchState)(t, {
                         ...n,
                         requireUsernameQuarantined: !n.requireUsernameQuarantined
                     })
-                }, [t, n, T]);
+                }, [t, n, S]);
                 return (0, a.jsx)(r.Menu, {
                     navId: "member-safety-flags",
                     onClose: l,
@@ -1355,7 +1349,7 @@
                                     className: h.unusualDMLabelIcon
                                 }), M.default.Messages.MEMBER_SAFETY_UNUSUAL_DM_ACTIVITY]
                             }),
-                            action: S,
+                            action: T,
                             checked: n.requireUnusualDmActivity
                         }), (0, a.jsx)(r.MenuCheckboxItem, {
                             id: "toggle-require-communication-disabled",
@@ -1423,8 +1417,8 @@
                 _ = l("241559"),
                 M = l("893966"),
                 h = l("256003"),
-                T = l("170323"),
-                S = l("434368"),
+                S = l("170323"),
+                T = l("434368"),
                 x = l("42170"),
                 A = l("123846"),
                 p = l("42551"),
@@ -1531,7 +1525,7 @@
                                 position: "bottom",
                                 spacing: 4,
                                 align: "left",
-                                renderPopout: () => (0, a.jsx)(T.default, {
+                                renderPopout: () => (0, a.jsx)(S.default, {
                                     guildId: t,
                                     onClose: g.NOOP
                                 }),
@@ -1626,7 +1620,7 @@
                                     let {
                                         closePopout: l
                                     } = e;
-                                    return (0, a.jsx)(S.default, {
+                                    return (0, a.jsx)(T.default, {
                                         guildId: t,
                                         onClose: l
                                     })
@@ -1796,8 +1790,8 @@
                 _ = l("104259"),
                 M = l("206017"),
                 h = l("292937"),
-                T = l("757698"),
-                S = l("553826"),
+                S = l("757698"),
+                T = l("553826"),
                 x = l("692437"),
                 A = l("912527"),
                 p = l("202597"),
@@ -1846,7 +1840,7 @@
                             });
                         case N.JoinSourceType.INVITE:
                         case N.JoinSourceType.VANITY_URL:
-                            return (0, a.jsx)(T.default, {
+                            return (0, a.jsx)(S.default, {
                                 className: v.icon,
                                 height: t,
                                 width: t
@@ -1881,7 +1875,7 @@
                 } = e, n = (0, C.useStateFromStores)([g.default], () => g.default.getSearchStateByGuildId(t), [t], u()), {
                     inviteCodes: i
                 } = (0, H.useGuildInvites)(t), d = (0, C.useStateFromStores)([m.default], () => m.default.getGuild(t)), f = null == d ? void 0 : d.vanityURLCode, [_, M] = s.useState(!1), {
-                    selectedSourceInviteCode: T,
+                    selectedSourceInviteCode: S,
                     selectedJoinSourceType: A
                 } = n, p = null != A && A !== N.JoinSourceType.UNSPECIFIED, O = (0, C.useStateFromStores)([E.default], () => E.default.hideInstantInvites, []);
                 O && (i = []);
@@ -1948,7 +1942,7 @@
                             id: "members-table-invite-code-search",
                             control: (e, t) => (0, a.jsx)(c.MenuSearchControl, {
                                 ...e,
-                                query: null != T ? T : "",
+                                query: null != S ? S : "",
                                 onChange: y,
                                 ref: t,
                                 placeholder: I.default.Messages.MEMBER_SAFETY_INVITE_CODE_SEARCH_PLACEHOLDER
@@ -1956,7 +1950,7 @@
                         }, "invite-code-filter-search"), (0, a.jsx)(c.MenuSeparator, {}), (0, a.jsx)(c.MenuRadioItem, {
                             id: "join-source-type-option-all",
                             label: I.default.Messages.GUILD_SETTINGS_FILTER_ALL,
-                            checked: null == T && null == A,
+                            checked: null == S && null == A,
                             disabled: !1,
                             action: () => V(null),
                             group: "join-source-type-options"
@@ -1968,7 +1962,7 @@
                                 vanityUrl: f,
                                 text: e
                             }),
-                            checked: T === e,
+                            checked: S === e,
                             disabled: !1,
                             action: () => B(e),
                             group: "join-source-type-options"
@@ -1995,7 +1989,7 @@
                                             vanityUrl: f
                                         })
                                     }) : null]
-                                }), p ? (0, a.jsx)(S.default, {
+                                }), p ? (0, a.jsx)(T.default, {
                                     background: v.__invalid_radio,
                                     foreground: v.radioSelection,
                                     width: 16,
@@ -2035,11 +2029,11 @@
                 let {
                     guildId: t,
                     onPageChange: l
-                } = e, [n, f] = s.useTransition(), _ = (0, i.useStateFromStores)([C.default], () => C.default.getEstimatedMemberSearchCountByGuildId(t), [t]), M = (0, i.useStateFromStoresObject)([C.default], () => C.default.getPaginationStateByGuildId(t), [t]), h = (0, u.useIsMakingRequest)(t), T = s.useMemo(() => d.PAGINATION_PAGE_SIZE_OPTIONS.map(e => ({
+                } = e, [n, f] = s.useTransition(), _ = (0, i.useStateFromStores)([C.default], () => C.default.getEstimatedMemberSearchCountByGuildId(t), [t]), M = (0, i.useStateFromStoresObject)([C.default], () => C.default.getPaginationStateByGuildId(t), [t]), h = (0, u.useIsMakingRequest)(t), S = s.useMemo(() => d.PAGINATION_PAGE_SIZE_OPTIONS.map(e => ({
                     value: e,
                     label: Number(e).toLocaleString()
-                })), []), S = new Intl.NumberFormat(m.default.getLocale()).format(_), x = m.default.Messages.MEMBER_SAFETY_TABLE_PAGINATION_LABEL.format({
-                    count: h ? "..." : S
+                })), []), T = new Intl.NumberFormat(m.default.getLocale()).format(_), x = m.default.Messages.MEMBER_SAFETY_TABLE_PAGINATION_LABEL.format({
+                    count: h ? "..." : T
                 }), A = _ > M.pageSize || h, p = _ > d.PAGINATION_PAGE_SIZE_OPTIONS["0"];
                 return (0, a.jsxs)("div", {
                     className: o()(E.paginationContainer),
@@ -2053,7 +2047,7 @@
                             }), (0, a.jsx)(r.Select, {
                                 "aria-label": x,
                                 className: E.pageSizeInput,
-                                options: T,
+                                options: S,
                                 isSelected: e => e === M.pageSize,
                                 select: e => {
                                     f(() => {
@@ -2131,8 +2125,8 @@
                 _ = l("910693"),
                 M = l("893966"),
                 h = l("527379"),
-                T = l("285173"),
-                S = l("689938"),
+                S = l("285173"),
+                T = l("689938"),
                 x = l("462983"),
                 A = l("391649");
             let p = new Set;
@@ -2154,7 +2148,7 @@
                                 children: [(0, a.jsx)("div", {
                                     className: o()(x.labelBackground, l && x.selected)
                                 }), (0, a.jsx)(E.ComboboxItem.Label, {
-                                    children: (0, a.jsx)(T.default, {
+                                    children: (0, a.jsx)(S.default, {
                                         className: o()(A.roleTooltipItem),
                                         role: s,
                                         guildId: t
@@ -2183,7 +2177,7 @@
                 }, [d, R]);
                 return (0, a.jsx)(E.ComboboxPopout, {
                     className: o()(x.rolePopout),
-                    placeholder: S.default.Messages.MEMBERS_TABLE_ROLE_SELECTION_PLACEHOLDER,
+                    placeholder: T.default.Messages.MEMBERS_TABLE_ROLE_SELECTION_PLACEHOLDER,
                     value: d,
                     onChange: I,
                     onClose: () => {
@@ -2215,8 +2209,8 @@
                 _ = l("715903"),
                 M = l("69882"),
                 h = l("189357"),
-                T = l("493892"),
-                S = l("433355"),
+                S = l("493892"),
+                T = l("433355"),
                 x = l("430824"),
                 A = l("496675"),
                 p = l("594174"),
@@ -2291,7 +2285,7 @@
                                 color: C.default.colors.TEXT_DANGER.css
                             })
                         }
-                    }), (0, T.isSpammer)(t.userId) && (0, a.jsx)(c.Tooltip, {
+                    }), (0, S.isSpammer)(t.userId) && (0, a.jsx)(c.Tooltip, {
                         text: J.default.Messages.MEMBER_SAFETY_UNUSUAL_ACCOUNT_ACTIVITY_TOOLTIP,
                         children: e => {
                             let {
@@ -2536,16 +2530,16 @@
                         selectedUserIds: f,
                         addUsers: _,
                         removeUser: M
-                    } = (0, P.default)(t.guildId), T = (0, y.useCanAccessBulkBanningFeature)(t.guildId), S = (0, y.useCanBulkBanUser)(t.guildId, T, t.userId), p = (0, h.useCanAccessGuildMemberModView)(t.guildId), g = (0, u.useStateFromStores)([U.default], () => {
+                    } = (0, P.default)(t.guildId), S = (0, y.useCanAccessBulkBanningFeature)(t.guildId), T = (0, y.useCanBulkBanUser)(t.guildId, S, t.userId), p = (0, h.useCanAccessGuildMemberModView)(t.guildId), g = (0, u.useStateFromStores)([U.default], () => {
                         var e;
                         return null !== (e = U.default.getSearchStateByGuildId(t.guildId).selectedSort) && void 0 !== e ? e : F.OrderBy.ORDER_BY_UNSPECIFIED
                     }, [t.guildId], d()), L = s.useCallback(e => {
-                        e.stopPropagation(), e.preventDefault(), null != t && S && (f.has(t.userId) ? M(t.userId) : _([t.userId]))
-                    }, [_, S, t, M, f]), N = g === F.OrderBy.ORDER_BY_GUILD_JOINED_AT_ASC, H = g === F.OrderBy.ORDER_BY_USER_ID_ASC || g === F.OrderBy.ORDER_BY_USER_ID_DESC;
+                        e.stopPropagation(), e.preventDefault(), null != t && T && (f.has(t.userId) ? M(t.userId) : _([t.userId]))
+                    }, [_, T, t, M, f]), N = g === F.OrderBy.ORDER_BY_GUILD_JOINED_AT_ASC, H = g === F.OrderBy.ORDER_BY_USER_ID_ASC || g === F.OrderBy.ORDER_BY_USER_ID_DESC;
                     return (0, a.jsxs)(a.Fragment, {
-                        children: [T && (0, a.jsx)(c.Tooltip, {
+                        children: [S && (0, a.jsx)(c.Tooltip, {
                             tooltipClassName: q.disabledActionTooltip,
-                            shouldShow: !S,
+                            shouldShow: !T,
                             text: J.default.Messages.MEMBER_SAFETY_ACTION_PERMISSIONS_MISSING,
                             children: e => (0, a.jsx)("td", {
                                 ...e,
@@ -2556,7 +2550,7 @@
                                         children: (0, a.jsx)(c.Checkbox, {
                                             type: c.Checkbox.Types.INVERTED,
                                             value: f.has(t.userId),
-                                            disabled: !S
+                                            disabled: !T
                                         })
                                     })
                                 })
@@ -2672,7 +2666,7 @@
                     isLoading: c = !1,
                     isHoldingAdvancedInfoKey: m = !1,
                     compact: E = !1
-                } = e, f = (0, u.useStateFromStores)([S.default], () => S.default.getGuildSidebarState(l), [l]), _ = (null == f ? void 0 : f.details.userId) === t, M = (0, u.useStateFromStores)([U.default], () => U.default.getEnhancedMember(l, t), [l, t]), h = (0, Z.useHighestRole)(M), T = (0, u.useStateFromStores)([p.default], () => p.default.getUser(t), [t]), x = (0, Z.useContextMenuModerateUser)(null != M ? M : void 0), A = s.useCallback(e => {
+                } = e, f = (0, u.useStateFromStores)([T.default], () => T.default.getGuildSidebarState(l), [l]), _ = (null == f ? void 0 : f.details.userId) === t, M = (0, u.useStateFromStores)([U.default], () => U.default.getEnhancedMember(l, t), [l, t]), h = (0, Z.useHighestRole)(M), S = (0, u.useStateFromStores)([p.default], () => p.default.getUser(t), [t]), x = (0, Z.useContextMenuModerateUser)(null != M ? M : void 0), A = s.useCallback(e => {
                     e.stopPropagation(), e.preventDefault(), x(e)
                 }, [x]), g = s.useCallback(e => {
                     e.stopPropagation(), e.preventDefault(), null != M && (null == r || r(M))
@@ -2689,7 +2683,7 @@
                     onContextMenu: A,
                     children: (0, a.jsx)(et, {
                         member: M,
-                        user: T,
+                        user: S,
                         highestRole: h,
                         isHoldingAdvancedInfoKey: m,
                         onOpenModerationMenu: A,
@@ -2718,8 +2712,8 @@
                 _ = l("102560"),
                 M = l("210887"),
                 h = l("496675"),
-                T = l("6048"),
-                S = l("910693"),
+                S = l("6048"),
+                T = l("910693"),
                 x = l("588215"),
                 A = l("893966"),
                 p = l("527379"),
@@ -2735,7 +2729,7 @@
                         ...e,
                         guild: l
                     }))
-                }, [l, d]), I = (0, c.useStateFromStores)([A.default], () => A.default.getSearchStateByGuildId(l.id), [l.id], u()), v = (0, S.useTrackMemberSearchUsed)(l.id), [j, D] = s.useState(I.query), b = null != I.selectedSort && I.selectedSort !== x.OrderBy.ORDER_BY_GUILD_JOINED_AT_DESC && I.selectedSort !== x.OrderBy.ORDER_BY_UNSPECIFIED, O = s.useCallback(e => {
+                }, [l, d]), I = (0, c.useStateFromStores)([A.default], () => A.default.getSearchStateByGuildId(l.id), [l.id], u()), v = (0, T.useTrackMemberSearchUsed)(l.id), [j, D] = s.useState(I.query), b = null != I.selectedSort && I.selectedSort !== x.OrderBy.ORDER_BY_GUILD_JOINED_AT_DESC && I.selectedSort !== x.OrderBy.ORDER_BY_UNSPECIFIED, O = s.useCallback(e => {
                     let t = e.trim();
                     t.length > 0 && v(), (0, p.updateSearchState)(l.id, {
                         query: t
@@ -2764,7 +2758,7 @@
                         className: o()(H.searchInput),
                         children: (0, a.jsx)("div", {
                             className: o()(H.searchHeader),
-                            children: (0, a.jsx)(T.default, {
+                            children: (0, a.jsx)(S.default, {
                                 className: H.searchBar,
                                 query: j,
                                 placeholder: N.default.Messages.MEMBER_SAFETY_TABLE_SEARCH_PLACEHOLDER,
@@ -2902,7 +2896,7 @@
             "use strict";
             l.r(t), l.d(t, {
                 default: function() {
-                    return T
+                    return S
                 }
             });
             var a = l("735250"),
@@ -2922,17 +2916,17 @@
                 M = l("391649"),
                 h = l("293749");
 
-            function T(e) {
+            function S(e) {
                 let {
                     guild: t,
                     onSubmit: n
-                } = e, i = (0, d.useStateFromStores)([E.default], () => E.default.getMembersCountByGuildId(t.id, c.MemberSafetySecondaryIndex.NEW_GUILD_MEMBER), [t.id]), T = (0, d.useStateFromStores)([E.default], () => {
+                } = e, i = (0, d.useStateFromStores)([E.default], () => E.default.getMembersCountByGuildId(t.id, c.MemberSafetySecondaryIndex.NEW_GUILD_MEMBER), [t.id]), S = (0, d.useStateFromStores)([E.default], () => {
                     let e = E.default.getNewMemberTimestamp(t.id);
                     return r()(e).format("h:mm A")
-                }, [t.id]), S = (0, d.useStateFromStores)([E.default], () => E.default.hasDefaultSearchStateByGuildId(t.id), [t.id]), x = s.useCallback(() => {
+                }, [t.id]), T = (0, d.useStateFromStores)([E.default], () => E.default.hasDefaultSearchStateByGuildId(t.id), [t.id]), x = s.useCallback(() => {
                     (0, f.refreshMemberSafetyTimestamp)(t.id), null == n || n()
                 }, [t.id, n]), A = s.useCallback(() => {
-                    S ? x() : (0, u.openModalLazy)(async () => {
+                    T ? x() : (0, u.openModalLazy)(async () => {
                         let {
                             default: e
                         } = await l.e("24478").then(l.bind(l, "319481"));
@@ -2941,7 +2935,7 @@
                             onConfirm: x
                         })
                     })
-                }, [x, S]), p = new Intl.NumberFormat(_.default.getLocale()).format(i), g = (0, m.useCanAccessInviteCodeFeature)(t.id), L = (0, m.useCanAccessBulkBanningFeature)(t.id), N = s.useMemo(() => 1 + (g ? 1 : 0) + (L ? 1 : 0), [g, L]);
+                }, [x, T]), p = new Intl.NumberFormat(_.default.getLocale()).format(i), g = (0, m.useCanAccessInviteCodeFeature)(t.id), L = (0, m.useCanAccessBulkBanningFeature)(t.id), N = s.useMemo(() => 1 + (g ? 1 : 0) + (L ? 1 : 0), [g, L]);
                 return 0 === i ? null : (0, a.jsxs)("tr", {
                     className: o()(h.newMembersNotice),
                     onClick: A,
@@ -2952,7 +2946,7 @@
                             color: "always-white",
                             children: _.default.Messages.MEMBER_SAFETY_TABLE_NEW_MEMBER_NOTICE_LABEL.format({
                                 count: p,
-                                date: T
+                                date: S
                             })
                         })
                     }), (0, a.jsx)("td", {
@@ -3006,7 +3000,7 @@
                 M = l("689938"),
                 h = l("733837");
 
-            function T(e) {
+            function S(e) {
                 var t;
                 if (null == (null !== (t = e.dmsDisabledUntil) && void 0 !== t ? t : e.invitesDisabledUntil)) return "";
                 let l = null != e.dmsDisabledUntil,
@@ -3023,7 +3017,7 @@
                 }
             }
 
-            function S(e) {
+            function T(e) {
                 var t;
                 let {
                     onHandleEnableLockdown: l,
@@ -3106,7 +3100,7 @@
                                 className: h.heading,
                                 variant: "heading-lg/semibold",
                                 color: "text-brand",
-                                children: T(l)
+                                children: S(l)
                             }), (0, n.jsx)(r.Text, {
                                 className: h.tagLine,
                                 variant: "text-sm/medium",
@@ -3155,7 +3149,7 @@
                                 className: h.heading,
                                 variant: "heading-lg/semibold",
                                 color: "text-brand",
-                                children: T(a)
+                                children: S(a)
                             }), (0, n.jsx)(r.Text, {
                                 className: h.tagLine,
                                 variant: "text-sm/medium",
@@ -3233,7 +3227,7 @@
                 if (null == t || null == a) return null;
                 switch (_) {
                     case 1:
-                        return (0, n.jsx)(S, {
+                        return (0, n.jsx)(T, {
                             onHandleEnableLockdown: E,
                             onHandleReportFalseAlarm: f,
                             incidentData: a
@@ -3521,41 +3515,7 @@
                     })]
                 })
             }
-        },
-        173518: function(e, t, l) {
-            "use strict";
-            l.r(t), l.d(t, {
-                ArrowsUpDownIcon: function() {
-                    return o
-                }
-            });
-            var a = l("735250");
-            l("470079");
-            var s = l("692547"),
-                n = l("331595");
-            let o = e => {
-                let {
-                    width: t = 24,
-                    height: l = 24,
-                    color: o = s.default.colors.INTERACTIVE_NORMAL,
-                    colorClass: i = "",
-                    ...r
-                } = e;
-                return (0, a.jsx)("svg", {
-                    ...(0, n.default)(r),
-                    xmlns: "http://www.w3.org/2000/svg",
-                    width: t,
-                    height: l,
-                    fill: "none",
-                    viewBox: "0 0 24 24",
-                    children: (0, a.jsx)("path", {
-                        fill: "string" == typeof o ? o : o.css,
-                        d: "M16.3 21.7a1 1 0 0 0 1.4 0l4-4a1 1 0 0 0-1.4-1.4L18 18.58V3a1 1 0 1 0-2 0v15.59l-2.3-2.3a1 1 0 0 0-1.4 1.42l4 4ZM6.3 2.3a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1-1.4 1.4L8 5.42V21a1 1 0 1 1-2 0V5.41l-2.3 2.3a1 1 0 0 1-1.4-1.42l4-4Z",
-                        className: i
-                    })
-                })
-            }
         }
     }
 ]);
-//# sourceMappingURL=e4d3e294875e2d101de8.js.map
+//# sourceMappingURL=09a6918325087c101892.js.map
