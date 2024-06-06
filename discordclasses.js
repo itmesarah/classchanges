@@ -2679,6 +2679,7 @@
             filterError: "filterError_ff4f9f",
             poster: "poster_dc3c22",
             posterBackground: "posterBackground__54400",
+            posterClickable: "posterClickable_e5fa19",
             posterDivider: "posterDivider__89a65",
             posterText: "posterText__0b223",
             posterTextParent: "posterTextParent__1d5cd",
@@ -5948,8 +5949,6 @@
             logo: "logo__1a825",
             logoAndDescriptionContainer: "logoAndDescriptionContainer__5ad27",
             overflowImage: "overflowImage_b382c8",
-            overflowSlideAnimator: "overflowSlideAnimator__4428d",
-            overflowSlideAnimatorContainer: "overflowSlideAnimatorContainer__57bdc",
             paginationButton: "paginationButton__51441",
             paginationControls: "paginationControls_f5f6d3"
         }
@@ -20621,15 +20620,15 @@
             textInput: "textInput__8debb"
         }
     },
-    500810: function(e) {
+    90502: function(e) {
         "use strict";
         e.exports = {
-            banner: "banner__4cbda",
-            bannerContent: "bannerContent__0752c",
-            bannerFullscreen: "bannerFullscreen__93203",
-            countdown: "countdown__183b3",
-            subscribeButton: "subscribeButton__8b8fb",
-            subscribeButtonText: "subscribeButtonText__47656"
+            banner: "banner__002ec",
+            bannerContent: "bannerContent__9ff77",
+            bannerFullscreen: "bannerFullscreen__13652",
+            countdown: "countdown_a10bbb",
+            subscribeButton: "subscribeButton_aa2088",
+            subscribeButtonText: "subscribeButtonText__77926"
         }
     },
     621917: function(e) {
@@ -21000,7 +20999,9 @@
             giftButton: "giftButton__890d6",
             giftIcon: "giftIcon_a1f989",
             premiumIcon: "premiumIcon__6c12e",
-            premiumSubscribeButton: "premiumSubscribeButton__61b05"
+            premiumSubscribeButton: "premiumSubscribeButton__61b05",
+            tier1Gradient: "tier1Gradient__63fd2",
+            tier2Gradient: "tier2Gradient_db57b9"
         }
     },
     697466: function(e) {
@@ -21214,9 +21215,16 @@
             freeTrialPillWithSparkles: "freeTrialPillWithSparkles__33d74",
             icon: "icon__77190",
             item: "item__4b324",
+            itemWithWumpus: "itemWithWumpus__7be38 item__4b324",
             lightBackgroundPill: "lightBackgroundPill__924e7",
             listItems: "listItems__0938a",
             listItemsBasic: "listItemsBasic__15aca",
+            modifiedItem: "modifiedItem_c02ed5 item__4b324",
+            modifiedPrice: "modifiedPrice_ee426b",
+            modifiedSubHeaderSettings: "modifiedSubHeaderSettings__584b9",
+            modifiedSubHeaderStoreHome: "modifiedSubHeaderStoreHome_a3941d",
+            modifiedTier0Title: "modifiedTier0Title__9310e",
+            modifiedTier2Title: "modifiedTier2Title__20b5f",
             mostPopularPill: "mostPopularPill__9889b",
             mostPopularText: "mostPopularText__1d335",
             newCircleIcon: "newCircleIcon_aca3b3",
@@ -21236,6 +21244,7 @@
             tier2: "tier2__1364f",
             tier2Title: "tier2Title_b1e17a",
             tierCardFocused: "tierCardFocused_c845f4",
+            tierCardHeaderDisplay: "tierCardHeaderDisplay_d461ed",
             tierCardHidden: "tierCardHidden__2f658",
             title: "title__649cc",
             topRimPill: "topRimPill_d527e0",
@@ -21557,10 +21566,14 @@
         "use strict";
         e.exports = {
             button: "button__042a5",
+            buttonShine: "buttonShine__5059e",
             description: "description__6c7b5",
             fileSize: "fileSize_dd3b5f",
+            premiumSubscribeButton: "premiumSubscribeButton_be0c9f",
             price: "price__64dda",
             priceWrapper: "priceWrapper__6f72a",
+            subButton: "subButton__93b65",
+            subscribeButtonText: "subscribeButtonText__817ee",
             text: "text__19f0b",
             tier0: "tier0__5ceac",
             tier0Description: "tier0Description__54bdc",
@@ -21896,6 +21909,7 @@
             fullscreenSparkleStar4: "fullscreenSparkleStar4__696e7 sparkleStar_b659d5",
             fullscreenTextContainer: "fullscreenTextContainer_d5d21c",
             header: "header__63457",
+            modifiedDescription: "modifiedDescription_f3e913",
             settingsContainer: "settingsContainer__35e25",
             settingsSparkleStar1: "settingsSparkleStar1__5418f sparkleStar_b659d5",
             settingsSparkleStar2: "settingsSparkleStar2_aaeabf sparkleStar_b659d5",
@@ -22013,6 +22027,7 @@
             purpleGradient: "purpleGradient__82d4b",
             reducedMotion: "reducedMotion__6b806",
             rotateCard: "rotateCard_fa0e1b",
+            roundedButton: "roundedButton__95800",
             topCover: "topCover_bed28d",
             ultraFlipCard: "ultraFlipCard__5476a"
         }
@@ -22199,6 +22214,7 @@
             premiumTierCardsContainer: "premiumTierCardsContainer__686eb",
             premiumTierCardsContainerFullscreen: "premiumTierCardsContainerFullscreen_c5e38a premiumTierCardsContainer__686eb",
             premiumTierCardsContainerSettings: "premiumTierCardsContainerSettings_d53fe4 premiumTierCardsContainer__686eb",
+            promoBannerContainer: "promoBannerContainer__31ea9",
             roundedSubscribeButton: "roundedSubscribeButton__6cab1",
             scroller: "scroller__49aa3",
             settingsContainer: "settingsContainer__79255",
@@ -22269,7 +22285,9 @@
         "use strict";
         e.exports = {
             artContainer: "artContainer_cf7722",
-            body: "body__6d192"
+            body: "body__6d192",
+            updatedArt: "updatedArt__65b9c",
+            updatedArtContainer: "updatedArtContainer__8c7cc"
         }
     },
     65212: function(e) {
@@ -22292,7 +22310,6 @@
             enhancedPrimaryActions: "enhancedPrimaryActions_db2d14",
             enhancedSecondaryAction: "enhancedSecondaryAction_bbd620",
             footer: "footer_fbde49",
-            getNitroCTA: "getNitroCTA__8d970",
             header: "header__3ab01",
             learnMoreLink: "learnMoreLink__97b89",
             newBadge: "newBadge__9c4b4",
@@ -28600,7 +28617,6 @@
         e.exports = {
             bindArrow: "bindArrow__98f6f",
             combo: "combo__57290",
-            dark: "dark__42c4f",
             dim: "dim__7b9b1",
             key: "key__6a8d9",
             keybindShortcutSearchPopout: "keybindShortcutSearchPopout__8e438",
