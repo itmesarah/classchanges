@@ -11974,7 +11974,7 @@
             textWithIcon: "textWithIcon__6a104"
         }
     },
-    954794: function(e) {
+    576142: function(e) {
         "use strict";
         e.exports = {
             attachmentGrid: "attachmentGrid__8922d",
@@ -23073,9 +23073,11 @@
             contentExpanded: "contentExpanded__9eb0c",
             contentExpandedAccepted: "contentExpandedAccepted__1b9ab",
             contentInteractable: "contentInteractable__2acd1",
+            copyIcon: "copyIcon__9f2ce",
             cta: "cta_f1dfa0",
             ctaClaimReward: "ctaClaimReward__68e9b",
             ctaContainer: "ctaContainer_d3ce3d",
+            ctaContainerLargeMarginTop: "ctaContainerLargeMarginTop__6b954",
             description: "description_b0850b",
             details: "details_ac38e4",
             divider: "divider_bf4c89",
@@ -23084,6 +23086,8 @@
             heroAsset: "heroAsset__8e1c6",
             heroAssetWrapper: "heroAssetWrapper__954c7",
             iconButton: "iconButton_a5db4c",
+            iconButtonInner: "iconButtonInner__44333",
+            iconButtonLarge: "iconButtonLarge__860d3",
             interactiveNormal: "interactiveNormal_a449a5",
             promotedBadge: "promotedBadge__73648",
             promotedBadgeIcon: "promotedBadgeIcon__07043",
@@ -23095,7 +23099,6 @@
             questProgressRewardTile: "questProgressRewardTile_c72c7a",
             questPromoContent: "questPromoContent_f910bc",
             rewardTile: "rewardTile__66594",
-            shareIcon: "shareIcon__6b675",
             shine: "shine__72ddb",
             submenuIcon: "submenuIcon__4f60b",
             submenuWrapper: "submenuWrapper__19139",
@@ -25882,7 +25885,7 @@
         e.exports = {
             biteSizeInner: "biteSizeInner__7b036",
             biteSizeInnerThemed: "biteSizeInnerThemed__5cdaf",
-            biteSizeOuter: "biteSizeOuter_e0bb1d userPopoutOuter_d67f56 userProfileOuter__35e59",
+            biteSizeOuter: "biteSizeOuter_e0bb1d userPopoutOuter_d67f56",
             biteSizeOverlayBackground: "biteSizeOverlayBackground__11aa7 overlayBackground__345c9",
             fullSizeInnerThemed: "fullSizeInnerThemed_ae6977",
             fullSizeOuter: "fullSizeOuter__64397 userProfileOuter__35e59",
@@ -25895,7 +25898,7 @@
             userPanelInnerThemed: "userPanelInnerThemed__651e4",
             userPanelOuter: "userPanelOuter_df01a5",
             userPopoutInner: "userPopoutInner_ac0960 userProfileInner__8ff35",
-            userPopoutOuter: "userPopoutOuter_d67f56 userProfileOuter__35e59",
+            userPopoutOuter: "userPopoutOuter_d67f56",
             userPopoutOverlayBackground: "userPopoutOverlayBackground__3e7e6 overlayBackground__345c9",
             userProfileInner: "userProfileInner__8ff35",
             userProfileInnerThemedNonPremium: "userProfileInnerThemedNonPremium_b64fb4",
