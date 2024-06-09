@@ -3045,8 +3045,8 @@
             commandName: "commandName__4e8c4",
             container: "container__1b5d1",
             contentContainer: "contentContainer_f3b1f3",
-            headerCloseButton: "headerCloseButton__3e4f8",
-            headerWhenSideCard: "headerWhenSideCard__431a1",
+            header: "header__99f5c",
+            headerBackButton: "headerBackButton__4cb87",
             sortSelector: "sortSelector__963cb"
         }
     },
@@ -3068,7 +3068,6 @@
     245199: function(e) {
         "use strict";
         e.exports = {
-            appDetailVisible: "appDetailVisible__3f046",
             container: "container__42a2b",
             scrollableContent: "scrollableContent__77a18",
             searchBarContainer: "searchBarContainer__4929e"
@@ -25885,7 +25884,7 @@
         e.exports = {
             biteSizeInner: "biteSizeInner__7b036",
             biteSizeInnerThemed: "biteSizeInnerThemed__5cdaf",
-            biteSizeOuter: "biteSizeOuter_e0bb1d userPopoutOuter_d67f56",
+            biteSizeOuter: "biteSizeOuter_e0bb1d userPopoutOuter_d67f56 userProfileOuter__35e59",
             biteSizeOverlayBackground: "biteSizeOverlayBackground__11aa7 overlayBackground__345c9",
             fullSizeInnerThemed: "fullSizeInnerThemed_ae6977",
             fullSizeOuter: "fullSizeOuter__64397 userProfileOuter__35e59",
@@ -25898,7 +25897,7 @@
             userPanelInnerThemed: "userPanelInnerThemed__651e4",
             userPanelOuter: "userPanelOuter_df01a5",
             userPopoutInner: "userPopoutInner_ac0960 userProfileInner__8ff35",
-            userPopoutOuter: "userPopoutOuter_d67f56",
+            userPopoutOuter: "userPopoutOuter_d67f56 userProfileOuter__35e59",
             userPopoutOverlayBackground: "userPopoutOverlayBackground__3e7e6 overlayBackground__345c9",
             userProfileInner: "userProfileInner__8ff35",
             userProfileInnerThemedNonPremium: "userProfileInnerThemedNonPremium_b64fb4",
