@@ -13476,6 +13476,7 @@
             liveIndicator: "liveIndicator_b9b167",
             liveNowText: "liveNowText__8623e",
             rsvpButton: "rsvpButton_c7d27c",
+            singleLine: "singleLine__292d8",
             stageIcon: "stageIcon_fb04a0",
             startTime: "startTime__52d88",
             textBlock: "textBlock__56d45",
@@ -17712,6 +17713,7 @@
             mentioned: "mentioned_fa6fd2",
             message: "message_ccca67",
             messageListItem: "messageListItem__050f9",
+            nitroMessage: "nitroMessage__255a2",
             quotedChatMessage: "quotedChatMessage_d0497b",
             replying: "replying__38514",
             selected: "selected_e3bc5d",
@@ -17986,6 +17988,20 @@
             scrollerInner: "scrollerInner__37fee",
             scrollerSpacer: "scrollerSpacer__6b1b6",
             scrollerWrap: "scrollerWrap_f4f01d"
+        }
+    },
+    317890: function(e) {
+        "use strict";
+        e.exports = {
+            buttonContainer: "buttonContainer_b24025",
+            container: "container_cd88f5",
+            icon: "icon__27ffc",
+            iconContainer: "iconContainer__110dc",
+            messageContentContainer: "messageContentContainer_b38c09",
+            nitroBadge: "nitroBadge__82886",
+            nitroBadgeIcon: "nitroBadgeIcon__746b8",
+            nitroBadgeText: "nitroBadgeText__34b8e",
+            premiumIcon: "premiumIcon__9157c"
         }
     },
     311989: function(e) {
@@ -22730,14 +22746,6 @@
             sparklesFlip: "sparklesFlip_f608ea"
         }
     },
-    413127: function(e) {
-        "use strict";
-        e.exports = {
-            dividerDefault: "dividerDefault__07e4b",
-            recentGamesSwitch: "recentGamesSwitch_c37017",
-            requirement: "requirement_f0aa0e"
-        }
-    },
     764277: function(e) {
         "use strict";
         e.exports = {
@@ -26014,7 +26022,6 @@
             clans: "clans__3c2a1",
             infoScroller: "infoScroller__0920a",
             note: "note__7a4f4",
-            recentGames: "recentGames__2995b",
             userInfoSection: "userInfoSection_e816c1",
             userInfoSectionHeader: "userInfoSectionHeader_c9f1d3",
             userInfoText: "userInfoText_b87307"
@@ -26111,23 +26118,6 @@
             username: "username_ea7827"
         }
     },
-    704536: function(e) {
-        "use strict";
-        e.exports = {
-            header: "header__9af10",
-            headerContainer: "headerContainer_ec3f63",
-            newIcon: "newIcon__6568d",
-            recentGameContainer: "recentGameContainer__8231a",
-            recentGameDetails: "recentGameDetails_fa472d",
-            recentGameIcon: "recentGameIcon__65d60",
-            recentGameTitle: "recentGameTitle__9adac",
-            recentGameTitleContainer: "recentGameTitleContainer_bd3ae5",
-            recentGames: "recentGames_e4425b",
-            recentGamesGrid: "recentGamesGrid_d370b2",
-            sharedGameIcon: "sharedGameIcon__45b1e",
-            viewAll: "viewAll__77948"
-        }
-    },
     61007: function(e) {
         "use strict";
         e.exports = {
@@ -26154,7 +26144,6 @@
         e.exports = {
             connections: "connections__84e31",
             note: "note_a92d50",
-            recentGames: "recentGames_c8fe3b",
             scroller: "scroller__2f4b4",
             section: "section_d2e3ea"
         }
