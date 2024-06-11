@@ -1,4 +1,4 @@
-// File name: ff998f6594d7ad6b1272.js
+// File name: 087792b99efed2438620.js
 
 (this.webpackChunkdiscord_app = this.webpackChunkdiscord_app || []).push([
     ["31649"], {
@@ -10861,8 +10861,8 @@
             function S() {
                 var e, t, s, n, S, E;
                 let T = window.GLOBAL_ENV.RELEASE_CHANNEL,
-                    _ = "301034",
-                    I = (e = "1680915c0f4685865ab3efa6432b8ebf1bda627f", e.substring(0, 7)),
+                    _ = "301037",
+                    I = (e = "3bc3980a3bd2f76f0b2c2bac09e8cf42a94373ef", e.substring(0, 7)),
                     N = null === r.default || void 0 === r.default ? void 0 : r.default.remoteApp.getVersion(),
                     g = null === r.default || void 0 === r.default ? void 0 : null === (t = (s = r.default.remoteApp).getBuildNumber) || void 0 === t ? void 0 : t.call(s),
                     f = null === r.default || void 0 === r.default ? void 0 : null === (n = (S = r.default.remoteApp).getAppArch) || void 0 === n ? void 0 : n.call(S),
@@ -28887,4 +28887,4 @@
         }
     }
 ]);
-//# sourceMappingURL=ff998f6594d7ad6b1272.js.map
+//# sourceMappingURL=087792b99efed2438620.js.map
