@@ -22660,6 +22660,18 @@
             content: "content_acf450"
         }
     },
+    424716: function(e) {
+        "use strict";
+        e.exports = {
+            copyIcon: "copyIcon__49c70",
+            ctaContainer: "ctaContainer__4b3f7",
+            flex: "flex__03031",
+            iconButton: "iconButton__49828",
+            iconButtonInner: "iconButtonInner_f8625d",
+            iconButtonLarge: "iconButtonLarge__357f5",
+            shine: "shine__68f74"
+        }
+    },
     956506: function(e) {
         "use strict";
         e.exports = {
@@ -22680,7 +22692,6 @@
     700898: function(e) {
         "use strict";
         e.exports = {
-            ctaWrapper: "ctaWrapper__16b61",
             heading: "heading__5c363",
             headingChevron: "headingChevron_a9d95d",
             headingWrapper: "headingWrapper_dfde31",
@@ -22733,11 +22744,8 @@
             contentExpanded: "contentExpanded__9eb0c",
             contentExpandedAccepted: "contentExpandedAccepted__1b9ab",
             contentInteractable: "contentInteractable__2acd1",
-            copyIcon: "copyIcon__9f2ce",
             cta: "cta_f1dfa0",
             ctaClaimReward: "ctaClaimReward__68e9b",
-            ctaContainer: "ctaContainer_d3ce3d",
-            ctaContainerLargeMarginTop: "ctaContainerLargeMarginTop__6b954",
             description: "description_b0850b",
             details: "details_ac38e4",
             divider: "divider_bf4c89",
@@ -22746,8 +22754,6 @@
             heroAsset: "heroAsset__8e1c6",
             heroAssetWrapper: "heroAssetWrapper__954c7",
             iconButton: "iconButton_a5db4c",
-            iconButtonInner: "iconButtonInner__44333",
-            iconButtonLarge: "iconButtonLarge__860d3",
             interactiveNormal: "interactiveNormal_a449a5",
             promotedBadge: "promotedBadge__73648",
             promotedBadgeIcon: "promotedBadgeIcon__07043",
@@ -22759,7 +22765,6 @@
             questProgressRewardTile: "questProgressRewardTile_c72c7a",
             questPromoContent: "questPromoContent_f910bc",
             rewardTile: "rewardTile__66594",
-            shine: "shine__72ddb",
             submenuIcon: "submenuIcon__4f60b",
             submenuWrapper: "submenuWrapper__19139",
             title: "title_de2774",
