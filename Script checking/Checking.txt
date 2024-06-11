@@ -1,4 +1,4 @@
-// File name: 5306a6f22925ecbceec7.js
+// File name: 71fc992816f89e4501e9.js
 
 (this.webpackChunkdiscord_app = this.webpackChunkdiscord_app || []).push([
     ["94864"], {
@@ -1235,7 +1235,7 @@
                     children: [(0, a.jsx)(E.default, {
                         className: C.icon
                     }), h.default.Messages.DEV_NOTICE_STAGING.format({
-                        buildNumber: "301037"
+                        buildNumber: "301034"
                     }), (0, a.jsx)(S, {})]
                 }) : null
             }
@@ -41262,4 +41262,4 @@
         }
     }
 ]);
-//# sourceMappingURL=5306a6f22925ecbceec7.js.map
+//# sourceMappingURL=71fc992816f89e4501e9.js.map
