@@ -1,4 +1,4 @@
-// File name: a93836db4fc140978efd.js
+// File name: 9ef842e94a946e6583a9.js
 
 (this.webpackChunkdiscord_app = this.webpackChunkdiscord_app || []).push([
     ["15357"], {
@@ -4448,7 +4448,7 @@
                             },
                             oldFormErrors: !0
                         }).then(e => {
-                            if (null == e.body || "1680915c0f4685865ab3efa6432b8ebf1bda627f" === e.body.hash) return this._handleUpdateNotAvailable();
+                            if (null == e.body || "3bc3980a3bd2f76f0b2c2bac09e8cf42a94373ef" === e.body.hash) return this._handleUpdateNotAvailable();
                             if (e.body.required || (0, i.probablyHasBuildOverride)()) return this._handleUpdateDownloaded(!1);
                             let t = "stable" === window.GLOBAL_ENV.RELEASE_CHANNEL ? _ : m;
                             if (Date.now() - T > t) return a.Storage.set("lastNonRequiredUpdateShown", Date.now()), this._handleUpdateDownloaded(!1)
@@ -35844,4 +35844,4 @@
         }
     }
 ]);
-//# sourceMappingURL=a93836db4fc140978efd.js.map
+//# sourceMappingURL=9ef842e94a946e6583a9.js.map
