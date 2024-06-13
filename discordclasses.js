@@ -9151,6 +9151,46 @@
             stepNumberContainer: "stepNumberContainer_c266da"
         }
     },
+    674175: function(e) {
+        "use strict";
+        e.exports = {
+            actionButton: "actionButton__24dd8",
+            closed: "closed__5ab32",
+            collapsableRow: "collapsableRow_b952e8",
+            input: "input_fb1b4a",
+            inputWrapper: "inputWrapper__64c5b",
+            messageButton: "messageButton__05bae",
+            open: "open__7ff4a",
+            playerInfo: "playerInfo__9c2c9",
+            profileEntryCard: "profileEntryCard_ae431b",
+            show: "show_f15756",
+            visible: "visible_ec3568"
+        }
+    },
+    884430: function(e) {
+        "use strict";
+        e.exports = {
+            clickable: "clickable__8ce70",
+            column: "column_fc59bf",
+            content: "content__83354",
+            followButton: "followButton__601b1",
+            gameArtwork: "gameArtwork__36a6d",
+            gameDetails: "gameDetails_b811c9",
+            gameProfileModal: "gameProfileModal_db4226",
+            gapNone: "gapNone__05b7d",
+            gapSm: "gapSm__0cc0d",
+            headerInfo: "headerInfo_d4fdbd",
+            hero: "hero_b8549d",
+            imageScroller: "imageScroller__1ff59",
+            logo: "logo__12d68",
+            logoWrapper: "logoWrapper_e66ff3",
+            mainContent: "mainContent__42471",
+            row: "row_f1eabb",
+            section: "section_df7d80",
+            similarGames: "similarGames__3e930",
+            summary: "summary__6e83b"
+        }
+    },
     771077: function(e) {
         "use strict";
         e.exports = {
@@ -31079,6 +31119,7 @@
             nameNormal: "nameNormal_cb5c2b ellipsis__46552 textRow_c835f1",
             namePlatformIconMarginBiteSizePopout: "namePlatformIconMarginBiteSizePopout_d0b16c",
             nameWrap: "nameWrap_b61c4b textRow_c835f1",
+            openGameProfile: "openGameProfile_e21ee2",
             platformIcon: "platformIcon_a2d873",
             playTime: "playTime_a445ec ellipsis__46552 textRow_c835f1",
             screenshareIcon: "screenshareIcon__6bf1a",
