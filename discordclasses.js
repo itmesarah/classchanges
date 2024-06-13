@@ -987,23 +987,6 @@
             input: "input__2c88a"
         }
     },
-    743335: function(e) {
-        "use strict";
-        e.exports = {
-            container: "container__13b2a",
-            copyStatsButton: "copyStatsButton__3bb5e",
-            debugButton: "debugButton__83d1b",
-            graphContainer: "graphContainer_cc9e14",
-            lockIcon: "lockIcon__0dea4",
-            popoutBottom: "popoutBottom__4228a",
-            popoutText: "popoutText_aa3bfa",
-            popoutTextDetails: "popoutTextDetails_bcf54c",
-            section: "section__38f83",
-            secured: "secured_d13ee6",
-            separator: "separator__5e7b0",
-            textWithIcon: "textWithIcon__70e15"
-        }
-    },
     949817: function(e) {
         "use strict";
         e.exports = {
@@ -3090,6 +3073,30 @@
             container: "container__2f171"
         }
     },
+    573214: function(e) {
+        "use strict";
+        e.exports = {
+            appDetails: "appDetails_a9e155",
+            appDetailsContainer: "appDetailsContainer__86c05",
+            bannerImage: "bannerImage_bd92bd",
+            bannerImageContainer: "bannerImageContainer__3fe93",
+            container: "container__50faa",
+            fadeIn: "fadeIn_dbae63",
+            icon: "icon__83254",
+            iconContainer: "iconContainer__73a6d",
+            largeBanner: "largeBanner_a47a80",
+            mediumBanner: "mediumBanner__8f752",
+            partnerLabelWrapper: "partnerLabelWrapper_c12876"
+        }
+    },
+    844330: function(e) {
+        "use strict";
+        e.exports = {
+            appGrid: "appGrid_e79031",
+            header: "header__34959",
+            viewMore: "viewMore__6842a"
+        }
+    },
     245199: function(e) {
         "use strict";
         e.exports = {
@@ -3098,26 +3105,12 @@
             searchBarContainer: "searchBarContainer__4929e"
         }
     },
-    804704: function(e) {
+    54674: function(e) {
         "use strict";
         e.exports = {
-            applicationIcon: "applicationIcon_e475ed",
-            command: "command_b2ecf1",
-            commandList: "commandList__23469",
-            commandListHeading: "commandListHeading__7aa54",
-            commandListHeadingIcon: "commandListHeadingIcon__39d9e"
-        }
-    },
-    38658: function(e) {
-        "use strict";
-        e.exports = {
-            application: "application__1e368",
-            applicationDescription: "applicationDescription_d0181f",
-            applicationDetails: "applicationDetails_ff17bc",
-            applicationIcon: "applicationIcon_c566ee",
-            applicationList: "applicationList__0ac4d",
-            listHeading: "listHeading__167d6",
-            listHeadingIcon: "listHeadingIcon_ee06ce"
+            body: "body__6e2e0",
+            container: "container__00399",
+            image: "image__55e02"
         }
     },
     603649: function(e) {
@@ -3560,6 +3553,15 @@
             spinner: "spinner_f2952d"
         }
     },
+    892768: function(e) {
+        "use strict";
+        e.exports = {
+            itemList: "itemList_c05328",
+            productList: "productList_f91d9d",
+            productSection: "productSection__5df5f",
+            subList: "subList__4d77c"
+        }
+    },
     13646: function(e) {
         "use strict";
         e.exports = {
@@ -3627,6 +3629,7 @@
     212208: function(e) {
         "use strict";
         e.exports = {
+            icon: "icon__17275",
             tabBar: "tabBar_d5c739",
             tabBarItem: "tabBarItem_dc8251"
         }
@@ -3664,6 +3667,22 @@
             wrapper: "wrapper__17603"
         }
     },
+    513111: function(e) {
+        "use strict";
+        e.exports = {
+            appIcon: "appIcon__8bba4",
+            content: "content_bb69f4",
+            contentText: "contentText__2c29b",
+            contentTextWrapper: "contentTextWrapper__4523e",
+            description: "description__7dfb4",
+            header: "header__26162",
+            headerTitle: "headerTitle_cca0a0",
+            openStoreButton: "openStoreButton_cddc3e",
+            skuPurchaseButtons: "skuPurchaseButtons_b5e4e2",
+            viewDetailsButton: "viewDetailsButton__62357",
+            wrapper: "wrapper__71eee"
+        }
+    },
     135143: function(e) {
         "use strict";
         e.exports = {
@@ -3681,6 +3700,12 @@
             backButton: "backButton__91606",
             footer: "footer__27b15",
             modal: "modal__36664"
+        }
+    },
+    806448: function(e) {
+        "use strict";
+        e.exports = {
+            btnContent: "btnContent__18147"
         }
     },
     763638: function(e) {
@@ -22846,8 +22871,7 @@
             stepWrapper: "stepWrapper__40c72",
             stepWrapperComplete: "stepWrapperComplete__4da68",
             stepWrapperWithNextStep: "stepWrapperWithNextStep__553d0",
-            stepsWrapperAnimated: "stepsWrapperAnimated_c09c7a",
-            stepsWrapperStatic: "stepsWrapperStatic__454d2",
+            stepsWrapper: "stepsWrapper__5b91f",
             warningCircle: "warningCircle__7f604",
             wrapper: "wrapper__5ce22"
         }
@@ -23629,6 +23653,33 @@
             reset: "reset__9ad8a"
         }
     },
+    569421: function(e) {
+        "use strict";
+        e.exports = {
+            container: "container__869a5",
+            copyStatsButton: "copyStatsButton__2607e",
+            debugButton: "debugButton__2d8a2",
+            graphContainer: "graphContainer_bfc0c3",
+            lockIcon: "lockIcon_d8b8f8",
+            popoutBottom: "popoutBottom__08832",
+            popoutText: "popoutText_ce2a4f",
+            popoutTextDetails: "popoutTextDetails__7d549",
+            secured: "secured__88c7b",
+            separator: "separator_b2e94a",
+            textWithIcon: "textWithIcon__6f5f7"
+        }
+    },
+    713172: function(e) {
+        "use strict";
+        e.exports = {
+            container: "container_a22b7b",
+            debugPanelSection: "debugPanelSection__77818",
+            debugPanelStandalone: "debugPanelStandalone__43f23",
+            tabBarItem: "tabBarItem__7599b",
+            tabs: "tabs_e26fd0",
+            title: "title__54182"
+        }
+    },
     746057: function(e) {
         "use strict";
         e.exports = {
@@ -23982,6 +24033,15 @@
         "use strict";
         e.exports = {
             container: "container__050d5"
+        }
+    },
+    89350: function(e) {
+        "use strict";
+        e.exports = {
+            code: "code__1679f",
+            container: "container__6616e",
+            header: "header__3b540",
+            tag: "tag__4bc75"
         }
     },
     55915: function(e) {
