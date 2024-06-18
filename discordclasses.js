@@ -1509,7 +1509,6 @@
             closeButton: "closeButton_b545d5",
             sectionTitle: "sectionTitle_b545d5",
             foreground: "foreground_b545d5",
-            background: "background_b545d5",
             inputWrapper: "inputWrapper_b545d5",
             inputInner: "inputInner_b545d5",
             inputPrefix: "inputPrefix_b545d5",
@@ -1869,7 +1868,7 @@
             ageGatedImage: "ageGatedImage_fbb822"
         })
     },
-    441896: function(e, t, n) {
+    157415: function(e, t, n) {
         n.r(e.exports = {
             wrapper: "wrapper_b85a53",
             spinnerWrapper: "spinnerWrapper_b85a53",
@@ -2294,7 +2293,6 @@
             spinnerContainer: "spinnerContainer_f09e45",
             filterError: "filterError_f09e45",
             poster: "poster_f09e45",
-            posterClickable: "posterClickable_f09e45",
             posterBackground: "posterBackground_f09e45",
             posterTextParent: "posterTextParent_f09e45",
             posterText: "posterText_f09e45",
@@ -2683,18 +2681,18 @@
             container: "container_cf2302"
         })
     },
-    844330: function(e, t, n) {
-        n.r(e.exports = {
-            header: "header_fc162f",
-            appGrid: "appGrid_fc162f",
-            viewMore: "viewMore_fc162f"
-        })
-    },
     245199: function(e, t, n) {
         n.r(e.exports = {
             container: "container_c7c1c7",
             searchBarContainer: "searchBarContainer_c7c1c7",
-            scrollableContent: "scrollableContent_c7c1c7"
+            scrollableContent: "scrollableContent_c7c1c7",
+            sectionContentContainer: "sectionContentContainer_c7c1c7"
+        })
+    },
+    255610: function(e, t, n) {
+        n.r(e.exports = {
+            header: "header_b7ba1b",
+            viewMore: "viewMore_b7ba1b"
         })
     },
     54674: function(e, t, n) {
@@ -2702,6 +2700,30 @@
             container: "container_fb1469",
             image: "image_fb1469",
             body: "body_fb1469"
+        })
+    },
+    776344: function(e, t, n) {
+        n.r(e.exports = {
+            icon: "icon_e3c63c",
+            underline: "underline_e3c63c",
+            container: "container_e3c63c",
+            appDetails: "appDetails_e3c63c"
+        })
+    },
+    870979: function(e, t, n) {
+        n.r(e.exports = {
+            container: "container_f3112b",
+            underline: "underline_f3112b",
+            icon: "icon_f3112b",
+            cmdDetails: "cmdDetails_f3112b",
+            cmdAppName: "cmdAppName_f3112b"
+        })
+    },
+    117874: function(e, t, n) {
+        n.r(e.exports = {
+            sectionContentContainer: "sectionContentContainer_d193fc",
+            emptyStateContainer: "emptyStateContainer_d193fc",
+            emptyStateImage: "emptyStateImage_d193fc"
         })
     },
     274017: function(e, t, n) {
@@ -5659,7 +5681,7 @@
             thumbnail: "thumbnail_c64476"
         })
     },
-    988358: function(e, t, n) {
+    361921: function(e, t, n) {
         n.r(e.exports = {
             contentImage: "contentImage_a3b998"
         })
@@ -8018,10 +8040,12 @@
             content: "content_e881fc",
             section: "section_e881fc",
             gameProfileModal: "gameProfileModal_e881fc",
-            hero: "hero_e881fc",
+            gameArtHero: "gameArtHero_e881fc",
+            gameArtBackground: "gameArtBackground_e881fc",
+            gameHeroGradient: "gameHeroGradient_e881fc",
+            headerInfo: "headerInfo_e881fc",
             logoWrapper: "logoWrapper_e881fc",
             logo: "logo_e881fc",
-            headerInfo: "headerInfo_e881fc",
             followButton: "followButton_e881fc",
             gameDetails: "gameDetails_e881fc",
             mainContent: "mainContent_e881fc",
@@ -9422,7 +9446,6 @@
             icon: "icon_c61d8c",
             iconInteractive: "iconInteractive_c61d8c icon_c61d8c",
             iconApproved: "iconApproved_c61d8c",
-            iconRejected: "iconRejected_c61d8c",
             buttons: "buttons_c61d8c",
             overflow: "overflow_c61d8c",
             rejectionReason: "rejectionReason_c61d8c",
@@ -15021,7 +15044,7 @@
             nitroBadgeSvg: "nitroBadgeSvg_b558d0",
             ctaButtonContainer: "ctaButtonContainer_b558d0",
             embedContainer: "embedContainer_b558d0",
-            inlineEmbedWrapper: "inlineEmbedWrapper_b558d0"
+            richEmbedWrapper: "richEmbedWrapper_b558d0"
         })
     },
     221496: function(e, t, n) {
@@ -21154,7 +21177,7 @@
             tile: "tile_f1e0c3"
         })
     },
-    414349: function(e, t, n) {
+    897841: function(e, t, n) {
         n.r(e.exports = {
             iconBackground: "iconBackground_e5ee5b",
             icon: "icon_e5ee5b",
@@ -26761,17 +26784,6 @@
             directionRight: "directionRight_f48d4e",
             directionLeft: "directionLeft_f48d4e",
             directionUp: "directionUp_f48d4e"
-        })
-    },
-    586758: function(e, a, t) {
-        t.r(e.exports = {
-            arrow: "arrow_d64d50",
-            open: "open_d64d50"
-        })
-    },
-    79013: function(e, a, t) {
-        t.r(e.exports = {
-            hidden: "hidden_e7ec69"
         })
     },
     594863: function(e, a, t) {
