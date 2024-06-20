@@ -2608,13 +2608,17 @@
         e.exports = {
             container: "container_e5da8b",
             icon: "icon_e5da8b",
+            darkenBannerImage: "darkenBannerImage_e5da8b",
             bannerImageContainer: "bannerImageContainer_e5da8b",
             mediumBanner: "mediumBanner_e5da8b",
             largeBanner: "largeBanner_e5da8b",
             bannerImage: "bannerImage_e5da8b",
             partnerLabelWrapper: "partnerLabelWrapper_e5da8b",
             appDetailsContainer: "appDetailsContainer_e5da8b",
-            appDetails: "appDetails_e5da8b"
+            appDetails: "appDetails_e5da8b",
+            bannerImageChildContainer: "bannerImageChildContainer_e5da8b",
+            voiceLauncherAppCardContainer: "voiceLauncherAppCardContainer_e5da8b",
+            voiceLauncherAppCardButton: "voiceLauncherAppCardButton_e5da8b"
         }
     },
     943119: function(e, t, n) {
@@ -8103,7 +8107,6 @@
             gameDetails: "gameDetails_e881fc",
             mainContent: "mainContent_e881fc",
             emptyFriendsWhoPlay: "emptyFriendsWhoPlay_e881fc",
-            summary: "summary_e881fc",
             imageScroller: "imageScroller_e881fc",
             gameArtwork: "gameArtwork_e881fc",
             similarGames: "similarGames_e881fc"
@@ -14831,6 +14834,65 @@
             checkbox: "checkbox_dd48c5"
         }
     },
+    660609: function(e, t, n) {
+        e.exports = {
+            mediaBarInteraction: "mediaBarInteraction_d12f5a",
+            mediaBarInteractionDragging: "mediaBarInteractionDragging_d12f5a",
+            mediaBarWrapper: "mediaBarWrapper_d12f5a fakeEdges_d12f5a",
+            bubble: "bubble_d12f5a",
+            mediaBarGrabber: "mediaBarGrabber_d12f5a",
+            mediaBarPreview: "mediaBarPreview_d12f5a fakeEdges_d12f5a",
+            mediaBarInteractionVolume: "mediaBarInteractionVolume_d12f5a",
+            vertical: "vertical_d12f5a",
+            horizontal: "horizontal_d12f5a",
+            buffer: "buffer_d12f5a fakeEdges_d12f5a",
+            mediaBarWrapperVolume: "mediaBarWrapperVolume_d12f5a",
+            mediaBarProgress: "mediaBarProgress_d12f5a fakeEdges_d12f5a"
+        }
+    },
+    626729: function(e, t, n) {
+        e.exports = {
+            wrapper: "wrapper_fb6520",
+            videoWrapper: "videoWrapper_fb6520",
+            optionsContainer: "optionsContainer_fb6520",
+            downloadLink: "downloadLink_fb6520",
+            forward: "forward_fb6520",
+            mobileCloseWrapper: "mobileCloseWrapper_fb6520",
+            obscureContainer: "obscureContainer_fb6520",
+            obscureWrapper: "obscureWrapper_fb6520",
+            obscure: "obscure_fb6520",
+            controlsOffset: "controlsOffset_fb6520"
+        }
+    },
+    475282: function(e, t, n) {
+        e.exports = {
+            wrapperControlsHidden: "wrapperControlsHidden_f72aac wrapper_f72aac",
+            wrapperPlaying: "wrapperPlaying_f72aac wrapper_f72aac",
+            wrapperPaused: "wrapperPaused_f72aac wrapper_f72aac",
+            wrapperAudio: "wrapperAudio_f72aac wrapper_f72aac",
+            wrapperMediaMosaic: "wrapperMediaMosaic_f72aac",
+            newMosaicStyle: "newMosaicStyle_f72aac",
+            videoControls: "videoControls_f72aac",
+            audioControls: "audioControls_f72aac",
+            controlIcon: "controlIcon_f72aac",
+            volumeSliderWrapper: "volumeSliderWrapper_f72aac",
+            durationTimeWrapper: "durationTimeWrapper_f72aac",
+            durationTimeSeparator: "durationTimeSeparator_f72aac",
+            durationTimeDisplay: "durationTimeDisplay_f72aac",
+            video: "video_f72aac",
+            audio: "audio_f72aac",
+            audioMetadata: "audioMetadata_f72aac",
+            metadataContent: "metadataContent_f72aac",
+            metadataDownload: "metadataDownload_f72aac",
+            metadataIcon: "metadataIcon_f72aac",
+            metadataSize: "metadataSize_f72aac",
+            playCenter: "playCenter_f72aac",
+            playPausePop: "playPausePop_f72aac",
+            playPausePopIcon: "playPausePopIcon_f72aac",
+            videoButton: "videoButton_f72aac",
+            overlayContentHidden: "overlayContentHidden_f72aac"
+        }
+    },
     167117: function(e, t, n) {
         e.exports = {
             container: "container_ba1b69",
@@ -18004,6 +18066,7 @@
             icon: "icon_c87d73",
             freeTrialPillInline: "freeTrialPillInline_c87d73 freeTrialPillInlineBlock_c87d73",
             modifiedPrice: "modifiedPrice_c87d73",
+            modifiedPrices: "modifiedPrices_c87d73",
             price: "price_c87d73",
             newTagItem: "newTagItem_c87d73",
             freeTrialPillWithSparkles: "freeTrialPillWithSparkles_c87d73",
@@ -19730,9 +19793,7 @@
             percentCompleteLabel: "percentCompleteLabel_d572e7",
             progressBar: "progressBar_d572e7",
             progressBarFill: "progressBarFill_d572e7",
-            percentCompleteLabelOffset: "percentCompleteLabelOffset_d572e7",
-            desktopTooltip: "desktopTooltip_d572e7",
-            infoIcon: "infoIcon_d572e7"
+            percentCompleteLabelOffset: "percentCompleteLabelOffset_d572e7"
         }
     },
     256129: function(e, t, n) {
@@ -19920,6 +19981,12 @@
             imgUnderlay: "imgUnderlay_ac01d6",
             assetTile: "assetTile_ac01d6",
             ctaButton: "ctaButton_ac01d6"
+        }
+    },
+    307995: function(e, t, n) {
+        e.exports = {
+            desktopTooltip: "desktopTooltip_c8d5bd",
+            infoIcon: "infoIcon_c8d5bd"
         }
     },
     391454: function(e, t, n) {
@@ -26086,65 +26153,6 @@
             fireTopWrapper: "fireTopWrapper_d652db fireWrapper_d652db",
             fireBottomWrapper: "fireBottomWrapper_d652db fireWrapper_d652db",
             fire: "fire_d652db image_d652db"
-        }
-    },
-    995126: function(e, a, t) {
-        e.exports = {
-            mediaBarInteraction: "mediaBarInteraction_f7877e",
-            mediaBarInteractionDragging: "mediaBarInteractionDragging_f7877e",
-            mediaBarWrapper: "mediaBarWrapper_f7877e fakeEdges_f7877e",
-            bubble: "bubble_f7877e",
-            mediaBarGrabber: "mediaBarGrabber_f7877e",
-            mediaBarPreview: "mediaBarPreview_f7877e fakeEdges_f7877e",
-            mediaBarInteractionVolume: "mediaBarInteractionVolume_f7877e",
-            vertical: "vertical_f7877e",
-            horizontal: "horizontal_f7877e",
-            buffer: "buffer_f7877e fakeEdges_f7877e",
-            mediaBarWrapperVolume: "mediaBarWrapperVolume_f7877e",
-            mediaBarProgress: "mediaBarProgress_f7877e fakeEdges_f7877e"
-        }
-    },
-    303536: function(e, a, t) {
-        e.exports = {
-            wrapper: "wrapper_aa8ea9",
-            videoWrapper: "videoWrapper_aa8ea9",
-            optionsContainer: "optionsContainer_aa8ea9",
-            downloadLink: "downloadLink_aa8ea9",
-            forward: "forward_aa8ea9",
-            mobileCloseWrapper: "mobileCloseWrapper_aa8ea9",
-            obscureContainer: "obscureContainer_aa8ea9",
-            obscureWrapper: "obscureWrapper_aa8ea9",
-            obscure: "obscure_aa8ea9",
-            controlsOffset: "controlsOffset_aa8ea9"
-        }
-    },
-    622756: function(e, a, t) {
-        e.exports = {
-            wrapperControlsHidden: "wrapperControlsHidden_f316dd wrapper_f316dd",
-            wrapperPlaying: "wrapperPlaying_f316dd wrapper_f316dd",
-            wrapperPaused: "wrapperPaused_f316dd wrapper_f316dd",
-            wrapperAudio: "wrapperAudio_f316dd wrapper_f316dd",
-            wrapperMediaMosaic: "wrapperMediaMosaic_f316dd",
-            newMosaicStyle: "newMosaicStyle_f316dd",
-            videoControls: "videoControls_f316dd",
-            audioControls: "audioControls_f316dd",
-            controlIcon: "controlIcon_f316dd",
-            volumeSliderWrapper: "volumeSliderWrapper_f316dd",
-            durationTimeWrapper: "durationTimeWrapper_f316dd",
-            durationTimeSeparator: "durationTimeSeparator_f316dd",
-            durationTimeDisplay: "durationTimeDisplay_f316dd",
-            video: "video_f316dd",
-            audio: "audio_f316dd",
-            audioMetadata: "audioMetadata_f316dd",
-            metadataContent: "metadataContent_f316dd",
-            metadataDownload: "metadataDownload_f316dd",
-            metadataIcon: "metadataIcon_f316dd",
-            metadataSize: "metadataSize_f316dd",
-            playCenter: "playCenter_f316dd",
-            playPausePop: "playPausePop_f316dd",
-            playPausePopIcon: "playPausePopIcon_f316dd",
-            videoButton: "videoButton_f316dd",
-            overlayContentHidden: "overlayContentHidden_f316dd"
         }
     },
     818060: function(e, a, t) {
