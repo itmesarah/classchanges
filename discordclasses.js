@@ -22136,6 +22136,7 @@
             pronounsTooltip: "pronounsTooltip_c32acf",
             pronouns: "pronouns_c32acf userTag_c32acf",
             userTagDiscriminator: "userTagDiscriminator_c32acf",
+            botTag: "botTag_c32acf",
             dotSpacer: "dotSpacer_c32acf"
         }
     },
