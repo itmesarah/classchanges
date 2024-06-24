@@ -142,21 +142,6 @@
             regionSelectName: "regionSelectName_ccb5ca"
         }
     },
-    457789: function(e, t, n) {
-        e.exports = {
-            ping: "ping_c0cb95",
-            smallPing: "smallPing_c0cb95",
-            rtcConnectionStatus: "rtcConnectionStatus_c0cb95",
-            rtcConnectionStatusConnected: "rtcConnectionStatusConnected_c0cb95 rtcConnectionStatusLabel_c0cb95",
-            rtcConnectionStatusConnecting: "rtcConnectionStatusConnecting_c0cb95 rtcConnectionStatusLabel_c0cb95",
-            rtcConnectionStatusError: "rtcConnectionStatusError_c0cb95 rtcConnectionStatusLabel_c0cb95",
-            rtcConnectionQualityFine: "rtcConnectionQualityFine_c0cb95",
-            pingForeground: "pingForeground_c0cb95",
-            rtcConnectionQualityAverage: "rtcConnectionQualityAverage_c0cb95",
-            rtcConnectionQualityBad: "rtcConnectionQualityBad_c0cb95",
-            labelWrapper: "labelWrapper_c0cb95"
-        }
-    },
     772050: function(e, t, n) {
         e.exports = {
             button: "button_a467ac",
@@ -3641,6 +3626,7 @@
             channelStatus: "channelStatus_c7b3af",
             hoverable: "hoverable_c7b3af",
             subtitleContainer: "subtitleContainer_c7b3af",
+            secureFramesIcon: "secureFramesIcon_c7b3af",
             pencilIcon: "pencilIcon_c7b3af",
             playingText: "playingText_c7b3af",
             container: "container_c7b3af",
@@ -3792,7 +3778,8 @@
             guildBreadcrumbIcon: "guildBreadcrumbIcon_a7d72e",
             loader: "loader_a7d72e",
             forumPostTitle: "forumPostTitle_a7d72e",
-            subtitleContainer: "subtitleContainer_a7d72e"
+            subtitleContainer: "subtitleContainer_a7d72e",
+            secureFramesIcon: "secureFramesIcon_a7d72e"
         }
     },
     923756: function(e, t, n) {
@@ -9037,7 +9024,7 @@
             perkPreviewImage: "perkPreviewImage_ebd3d3"
         }
     },
-    888778: function(e, t, n) {
+    991971: function(e, t, n) {
         e.exports = {
             wrapper: "wrapper_adc107",
             heading: "heading_adc107",
@@ -15484,6 +15471,11 @@
             icon: "icon_a24e84"
         }
     },
+    890001: function(e, t, n) {
+        e.exports = {
+            interactionInfoMenuItem: "interactionInfoMenuItem_df26f0"
+        }
+    },
     746142: function(e, t, n) {
         e.exports = {
             container: "container_c48f1e",
@@ -16154,7 +16146,8 @@
     466320: function(e, t, n) {
         e.exports = {
             oauth2Wrapper: "oauth2Wrapper_c2b22e",
-            wave: "wave_c2b22e"
+            wave: "wave_c2b22e",
+            footer: "footer_c2b22e"
         }
     },
     616730: function(e, t, n) {
@@ -16466,7 +16459,6 @@
             container: "container_adcaac",
             inner: "inner_adcaac",
             channel: "channel_adcaac",
-            statusWithPopout: "statusWithPopout_adcaac",
             noiseCancellationPopout: "noiseCancellationPopout_adcaac",
             noiseCancellationTooltip: "noiseCancellationTooltip_adcaac",
             krispLogo: "krispLogo_adcaac",
@@ -19310,16 +19302,6 @@
             clickable: "clickable_d7b346"
         }
     },
-    66288: function(e, t, n) {
-        e.exports = {
-            body: "body_c4213b"
-        }
-    },
-    7227: function(e, t, n) {
-        e.exports = {
-            footer: "footer_a47058"
-        }
-    },
     539: function(e, t, n) {
         e.exports = {
             profileEffects: "profileEffects_f867f9",
@@ -20304,6 +20286,27 @@
             tabBarItem: "tabBarItem_feab95",
             debugPanelStandalone: "debugPanelStandalone_feab95",
             debugPanelSection: "debugPanelSection_feab95"
+        }
+    },
+    202589: function(e, t, n) {
+        e.exports = {
+            ping: "ping_c02c63",
+            smallPing: "smallPing_c02c63",
+            rtcConnectionStatus: "rtcConnectionStatus_c02c63",
+            rtcConnectionStatusConnected: "rtcConnectionStatusConnected_c02c63 rtcConnectionStatusLabel_c02c63",
+            rtcConnectionStatusConnecting: "rtcConnectionStatusConnecting_c02c63 rtcConnectionStatusLabel_c02c63",
+            rtcConnectionStatusError: "rtcConnectionStatusError_c02c63 rtcConnectionStatusLabel_c02c63",
+            rtcConnectionQualityFine: "rtcConnectionQualityFine_c02c63",
+            pingForeground: "pingForeground_c02c63",
+            rtcConnectionQualityAverage: "rtcConnectionQualityAverage_c02c63",
+            rtcConnectionQualityBad: "rtcConnectionQualityBad_c02c63",
+            labelWrapper: "labelWrapper_c02c63"
+        }
+    },
+    857665: function(e, t, n) {
+        e.exports = {
+            status: "status_dcb18f",
+            hoverableStatus: "hoverableStatus_dcb18f"
         }
     },
     294903: function(e, t, n) {
@@ -21628,7 +21631,7 @@
             upsellClose: "upsellClose_b8772d"
         }
     },
-    993819: function(e, t, n) {
+    697761: function(e, t, n) {
         e.exports = {
             wrapper: "wrapper_f07d2f",
             partyMembers: "partyMembers_f07d2f",
@@ -22004,6 +22007,7 @@
             fullSize: "fullSize_d0a252",
             panel: "panel_d0a252",
             visibleContainer: "visibleContainer_d0a252",
+            reactReplyBar: "reactReplyBar_d0a252",
             statusBubbleCopyStatusCursor: "statusBubbleCopyStatusCursor_d0a252",
             statusBubbleOuterStatusCursor: "statusBubbleOuterStatusCursor_d0a252",
             statusBubbleShape: "statusBubbleShape_d0a252",
@@ -22073,6 +22077,14 @@
             visible: "visible_a80370",
             color: "color_a80370",
             tooltip: "tooltip_a80370"
+        }
+    },
+    517117: function(e, t, n) {
+        e.exports = {
+            popover: "popover_a64b81",
+            visible: "visible_a64b81",
+            button: "button_a64b81",
+            icon: "icon_a64b81"
         }
     },
     66257: function(e, t, n) {
@@ -22470,6 +22482,7 @@
     },
     148443: function(e, t, n) {
         e.exports = {
+            avatar: "avatar_cc54d6",
             clickable: "clickable_cc54d6",
             overlay: "overlay_cc54d6"
         }
@@ -22481,26 +22494,10 @@
             descriptionClamp: "descriptionClamp_fc5c48"
         }
     },
-    766346: function(e, t, n) {
-        e.exports = {
-            body: "body_a45fe8",
-            banner: "banner_a45fe8"
-        }
-    },
     682583: function(e, t, n) {
         e.exports = {
             inner: "inner_dc0b43",
             editor: "editor_dc0b43"
-        }
-    },
-    217167: function(e, t, n) {
-        e.exports = {
-            footer: "footer_d5223c"
-        }
-    },
-    789126: function(e, t, n) {
-        e.exports = {
-            header: "header_c6e596"
         }
     },
     446384: function(e, t, n) {
@@ -22515,6 +22512,14 @@
             section: "section_dc9488",
             text: "text_dc9488",
             spacer: "spacer_dc9488"
+        }
+    },
+    472375: function(e, t, n) {
+        e.exports = {
+            header: "header_b07019",
+            body: "body_b07019",
+            footer: "footer_b07019",
+            friendRequestBanner: "friendRequestBanner_b07019"
         }
     },
     710598: function(e, t, n) {
@@ -23544,6 +23549,7 @@
             overlayTitle: "overlayTitle_ba4b17",
             overlayTitleText: "overlayTitleText_ba4b17",
             titleIcon: "titleIcon_ba4b17",
+            secureFramesIcon: "secureFramesIcon_ba4b17",
             statusContainer: "statusContainer_ba4b17",
             status: "status_ba4b17",
             interactive: "interactive_ba4b17",
