@@ -1438,7 +1438,7 @@
             error: "error_e6c06b"
         }
     },
-    217614: function(e, t, n) {
+    443669: function(e, t, n) {
         e.exports = {
             card: "card_fa7401",
             itemGroup: "itemGroup_fa7401",
@@ -2568,6 +2568,7 @@
         e.exports = {
             container: "container_e5da8b",
             icon: "icon_e5da8b",
+            iconCard: "iconCard_e5da8b",
             darkenBannerImage: "darkenBannerImage_e5da8b",
             bannerImageContainer: "bannerImageContainer_e5da8b",
             mediumBanner: "mediumBanner_e5da8b",
@@ -2664,7 +2665,8 @@
             container: "container_c7c1c7",
             searchBarContainer: "searchBarContainer_c7c1c7",
             scrollableContent: "scrollableContent_c7c1c7",
-            sectionContentContainer: "sectionContentContainer_c7c1c7"
+            sectionContentContainer: "sectionContentContainer_c7c1c7",
+            frecentList: "frecentList_c7c1c7"
         }
     },
     365155: function(e, t, n) {
@@ -3431,18 +3433,6 @@
             iconBadge: "iconBadge_b35b54",
             newBadge: "newBadge_b35b54",
             newBadgeText: "newBadgeText_b35b54"
-        }
-    },
-    150794: function(e, t, n) {
-        e.exports = {
-            modalContent: "modalContent_d20ba1",
-            header: "header_d20ba1",
-            promo: "promo_d20ba1",
-            promoText: "promoText_d20ba1",
-            avatar: "avatar_d20ba1",
-            cancelButton: "cancelButton_d20ba1",
-            modalFooter: "modalFooter_d20ba1",
-            modalFooterActions: "modalFooterActions_d20ba1"
         }
     },
     950651: function(e, t, n) {
@@ -5426,7 +5416,6 @@
             button: "button_c5828f",
             disclaimer: "disclaimer_c5828f",
             disclaimerLight: "disclaimerLight_c5828f",
-            profileCustomizationBody: "profileCustomizationBody_c5828f",
             priceTag: "priceTag_c5828f",
             priceTagContainer: "priceTagContainer_c5828f",
             headingWithItemTypePill: "headingWithItemTypePill_c5828f",
@@ -15620,25 +15609,6 @@
             selected: "selected_d65fcf"
         }
     },
-    503862: function(e, t, n) {
-        e.exports = {
-            menu: "menu_ad5fac",
-            menuItemFocused: "menuItemFocused_ad5fac",
-            subMenuIcon: "subMenuIcon_ad5fac",
-            statusPickerModalMenu: "statusPickerModalMenu_ad5fac",
-            mainStatusIcon: "mainStatusIcon_ad5fac",
-            statusItem: "statusItem_ad5fac",
-            expiringStatusMenuItem: "expiringStatusMenuItem_ad5fac",
-            status: "status_ad5fac",
-            icon: "icon_ad5fac",
-            description: "description_ad5fac",
-            modal: "modal_ad5fac",
-            divider: "divider_ad5fac",
-            popoutContainer: "popoutContainer_ad5fac",
-            themeContainer: "themeContainer_ad5fac",
-            focusModeTitle: "focusModeTitle_ad5fac"
-        }
-    },
     251568: function(e, t, n) {
         e.exports = {
             chooseAccountAuthBox: "chooseAccountAuthBox_b4df52",
@@ -19201,48 +19171,6 @@
             nitroWheel: "nitroWheel_abc655"
         }
     },
-    69094: function(e, t, n) {
-        e.exports = {
-            fakeActivityTitle: "fakeActivityTitle_dfbe6b",
-            fakeActivityLayout: "fakeActivityLayout_dfbe6b",
-            fakeActivityIcon: "fakeActivityIcon_dfbe6b",
-            activityCharacterWumpus: "activityCharacterWumpus_dfbe6b",
-            activityCharacterPhibi: "activityCharacterPhibi_dfbe6b",
-            fakeActivityPencil: "fakeActivityPencil_dfbe6b",
-            fakeActivityContent: "fakeActivityContent_dfbe6b",
-            fakeActivityTimeValues: "fakeActivityTimeValues_dfbe6b",
-            button: "button_dfbe6b",
-            buttonColor: "buttonColor_dfbe6b"
-        }
-    },
-    725679: function(e, t, n) {
-        e.exports = {
-            bannerUploader: "bannerUploader_ab876d",
-            gifTag: "gifTag_ab876d",
-            bannerUploaderInnerSquare: "bannerUploaderInnerSquare_ab876d banner_ab876d",
-            bannerUploaderInnerSquareEmpty: "bannerUploaderInnerSquareEmpty_ab876d banner_ab876d",
-            bannerNormal: "bannerNormal_ab876d banner_ab876d",
-            bannerNitroUpsell: "bannerNitroUpsell_ab876d",
-            bannerNitroUpsellText: "bannerNitroUpsellText_ab876d",
-            avatarUploaderNormal: "avatarUploaderNormal_ab876d avatarUploader_ab876d",
-            avatarUploaderPremium: "avatarUploaderPremium_ab876d avatarUploader_ab876d",
-            avatarUploaderPremiumNoBanner: "avatarUploaderPremiumNoBanner_ab876d avatarUploader_ab876d",
-            avatarUploaderInner: "avatarUploaderInner_ab876d",
-            hoverIconWrapper: "hoverIconWrapper_ab876d",
-            avatarDecoration: "avatarDecoration_ab876d",
-            defaultCursor: "defaultCursor_ab876d",
-            profileCustomizationPreviewWithTheme: "profileCustomizationPreviewWithTheme_ab876d profileCustomizationPreview_ab876d",
-            profileCustomizationPreviewWithoutTheme: "profileCustomizationPreviewWithoutTheme_ab876d profileCustomizationPreview_ab876d",
-            profileEffectsModalCustomizationPreviewWithoutTheme: "profileEffectsModalCustomizationPreviewWithoutTheme_ab876d profileCustomizationPreview_ab876d",
-            profileEffectsModalCustomizationPreviewWithTheme: "profileEffectsModalCustomizationPreviewWithTheme_ab876d profileCustomizationPreview_ab876d",
-            body: "body_ab876d",
-            status: "status_ab876d",
-            statusDotBackground: "statusDotBackground_ab876d",
-            statusDot: "statusDot_ab876d",
-            hoverIcon: "hoverIcon_ab876d",
-            tryingOutAvatarDecoration: "tryingOutAvatarDecoration_ab876d"
-        }
-    },
     103532: function(e, t, n) {
         e.exports = {
             tabBar: "tabBar_bff66b",
@@ -19891,8 +19819,7 @@
             rewardTileExpirationTooltip: "rewardTileExpirationTooltip_d7df05",
             inHouseButton: "inHouseButton_d7df05",
             inHouseIcon: "inHouseIcon_d7df05",
-            refreshIcon: "refreshIcon_d7df05",
-            refreshIconErrorState: "refreshIconErrorState_d7df05"
+            refreshIcon: "refreshIcon_d7df05"
         }
     },
     491829: function(e, t, n) {
@@ -20056,8 +19983,7 @@
     659325: function(e, t, n) {
         e.exports = {
             rootContainer: "rootContainer_b3552d",
-            spinnerContainer: "spinnerContainer_b3552d",
-            spinner: "spinner_b3552d",
+            rootContainerLoading: "rootContainerLoading_b3552d",
             claimedRootContainer: "claimedRootContainer_b3552d",
             headerContainer: "headerContainer_b3552d",
             headerBackground: "headerBackground_b3552d",
@@ -22023,7 +21949,6 @@
             pencilContainer: "pencilContainer_c3e427",
             pencilContainerDark: "pencilContainerDark_c3e427 pencilContainer_c3e427",
             editIcon: "editIcon_c3e427",
-            closeIcon: "closeIcon_c3e427",
             premiumIconTooltipContent: "premiumIconTooltipContent_c3e427",
             premiumIconWrapper: "premiumIconWrapper_c3e427",
             visible: "visible_c3e427",
@@ -22392,11 +22317,6 @@
             tabBarItem: "tabBarItem_c1519f"
         }
     },
-    170935: function(e, t, n) {
-        e.exports = {
-            icon: "icon_f705d3"
-        }
-    },
     599625: function(e, t, n) {
         e.exports = {
             connectionList: "connectionList_ce1058",
@@ -22420,11 +22340,7 @@
             overlay: "overlay_b433b4",
             mutualGuildsList: "mutualGuildsList_b433b4",
             mutualFriendsList: "mutualFriendsList_b433b4",
-            mutualFriendsDivider: "mutualFriendsDivider_b433b4",
-            appButtonColor: "appButtonColor_b433b4",
-            appButton: "appButton_b433b4",
-            appButtonContainer: "appButtonContainer_b433b4",
-            appListThemedContainer: "appListThemedContainer_b433b4"
+            mutualFriendsDivider: "mutualFriendsDivider_b433b4"
         }
     },
     651448: function(e, t, n) {
@@ -22654,11 +22570,6 @@
     712543: function(e, t, n) {
         e.exports = {
             popularApplicationCommandsList: "popularApplicationCommandsList_d2db23"
-        }
-    },
-    818279: function(e, t, n) {
-        e.exports = {
-            button: "button_b5248d"
         }
     },
     166015: function(e, t, n) {
