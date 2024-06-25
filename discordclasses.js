@@ -5250,6 +5250,7 @@
             condensedBannerImage: "condensedBannerImage_be5025",
             overflowImage: "overflowImage_be5025",
             overflowImageLeft: "overflowImageLeft_be5025",
+            tideOverflowImage: "tideOverflowImage_be5025",
             condensedCategoryLogo: "condensedCategoryLogo_be5025",
             condensedCategoryLogoLeft: "condensedCategoryLogoLeft_be5025"
         }
