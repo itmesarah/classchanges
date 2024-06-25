@@ -2317,13 +2317,6 @@
             wumpusReducedMotion: "wumpusReducedMotion_af7662"
         }
     },
-    71336: function(e, t, n) {
-        e.exports = {
-            activityButton: "activityButton_ce9111",
-            iconUnhovered: "iconUnhovered_ce9111",
-            iconHovered: "iconHovered_ce9111"
-        }
-    },
     545661: function(e, t, n) {
         e.exports = {
             container: "container_c4a3bb",
@@ -2598,6 +2591,20 @@
             clickable: "clickable_e82700"
         }
     },
+    771231: function(e, t, n) {
+        e.exports = {
+            container: "container_f8c206",
+            noAnimation: "noAnimation_f8c206",
+            bannerImage: "bannerImage_f8c206",
+            mediumBanner: "mediumBanner_f8c206",
+            largeBanner: "largeBanner_f8c206",
+            iconPlaceholder: "iconPlaceholder_f8c206",
+            appDetailsContainer: "appDetailsContainer_f8c206",
+            textContainer: "textContainer_f8c206",
+            textPlaceholder: "textPlaceholder_f8c206",
+            hidden: "hidden_f8c206"
+        }
+    },
     271047: function(e, t, n) {
         e.exports = {
             contentContainer: "contentContainer_f37ac2",
@@ -2663,7 +2670,9 @@
     365155: function(e, t, n) {
         e.exports = {
             header: "header_b7ba1b",
-            viewMore: "viewMore_b7ba1b"
+            viewMore: "viewMore_b7ba1b",
+            loadingHeader: "loadingHeader_b7ba1b",
+            hidden: "hidden_b7ba1b"
         }
     },
     427010: function(e, t, n) {
@@ -2697,8 +2706,7 @@
             container: "container_a46f56",
             noAnimation: "noAnimation_a46f56",
             textContainer: "textContainer_a46f56",
-            textLargePlaceholder: "textLargePlaceholder_a46f56",
-            textSmallPlaceholder: "textSmallPlaceholder_a46f56",
+            textPlaceholder: "textPlaceholder_a46f56",
             hidden: "hidden_a46f56"
         }
     },
@@ -4111,7 +4119,11 @@
     },
     840884: function(e, t, n) {
         e.exports = {
-            buttonContainer: "buttonContainer_b8d344"
+            buttonContainer: "buttonContainer_b8d344",
+            button: "button_b8d344",
+            iconUnhovered: "iconUnhovered_b8d344",
+            iconHovered: "iconHovered_b8d344",
+            buttonContents: "buttonContents_b8d344"
         }
     },
     719065: function(e, t, n) {
@@ -5168,7 +5180,10 @@
             mobileWrapper: "mobileWrapper_cd5584",
             countdownIcon: "countdownIcon_cd5584",
             countdownLabel: "countdownLabel_cd5584",
-            countdown: "countdown_cd5584"
+            countdown: "countdown_cd5584",
+            sparkles: "sparkles_cd5584",
+            left: "left_cd5584",
+            right: "right_cd5584"
         }
     },
     677937: function(e, t, n) {
@@ -5255,6 +5270,20 @@
             condensedCategoryLogoLeft: "condensedCategoryLogoLeft_be5025"
         }
     },
+    873268: function(e, t, n) {
+        e.exports = {
+            banner: "banner_d396b3",
+            mainContent: "mainContent_d396b3",
+            bannerImage: "bannerImage_d396b3",
+            overflowImage: "overflowImage_d396b3",
+            overflowLeft: "overflowLeft_d396b3",
+            overflowRight: "overflowRight_d396b3",
+            animatedLayer: "animatedLayer_d396b3",
+            attributionLogos: "attributionLogos_d396b3",
+            categoryLogo: "categoryLogo_d396b3",
+            summary: "summary_d396b3"
+        }
+    },
     120053: function(e, t, n) {
         n.r(e.exports = {
             marketingBadgeTooltip: "marketingBadgeTooltip_a25714",
@@ -5266,7 +5295,8 @@
             newBadge: "newBadge_a25714",
             marketingButtonImage: "marketingButtonImage_a25714",
             marketingButtonImageHovered: "marketingButtonImageHovered_a25714",
-            shyButton: "shyButton_a25714"
+            shyButton: "shyButton_a25714",
+            tideButton: "tideButton_a25714"
         })
     },
     82783: function(e, t, n) {
@@ -5455,7 +5485,8 @@
             title: "title_da1432",
             ctaButton: "ctaButton_da1432",
             artContainer: "artContainer_da1432",
-            art: "art_da1432"
+            art: "art_da1432",
+            tideArt: "tideArt_da1432"
         }
     },
     513915: function(e, t, n) {
@@ -8076,6 +8107,7 @@
             column: "column_e881fc",
             gapNone: "gapNone_e881fc",
             gapSm: "gapSm_e881fc",
+            gapMd: "gapMd_e881fc",
             clickable: "clickable_e881fc",
             content: "content_e881fc",
             section: "section_e881fc",
@@ -8087,6 +8119,7 @@
             headerInfo: "headerInfo_e881fc",
             logoWrapper: "logoWrapper_e881fc",
             logo: "logo_e881fc",
+            icon: "icon_e881fc",
             followButton: "followButton_e881fc",
             gameDetails: "gameDetails_e881fc",
             mainContent: "mainContent_e881fc",
@@ -8145,6 +8178,22 @@
             emptyHintText: "emptyHintText_bad108",
             emptyHintFavorite: "emptyHintFavorite_bad108",
             placeholder: "placeholder_bad108"
+        }
+    },
+    738014: function(e, t, n) {
+        e.exports = {
+            container: "container_d746e5",
+            dragRegion: "dragRegion_d746e5"
+        }
+    },
+    689772: function(e, t, n) {
+        e.exports = {
+            container: "container_f1c462",
+            header: "header_f1c462",
+            nav: "nav_f1c462",
+            navItem: "navItem_f1c462",
+            navItemIcon: "navItemIcon_f1c462",
+            selectedNavItem: "selectedNavItem_f1c462"
         }
     },
     617253: function(e, t, n) {
@@ -17465,6 +17514,25 @@
             demoEffectImg: "demoEffectImg_c55fec"
         }
     },
+    778855: function(e, t, n) {
+        e.exports = {
+            optInPopout: "optInPopout_cac3f6",
+            hidden: "hidden_cac3f6",
+            closeIcon: "closeIcon_cac3f6",
+            optInButton: "optInButton_cac3f6",
+            lottie: "lottie_cac3f6",
+            variant1InfoContainerParent: "variant1InfoContainerParent_cac3f6",
+            variant1InfoContainer: "variant1InfoContainer_cac3f6",
+            variant1Text: "variant1Text_cac3f6",
+            variant1CloseButton: "variant1CloseButton_cac3f6",
+            variant2OptInPopout: "variant2OptInPopout_cac3f6",
+            image: "image_cac3f6",
+            variant2InfoContainerParent: "variant2InfoContainerParent_cac3f6",
+            variant2InfoContainer: "variant2InfoContainer_cac3f6",
+            variant2Text: "variant2Text_cac3f6",
+            variant2CloseButton: "variant2CloseButton_cac3f6"
+        }
+    },
     788323: function(e, t, n) {
         e.exports = {
             demoCta: "demoCta_d99d00",
@@ -18664,7 +18732,7 @@
             showAllPerksButtonCenter: "showAllPerksButtonCenter_d1d9c7"
         }
     },
-    52689: function(e, t, n) {
+    927231: function(e, t, n) {
         e.exports = {
             noFlipCardContainer: "noFlipCardContainer_c21997",
             noFlipCardContainerCarousel: "noFlipCardContainerCarousel_c21997",
@@ -19529,10 +19597,6 @@
     347051: function(e, t, n) {
         e.exports = {
             flex: "flex_e60321",
-            copyIcon: "copyIcon_e60321",
-            iconButtonLarge: "iconButtonLarge_e60321",
-            iconButton: "iconButton_e60321",
-            iconButtonInner: "iconButtonInner_e60321",
             ctaContainer: "ctaContainer_e60321",
             shine: "shine_e60321"
         }
@@ -22010,7 +22074,7 @@
             visibleContainer: "visibleContainer_d0a252",
             reactReplyBar: "reactReplyBar_d0a252",
             statusBubbleCopyStatusCursor: "statusBubbleCopyStatusCursor_d0a252",
-            statusBubbleOuterStatusCursor: "statusBubbleOuterStatusCursor_d0a252",
+            statusBubbleOuterAddStatusCursor: "statusBubbleOuterAddStatusCursor_d0a252",
             statusBubbleShape: "statusBubbleShape_d0a252",
             statusBubbleSingleLineWithTextShape: "statusBubbleSingleLineWithTextShape_d0a252",
             statusBubbleEmojiOnlyPadding: "statusBubbleEmojiOnlyPadding_d0a252",
@@ -22023,7 +22087,12 @@
             incorporeal: "incorporeal_d0a252",
             addStatusPrompt: "addStatusPrompt_d0a252",
             addStatusIconColor: "addStatusIconColor_d0a252",
+            editIcon: "editIcon_d0a252",
             singleLineAlign: "singleLineAlign_d0a252",
+            editGradient: "editGradient_d0a252",
+            editGradientEmojiOnly: "editGradientEmojiOnly_d0a252",
+            editClickable: "editClickable_d0a252",
+            editClickableEmojiOnly: "editClickableEmojiOnly_d0a252",
             addStatusIcon: "addStatusIcon_d0a252",
             statusText: "statusText_d0a252",
             statusEmojiInline: "statusEmojiInline_d0a252",
@@ -22299,6 +22368,7 @@
             avatar: "avatar_bc9cc2",
             body: "body_bc9cc2",
             overlay: "overlay_bc9cc2",
+            friendRequestBannerOverlay: "friendRequestBannerOverlay_bc9cc2",
             friendRequestBanner: "friendRequestBanner_bc9cc2"
         }
     },
@@ -22519,8 +22589,7 @@
         e.exports = {
             header: "header_b07019",
             body: "body_b07019",
-            footer: "footer_b07019",
-            friendRequestBanner: "friendRequestBanner_b07019"
+            footer: "footer_b07019"
         }
     },
     710598: function(e, t, n) {
