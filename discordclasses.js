@@ -16888,6 +16888,7 @@
     "contentWrapper_f7506e",
     "sectionContentContainer_d193fc",
     "sectionActivitiesContentContainer_d193fc",
+    "searchOpenAppDetailAppCard_d193fc",
     "outerContainer_b51750",
     "innerContainer_b51750",
     "languageItem_b51750",
