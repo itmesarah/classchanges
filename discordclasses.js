@@ -2021,6 +2021,7 @@
     "bannerImageChildContainer_e5da8b",
     "voiceLauncherAppCardContainer_e5da8b",
     "voiceLauncherAppCardButton_e5da8b",
+    "activityVideoContainer_e5da8b",
     "activityVideo_e5da8b",
     "videoFadeOut_e5da8b",
     "card_adb740",
