@@ -2440,6 +2440,8 @@
     "disabledMessage_a6fde8",
     "messageContainer_a6fde8",
     "hoverBar_a6fde8",
+    "deletedMessage_a6fde8",
+    "deleteIcon_a6fde8",
     "userList_bdebc8",
     "header_bdebc8",
     "content_bdebc8",
