@@ -2941,6 +2941,7 @@
     "premiumDiscountUnacknowledgedBadge_b089d3",
     "premiumTrialAcknowledgedBadge_b089d3",
     "premiumTrialBadgeSelected_b089d3",
+    "premiumOfferBadgeCopy_b089d3",
     "root_dd069c",
     "idle_dd069c",
     "topControls_dd069c controlSection_dd069c",
