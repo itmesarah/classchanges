@@ -1547,6 +1547,7 @@
     "container_a56260",
     "contentContainer_a56260",
     "content_a56260",
+    "clientThemes_a56260",
     "container_fd2eb1",
     "card_fd2eb1",
     "connectedCounter_fd2eb1",
