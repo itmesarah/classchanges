@@ -18439,7 +18439,7 @@
     "channelOptionIcon_c07d51",
     "channelPrivate_c07d51",
     "section_ba4d80",
-    "heading_ba4d80",
+    "headings_ba4d80",
     "itemCard_f02fcf",
     "emptyCard_f02fcf",
     "emptyHeader_f02fcf",
