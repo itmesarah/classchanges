@@ -1689,6 +1689,7 @@
     "fullscreenHeaderBar_d8354c",
     "shopLogo_d8354c",
     "shopLogoContainer_d8354c",
+    "shopAllHeader_d8354c",
     "discordLogo_d8354c",
     "closeIcon_d8354c",
     "back_d8354c",
