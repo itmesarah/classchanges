@@ -8484,7 +8484,6 @@
     "confettiCanvas_b3552d",
     "additionalRedemptionInstructions_b3552d",
     "sponsorLogo_b3552d",
-    "sponsoredBy_b3552d",
     "root_ea6b24",
     "applicationIcon_ea6b24",
     "modalHeader_ea6b24",
