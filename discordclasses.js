@@ -6518,7 +6518,6 @@
     "emojiAliasInputDisabled_dc1809",
     "emojiDisabled_dc1809",
     "uploader_dc1809",
-    "avatar_dc1809",
     "emojiUploadUploadRequirementsHeading_dc1809",
     "emojiUploadUploadRequirementsList_dc1809",
     "emojiSettings_dc1809",
