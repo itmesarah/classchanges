@@ -15452,6 +15452,7 @@
     "modalContent_b2a2a3",
     "previewContainerParent_b2a2a3",
     "previewContainer_b2a2a3",
+    "avatarImage_b2a2a3",
     "section_d1d9c7",
     "heading_d1d9c7",
     "sectionHeader_d1d9c7",
