@@ -6721,6 +6721,7 @@
     "progress_c6473a",
     "progressBar_c6473a",
     "animating_c6473a",
+    "xxsmall_c6473a",
     "xsmall_c6473a",
     "small_c6473a",
     "large_c6473a",
