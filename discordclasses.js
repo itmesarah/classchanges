@@ -7938,7 +7938,6 @@
     "endScreenPanel_c73f92",
     "endScreenPanelInner_c73f92",
     "endScreenPanelTextCont_c73f92",
-    "endScreenPanelLeft_c73f92",
     "endScreenPanelRight_c73f92",
     "endScreenIcon_c73f92",
     "verticalDivider_c73f92",
