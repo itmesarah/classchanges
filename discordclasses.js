@@ -15027,6 +15027,7 @@
     "linkedLobbyEducationTooltip_a7d72e",
     "linkedLobbyEducationTooltipCloseClickContainer_a7d72e",
     "linkedLobbyEducationTooltipCloseIcon_a7d72e",
+    "entryPointButtonContainer_a7d72e",
     "soundboardColumn_d34d9e",
     "leftColumn_d34d9e",
     "soundboardRow_d34d9e",
