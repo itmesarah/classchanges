@@ -12959,6 +12959,7 @@
     "stickersNavItem_af5dbb",
     "soundboardContainer_af5dbb",
     "soundboardHeader_af5dbb",
+    "soundmojiLabelContainer_af5dbb",
     "section_a79deb",
     "fakeInput_a79deb",
     "audioTrimmer_a79deb",
