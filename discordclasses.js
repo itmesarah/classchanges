@@ -603,6 +603,8 @@
     "container_f99746",
     "pageContainer_f99746",
     "nagbar_f99746",
+    "helpMessageContent_f99746",
+    "clickableIcon_f99746",
     "title_dd48c5",
     "warningText_dd48c5",
     "linkCalloutContainer_dd48c5",
@@ -828,6 +830,7 @@
     "caretTopLeft_dafa63",
     "caretBottomCenter_dafa63",
     "caretBottomLeft_dafa63",
+    "caretBottomRight_dafa63",
     "caretLeftCenter_dafa63",
     "caretLeftTop_dafa63",
     "caretRightCenter_dafa63",
@@ -10899,6 +10902,9 @@
     "brokenLaunchImage_a9c32f",
     "singleRowShareContainer_a9c32f",
     "shareIconButton_a9c32f",
+    "asset_c198fb",
+    "headerContainer_c198fb",
+    "close_c198fb",
     "message_d5bf6c",
     "saveNoticeContainer_d5bf6c",
     "creatorBenefitsContainer_da92c3",
@@ -19452,5 +19458,5 @@
     "root_ba7877",
     "content_ba7877",
     "iframe_ba7877",
-    "backButton_ba7877"
+    "cancelButton_ba7877"
 ]
