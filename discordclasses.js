@@ -878,6 +878,7 @@
     "roles_c6b11b",
     "role_c6b11b",
     "roleDot_c6b11b",
+    "icon_c4defd",
     "editorAnimate_bcfa1e",
     "title_bcfa1e",
     "premiumIcon_bcfa1e",
