@@ -1820,6 +1820,7 @@
     "slider_dd5a70",
     "betaBadge_dd5a70",
     "infoContainer_dd5a70",
+    "infoTooltip_dd5a70",
     "infoNitroContainer_dd5a70",
     "infoNitroBackground_dd5a70",
     "infoNitroTextContainer_dd5a70",
