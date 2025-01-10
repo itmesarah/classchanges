@@ -10341,6 +10341,7 @@
     "tileSizer_a77085",
     "item_a79635",
     "newChannel_ecb303",
+    "channelMentionBadge_ecb303",
     "buttonsContainer_daabdd",
     "guildSelector_ce3dd8",
     "nitroWheel_ce3dd8",
