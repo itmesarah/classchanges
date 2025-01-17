@@ -15345,6 +15345,7 @@
     "highlightsLink_cacc4c",
     "customNotificationSoundsDivider_cacc4c",
     "guildName_cacc4c",
+    "modalHeader_cacc4c",
     "container_bb2fbe",
     "image_bb2fbe",
     "links_bb2fbe",
