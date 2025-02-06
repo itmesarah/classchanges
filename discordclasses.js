@@ -1,5 +1,3 @@
-a
-
 [
   "content_ed987b",
   "header_ed987b",
