@@ -5532,6 +5532,7 @@
   "circular__1df30",
   "spinner__1df30",
   "recentAvatarContainer__1df30",
+  "errorMessage__1df30",
   "recentAvatarList__1df30",
   "recentAvatarButton__1df30",
   "recentAvatar__1df30 circular__1df30",
