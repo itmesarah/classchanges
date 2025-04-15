@@ -18027,6 +18027,8 @@
   "getNitroButton_f86e69",
   "getNitroButtonText_f86e69",
   "loadingContainer_f86e69",
+  "errorContainer_f86e69",
+  "errorText_f86e69",
   "video__1689b",
   "container__1689b",
   "image__1689b",
