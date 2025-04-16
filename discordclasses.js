@@ -11091,6 +11091,7 @@
   "buttonContents_e6e74f",
   "channelAppLauncher_e6e74f",
   "appLauncherCircleMask_e6e74f",
+  "channelAppLauncherWordlePromo_e6e74f",
   "appLauncherGlow_e6e74f",
   "entrypointAnimation_e6e74f",
   "animationGlow_e6e74f",
