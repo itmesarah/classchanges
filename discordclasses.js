@@ -8587,6 +8587,7 @@
   "caretTopCenter_a1bfef",
   "imageContainer_a1bfef",
   "image_a1bfef",
+  "newPerksImage_a1bfef",
   "close_a1bfef",
   "header_a1bfef",
   "description_a1bfef",
