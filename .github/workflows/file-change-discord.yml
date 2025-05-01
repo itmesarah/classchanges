@@ -1,0 +1,50 @@
+name: Notify Discord on File Update
+
+on:
+  push:
+    branches:
+      - main  # or any branch you want
+
+jobs:
+  notify_discord:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Get latest changed file and stats
+        id: file_stats
+        run: |
+          # Get the latest commit
+          LATEST_COMMIT=$(git rev-parse HEAD)
+
+          # Get the latest changed file
+          FILE=$(git diff-tree --no-commit-id --name-only -r $LATEST_COMMIT | head -n 1)
+
+          if [ -z "$FILE" ]; then
+            echo "No file changed."
+            exit 0
+          fi
+
+          # Get additions and deletions for that file
+          STATS=$(git show --shortstat --oneline $LATEST_COMMIT -- $FILE | tail -n 1)
+          ADDITIONS=$(echo "$STATS" | grep -oP '\d+(?= insertions)' || echo 0)
+          DELETIONS=$(echo "$STATS" | grep -oP '\d+(?= deletions)' || echo 0)
+
+          echo "file=$FILE" >> $GITHUB_OUTPUT
+          echo "additions=$ADDITIONS" >> $GITHUB_OUTPUT
+          echo "deletions=$DELETIONS" >> $GITHUB_OUTPUT
+
+      - name: Send to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          FILE="${{ steps.file_stats.outputs.file }}"
+          ADD="${{ steps.file_stats.outputs.additions }}"
+          DEL="${{ steps.file_stats.outputs.deletions }}"
+
+          curl -H "Content-Type: application/json" \
+            -X POST \
+            -d "{\"content\": \"📄 Update ${FILE}  ${ADD} Additions ${DEL} Deletions\"}" \
+            $DISCORD_WEBHOOK_URL
