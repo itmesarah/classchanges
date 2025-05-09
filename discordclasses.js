@@ -7621,6 +7621,8 @@
   "item__3d4a0",
   "tooltipDescription_cd30d9",
   "tooltipWordmark_cd30d9",
+  "ambient_cd30d9",
+  "badgeImage_cd30d9",
   "section_e537cd",
   "sectionHeader_e537cd",
   "root_debd93",
