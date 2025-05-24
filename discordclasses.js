@@ -14807,6 +14807,7 @@
   "connectionInfo__9bfb9",
   "platformIcon__9bfb9",
   "accountName__9bfb9",
+  "accountNameText__9bfb9",
   "platformUrlAnchor__9bfb9",
   "platformUrlIcon__9bfb9",
   "metadata__9bfb9",
