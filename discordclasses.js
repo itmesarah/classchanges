@@ -16559,7 +16559,6 @@
   "placeholderPulse__08415",
   "shop__08415",
   "banner__08415",
-  "shopFullscreen__08415",
   "bannerImage__08415",
   "responsiveHero__08415",
   "bannerVideoBackground__08415",
