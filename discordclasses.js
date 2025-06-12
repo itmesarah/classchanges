@@ -4051,7 +4051,6 @@
   "smallCloud__61870",
   "divider__61870",
   "featureItem__61870",
-  "promotionalBackgroundImage__61870",
   "priceHeader__61870",
   "container__5662e",
   "container__38f6e",
