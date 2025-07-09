@@ -20,29 +20,11 @@ jobs:
       - name: Get diff
         id: get_diff
         run: |
-          DIFF=$(git diff HEAD^ --unified=0 --no-color -- discordclasses.js | tail -n +5)
+          DIFF=$(git diff HEAD^ --unified=0 --no-color -- discordclasses.js)
           echo "$DIFF" > diff.txt
           echo "diff<<EOF" >> $GITHUB_OUTPUT
           echo "$DIFF" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
-
-      - name: Debug diff contents
-        run: cat diff.txt
-
-      - name: Debug escaped diff
-        run: |
-          MAX_CHARS=1900
-          DIFF_CONTENT=$(head -c $MAX_CHARS diff.txt)
-          ESCAPED_DIFF=$(echo "$DIFF_CONTENT" | python3 -c "import json, sys; print(json.dumps(sys.stdin.read())[1:-1])")
-          echo "ESCAPED_DIFF: $ESCAPED_DIFF"
-
-      - name: Send test message to Discord
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        run: |
-          curl -H "Content-Type: application/json" -X POST \
-            -d '{"content":"Hello from GitHub Actions!"}' \
-            $DISCORD_WEBHOOK
 
       - name: Send diff to Discord
         if: steps.get_diff.outputs.diff != ''
