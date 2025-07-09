@@ -26,14 +26,19 @@ jobs:
           echo "$DIFF" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-      - name: Send to Discord
-        if: steps.get_diff.outputs.diff != ''
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        run: |
-          MAX_CHARS=1900
-          DIFF_CONTENT=$(cat diff.txt | head -c $MAX_CHARS)
-          curl -H "Content-Type: application/json" \
-            -X POST \
-            -d "{\"content\": \"\`\`\`diff\n${DIFF_CONTENT//\"/\\\"}\n\`\`\`\"}" \
-            $DISCORD_WEBHOOK
+     - name: Send to Discord
+  if: steps.get_diff.outputs.diff != ''
+  env:
+    DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+  run: |
+    MAX_CHARS=1900
+    DIFF_CONTENT=$(cat diff.txt | head -c $MAX_CHARS)
+
+    # Escape backslashes and double quotes, convert newlines to \n for JSON string
+    ESCAPED_DIFF=$(echo "$DIFF_CONTENT" | python3 -c "import json, sys; print(json.dumps(sys.stdin.read())[1:-1])")
+
+    curl -H "Content-Type: application/json" \
+      -X POST \
+      -d "{\"content\":\"```diff\n${ESCAPED_DIFF}\n```\"}" \
+      $DISCORD_WEBHOOK
+
