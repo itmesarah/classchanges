@@ -15,12 +15,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0  # Fetch full history for diffing
 
       - name: Get diff
         id: get_diff
         run: |
-          DIFF=$(git diff HEAD^ --unified=0 --no-color -- discordclasses.js)
+          DIFF=$(git diff ${{ github.event.before }} ${{ github.event.after }} --unified=0 --no-color -- discordclasses.js)
           echo "$DIFF" > diff.txt
           echo "diff<<EOF" >> $GITHUB_OUTPUT
           echo "$DIFF" >> $GITHUB_OUTPUT
