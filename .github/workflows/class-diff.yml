@@ -1,0 +1,39 @@
+name: Post Class Diff to Discord
+
+on:
+  push:
+    paths:
+      - 'discordclasses.js'  # Only trigger when this file changes
+    branches:
+      - main  # Adjust if your default branch is different
+
+jobs:
+  post-diff:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # Needed to get the previous commit
+
+      - name: Get diff
+        id: get_diff
+        run: |
+          DIFF=$(git diff HEAD^ --unified=0 --no-color -- discordclasses.js | tail -n +5)
+          echo "$DIFF" > diff.txt
+          echo "diff<<EOF" >> $GITHUB_OUTPUT
+          echo "$DIFF" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Send to Discord
+        if: steps.get_diff.outputs.diff != ''
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          MAX_CHARS=1900
+          DIFF_CONTENT=$(cat diff.txt | head -c $MAX_CHARS)
+          curl -H "Content-Type: application/json" \
+            -X POST \
+            -d "{\"content\": \"\`\`\`diff\n${DIFF_CONTENT//\"/\\\"}\n\`\`\`\"}" \
+            $DISCORD_WEBHOOK
