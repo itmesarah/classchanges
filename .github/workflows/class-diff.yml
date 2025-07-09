@@ -3,9 +3,9 @@ name: Post Class Diff to Discord
 on:
   push:
     paths:
-      - 'discordclasses.js'  # Only trigger when this file changes
+      - 'discordclasses.js'
     branches:
-      - main  # Adjust if your default branch is different
+      - main
 
 jobs:
   post-diff:
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # Needed to get the previous commit
+          fetch-depth: 2
 
       - name: Get diff
         id: get_diff
@@ -26,19 +26,17 @@ jobs:
           echo "$DIFF" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-     - name: Send to Discord
-  if: steps.get_diff.outputs.diff != ''
-  env:
-    DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-  run: |
-    MAX_CHARS=1900
-    DIFF_CONTENT=$(cat diff.txt | head -c $MAX_CHARS)
+      - name: Send to Discord
+        if: steps.get_diff.outputs.diff != ''
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          MAX_CHARS=1900
+          DIFF_CONTENT=$(head -c $MAX_CHARS diff.txt)
 
-    # Escape backslashes and double quotes, convert newlines to \n for JSON string
-    ESCAPED_DIFF=$(echo "$DIFF_CONTENT" | python3 -c "import json, sys; print(json.dumps(sys.stdin.read())[1:-1])")
+          ESCAPED_DIFF=$(echo "$DIFF_CONTENT" | python3 -c "import json, sys; print(json.dumps(sys.stdin.read())[1:-1])")
 
-    curl -H "Content-Type: application/json" \
-      -X POST \
-      -d "{\"content\":\"```diff\n${ESCAPED_DIFF}\n```\"}" \
-      $DISCORD_WEBHOOK
-
+          curl -H "Content-Type: application/json" \
+            -X POST \
+            -d "{\"content\":\"```diff\n${ESCAPED_DIFF}\n```\"}" \
+            $DISCORD_WEBHOOK
