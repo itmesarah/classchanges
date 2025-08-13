@@ -1338,7 +1338,7 @@
   "sliderContainer__5a2df",
   "gradientDirectionSliderContainer__5a2df",
   "footerContainer__5a2df",
-  "subscribeButton__5a2df",
+  "footerContainerNonPremium__5a2df",
   "coachmarkHeaderContainer__5a2df",
   "coachmarkHeaderTextContainer__5a2df",
   "badgeAndCloseRow__5a2df",
